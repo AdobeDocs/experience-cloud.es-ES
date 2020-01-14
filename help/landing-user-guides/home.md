@@ -2,7 +2,7 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: 4375979361d0040943d6bae968c3319040b16ee3
+source-git-commit: c5870d5c3bd3409b2553d52cb29f53e103275cc2
 
 ---
 
@@ -49,7 +49,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/landing/home.html">Guía principal de Analytics</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guía de análisis de Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/analyze/home.html"> Guía de herramientas de Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/admin/home.html"> Guía de administración</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/components/home.html"> Guía de componentes</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/export/home.html"> Exportar guía</a></li>
