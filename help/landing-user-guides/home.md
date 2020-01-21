@@ -2,7 +2,7 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: 65e52f4c85ad2a6efa7e09975e69bcd6f5ca01d1
+source-git-commit: 86b60471cb3fc660eb6c36469fedb77e9034dd78
 
 ---
 
@@ -41,7 +41,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
 <thead>
   <tr>
     <th>Guías del usuario</th>
-    <th>Tutoriales y desarrollo</th>
+    <th>Tutoriales y recursos</th>
   </tr>
 </thead>
 <tbody>
@@ -56,13 +56,16 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
       <li><a href="https://docs.adobe.com/content/help/en/analytics/implementation/home.html"> Guía de implementación</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/import/home.html"> Guía de importación</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics/integration/home.html"> Guía de integración</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html"> Guía de análisis de medios</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/data-workbench/using/home.html"> Guía de Área de trabajo de datos</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Análisis de Recorrido del cliente</a></li>
     </ul>
   </td>
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/analytics-learn/tutorials/overview.html"> Tutoriales de Analytics</a></li>
-      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API de Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/analytics/technotes/home.html"> Notas técnicas de Analytics</a></li>
+      <li><a href="https://www.adobe.io/apis/experiencecloud/analytics/docs.html"> API de Analytics </a></li>
     </ul>
   </td>
 </tr>
