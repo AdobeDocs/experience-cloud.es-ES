@@ -1,6 +1,6 @@
 ---
 source-git-commit: ec724d95b7d0f0a72119c745fb124192863a9aee
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Código de conducta de Adobe
@@ -50,4 +50,4 @@ El presente Código de conducta es una adaptación de la versión 1.4 del [Contr
 disponible en [https://www.contributor-covenant.org/es/version/1/4/code-of-conduct][version]
 
 [homepage]: https://contributor-covenant.org
-[version]: https://contributor-covenant.org/version/1/4/
+[version]: https://www.contributor-covenant.org/es/version/1/4/code-of-conduct
