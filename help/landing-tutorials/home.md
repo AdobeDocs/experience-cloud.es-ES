@@ -1,8 +1,8 @@
 ---
 title: Tutoriales de Adobe Experience Cloud
-description: Vínculos a todos los tutoriales y guías de aprendizaje de Experience Cloud
+description: Enlaces a todos los tutoriales y guías de aprendizaje de Experience Cloud
 translation-type: tm+mt
-source-git-commit: bea2fb5fe61711dcb8902569f4dc15dfb5546542
+source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: bea2fb5fe61711dcb8902569f4dc15dfb5546542
 
 ## Target
 
-[Tutoriales de Target Learn](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
+[Tutoriales de aprendizaje de Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
 
 ## Audience Manager
 
@@ -25,19 +25,19 @@ source-git-commit: bea2fb5fe61711dcb8902569f4dc15dfb5546542
 
 * [Tutoriales de aprendizaje de los servicios principales](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
 * [Tutoriales de aprendizaje de plataforma](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
-* [Iniciar guía de implementación](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
-* [Implementación de Experience Cloud en aplicaciones móviles de iOS Swift](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Guía de implementación de Launch](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
+* [Implementación de Experience Cloud en aplicaciones de iOS Swift para dispositivos móviles](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 * [Implementación de Experience Cloud en aplicaciones de iOS con objetivos C para dispositivos móviles](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Implementación de Experience Cloud en aplicaciones móviles para Android](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-android-apps-with-launch/index.html)
 
 ## Campaign
 
-* [Tutoriales de aprendizaje de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/overview.html)
-* [Tutoriales de aprendizaje de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/overview.html)
+* [Tutoriales de aprendizaje de Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html)
+* [Tutoriales de aprendizaje de Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html)
 
 ## Adobe Experience Manager
 
-* [Tutoriales de aprendizaje de Recursos AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html)
+* [Tutoriales de aprendizaje de AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html)
 * [Tutoriales de aprendizaje de AEM Forms](https://docs.adobe.com/content/help/en/experience-manager-learn/forms/overview.html)
 * [Tutoriales de aprendizaje de AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/overview.html)
 * [Tutorial WKND de AEM Sites](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
