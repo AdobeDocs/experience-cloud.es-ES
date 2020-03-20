@@ -2,7 +2,7 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: 77f00aaf2984d22e69e262432a66b526e8129a84
 
 ---
 
@@ -147,7 +147,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html">  Tutoriales de Audience Manager</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/audience-manager-learn/tutorials/overview.html"> Tutoriales de Audience Manager</a></li>
     </ul>
   </td>
 </tr>
@@ -244,7 +244,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
 </tbody>
 </table>
 
-## ![Icono](/help/assets/platform.png) de la plataforma de experiencias
+## ![Icono](/help/assets/platform.png) Experience Platform
 
 <table>
 <thead>
@@ -277,7 +277,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html"> Tutoriales de la plataforma de experiencia</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guía de implementación de Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API de desarrollador de Experience Platform</a></li>
-      <li><a href="https://www.adobe.io/apis/experienceplatform/home/services/web-sdk.html"> SDK web de Experience Platform</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-platform/edge/home.html"> SDK web de Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/en/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutoriales de orquestación de viajes</a></li>
     </ul>
   </td>
@@ -312,7 +312,7 @@ Esta página incluye una lista completa de guías y tutoriales de usuario de Ado
 </tbody>
 </table>
 
-## ![Icono](/help/assets/advertising-cloud.png) de Advertising Cloud
+## ![Icono](/help/assets/advertising-cloud.png) Advertising Cloud
 
 Para obtener ayuda relacionada con Advertising Cloud, en el propio producto, haga clic en el icono Ayuda (?) en la parte superior de cualquier página.
 
