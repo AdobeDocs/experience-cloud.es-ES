@@ -2,7 +2,7 @@
 title: Tutoriales de Adobe Experience Cloud
 description: Enlaces a todos los tutoriales y guías de aprendizaje de Experience Cloud
 translation-type: tm+mt
-source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
+source-git-commit: a4955bedb3032b18f1e7c57aa9b03c5f068fe03a
 
 ---
 
@@ -15,7 +15,9 @@ source-git-commit: 3ee75662132f6fb0ed01b79a3cdf74bd65ff264b
 
 ## Target
 
-[Tutoriales de aprendizaje de Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
+* [Tutoriales de aprendizaje de Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)
+* [Uso de Recomendaciones en un sitio web](https://docs.adobe.com/content/help/en/target-learn/recommendations-in-a-website/overview.html)
+* [Adobe Destinatario con el SDK v4 de Adobe Mobile Services para Android](https://docs.adobe.com/content/help/en/target-learn/mobile-sdk-v4-android/overview.html)
 
 ## Audience Manager
 
