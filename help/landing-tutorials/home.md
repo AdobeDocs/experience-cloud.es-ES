@@ -1,8 +1,8 @@
 ---
 title: Tutoriales de Adobe Experience Cloud
 description: Enlaces a todos los tutoriales y guías de aprendizaje de Experience Cloud
-translation-type: ht
-source-git-commit: a4955bedb3032b18f1e7c57aa9b03c5f068fe03a
+translation-type: tm+mt
+source-git-commit: 9fc6495b20ed5aaedbe3ff2881fb13feabaf34f7
 
 ---
 
@@ -26,7 +26,8 @@ source-git-commit: a4955bedb3032b18f1e7c57aa9b03c5f068fe03a
 ## Servicios principales y servicios de plataforma
 
 * [Tutoriales de aprendizaje de los servicios principales](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)
-* [Tutoriales de aprendizaje de plataforma](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
+* [Tutoriales de vídeo de plataforma](https://docs.adobe.com/content/help/en/platform-learn/tutorials/overview.html)
+* [Tutoriales de la plataforma](https://docs.adobe.com/content/help/en/experience-platform/tutorials/home.html)
 * [Guía de implementación de Launch](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html)
 * [Implementación de Experience Cloud en aplicaciones de iOS Swift para dispositivos móviles](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 * [Implementación de Experience Cloud en aplicaciones de iOS con objetivos C para dispositivos móviles](https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
@@ -51,15 +52,15 @@ source-git-commit: a4955bedb3032b18f1e7c57aa9b03c5f068fe03a
 
 Para obtener ayuda relacionada con Advertising Cloud, en el propio producto, haga clic en el icono Ayuda (?) en la parte superior de cualquier página.
 
-* [Notas de la versión de Advertising Cloud](https://docs.adobe.com/content/help/es-ES/release-notes/experience-cloud/current.html#adcloud)
+* [Notas de la versión de Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
 ## Recursos adicionales
 
 > [!MORELIKETHIS]
 >
->* [Documentación de Experience Cloud](https://docs.adobe.com/content/help/es-ES/experience-cloud/user-guides/home.html)
->* [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/es/support/experience-cloud.html)
+>* [Documentación de Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)
+>* [Formación y asistencia para Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)
 >* [Experience League](https://experienceleague.adobe.com/)
 >* [Foros de la comunidad](https://forums.adobe.com/community/experience-cloud/)
->* [Formación y tutoriales de Adobe](https://helpx.adobe.com/es/learning.html?promoid=KAUDK)
+>* [Formación y tutoriales de Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)
 
