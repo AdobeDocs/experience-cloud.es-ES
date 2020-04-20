@@ -1,7 +1,7 @@
 ---
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d718636d9c81bc6166bbe72f998b106f4a9efee0
 
 ---
@@ -173,7 +173,7 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
     <p><strong>Versiones de AEM</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-65/user-guide/home.html"> Guías del usuario de AEM 6.5</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-64/user-guide/home.html"> Guías del usuario de AEM 6.4</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-64/user-guide/home.translate.html"> Guías del usuario de AEM 6.4</a></li>
       <li><a href="https://helpx.adobe.com/es/support/experience-manager/6-3.html"> Guías del usuario para versiones anteriores de AEM</a></li>
     </ul>
     <p><strong>Guías adicionales de AEM</strong></p>
@@ -188,7 +188,7 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-brand-portal/using/home.html"> AEM Brand Portal</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/aem-forms-automated-conversion-service/using/introduction.html"> Servicio de Conversión automatizada de AEM Forms</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/dynamic-media-classic/using/home.html"> Dynamic Media Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html"> Guía para desarrolladores de Dynamic Media</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/dynamic-media-developer-resources/landing/home.translate.html"> Guía para desarrolladores de Dynamic Media</a></li>
     </ul>
   </td>
   <td>
@@ -299,13 +299,13 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/release-notes/home.html"> Notas de la versión de Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/programming/home.html"> Guía de programación de Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/migration/home.html"> Guía de conversión y migración de Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference-implementation/home.html"> Implementación de referencia de Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/ad-insertion/home.html"> Inserción dinámica de publicidad en Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/drm/home.html"> Primetime Digital Rights Management</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/primetime/reference/api-references.html"> Referencias de API de Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/release-notes/home.translate.html"> Notas de la versión de Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/programming/home.translate.html"> Guía de programación de Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/migration/home.translate.html"> Guía de conversión y migración de Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/reference-implementation/home.translate.html"> Implementación de referencia de Primetime</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/ad-insertion/home.translate.html"> Primetime Dynamic Ad Insertion</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/drm/home.translate.html"> Primetime Digital Rights Management</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/reference/api-references.translate.html"> Referencias de API de Primetime</a></li>
       <li><a href="https://helpx.adobe.com/primetime/archives.html"> Documentación archivada de Primetime</a></li>
     </ul>
   </td>
