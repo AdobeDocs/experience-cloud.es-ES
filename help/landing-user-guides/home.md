@@ -1,7 +1,7 @@
 ---
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 16d9ff51e0d0a99f6f87981dbd84fe44453962f3
 
 ---
@@ -15,7 +15,7 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
 
 >[!NOTE]
 >
->El uso de la función Buscar en esta página se limita a un pequeño conjunto de contenido. Le recomendamos que vaya a una guía de usuario específica (como Analytics o Destinatario) para buscar en esa área. Mejoraremos la función de búsqueda con el próximo paso a la Liga de experiencias.
+>El uso de la función Buscar en esta página se limita a un pequeño conjunto de contenidos. Le recomendamos que vaya a una guía del usuario específica (como la de Analytics o la de Target) para buscar en esa área. Mejoraremos la función de búsqueda con la próxima migración a Experience League.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
@@ -267,7 +267,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <p><strong>Experience Platform</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html"> Documentación de Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/release-notes/latest.html"> Notas de la versión de Platform</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/release-notes/latest.translate.html"> Notas de la versión de Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
@@ -314,7 +314,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/ad-insertion/home.translate.html"> Primetime Dynamic Ad Insertion</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/drm/home.translate.html"> Primetime Digital Rights Management</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/reference/api-references.translate.html"> Referencias de API de Primetime</a></li>
-      <li><a href="https://helpx.adobe.com/primetime/archives.html"> Documentación archivada de Primetime</a></li>
+      <li><a href="https://helpx.adobe.com/es/primetime/archives.html"> Documentación archivada de Primetime</a></li>
     </ul>
   </td>
   <td>
