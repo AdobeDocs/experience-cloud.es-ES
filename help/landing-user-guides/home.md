@@ -18,7 +18,7 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
 
 >[!NOTE]
 >
->Para disfrutar de la mejor experiencia de búsqueda mientras migramos el contenido de la documentación, le recomendamos que navegue por las secciones de productos siguientes y realice una búsqueda a nivel de guía
+>Para obtener la mejor experiencia de búsqueda mientras migramos contenido de documentación, le recomendamos que navegue por las secciones de productos siguientes y realice una búsqueda a nivel de guía.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
