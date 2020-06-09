@@ -2,9 +2,9 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: 5efddee70396ff07b918cfc60914701c89bcae41
+source-git-commit: e7f6af8b2c52fe1154900c58a9b13d972d087e89
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1279'
 ht-degree: 97%
 
 ---
@@ -411,6 +411,7 @@ Para obtener ayuda relacionada con Advertising Cloud, en el propio producto, hag
 <tr>
   <td>
     <ul>
+      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Distribución de software</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/livefyre/using/home.html"> Guía del usuario de Livefyre</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/livefyre/implementation/home.html"> Guía de implementación de Livefyre</a></li>
