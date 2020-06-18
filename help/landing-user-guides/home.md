@@ -2,10 +2,10 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: e7f6af8b2c52fe1154900c58a9b13d972d087e89
+source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 97%
+source-wordcount: '1280'
+ht-degree: 96%
 
 ---
 
@@ -218,7 +218,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 </tbody>
 </table>
 
-## Servicios principales, administración e implementación
+## Interfaz de Experience Cloud, administración e implementación
 
 <table>
 <thead>
@@ -231,7 +231,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/experience-cloud.html"> Interfaz de servicios principales</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/core-services/interface/experience-cloud.html"> Interfaz de Experience Cloud</a></li>
       <li><a href="https://helpx.adobe.com/es/enterprise/using/admin-console.html"> Admin Console</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/id-service/using/home.html"> Guía de servicio de Experience Cloud ID</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html"> Guía de Mobile Services</a></li>
