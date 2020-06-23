@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Esta página incluye una lista completa de las guías de usuario y tutoriales de
 
 >[!NOTE]
 >
->Para obtener la mejor experiencia de búsqueda mientras migramos contenido de documentación, le recomendamos que navegue por las secciones de productos siguientes y realice una búsqueda a nivel de guía.
+>Para obtener la mejor experiencia de búsqueda mientras migramos contenido de documentación, le recomendamos navegar por las secciones de productos siguientes y haga una búsqueda a nivel de guía.
 
 <!--
 To see a preview of our documentation staged on Experience League, see [About Moving to Experience League](/help/landing-user-guides/experience-league-preview.md) (in-progress).
@@ -133,7 +133,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/overview.html"> Tutoriales de Campaign Classic</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/overview.html"> Tutoriales de Campaign Standard</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/campaign-standard-learn/tutorials/overview.html"> Tutoriales de Campaign Standard</a></li>
     </ul>
   </td>
 </tr>
@@ -190,7 +190,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <p><strong>Guías adicionales de AEM</strong></p>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-screens/user-guide/aem-screens-introduction.html"> Guía del usuario de AEM Screens</a></li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html"> Guía de prácticas recomendadas para AEM Screens </a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-screens/using/about-guide.html"> Guía de prácticas recomendadas para AEM Screens</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html"> AEM HTL</a></li></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-dispatcher/using/dispatcher.html"> AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-manager/using/introduction-to-cloud-manager.html"> AEM Cloud Manager</a></li>
@@ -411,7 +411,7 @@ Para obtener ayuda relacionada con Advertising Cloud, en el propio producto, hag
 <tr>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-cloud/software-distribution/home.html"> Distribución de software</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-cloud/software-distribution/home.html"> Distribución de software</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/search-promote/using/sp-home.html"> Search&amp;Promote</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/livefyre/using/home.html"> Guía del usuario de Livefyre</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/livefyre/implementation/home.html"> Guía de implementación de Livefyre</a></li>
