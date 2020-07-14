@@ -2,9 +2,9 @@
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 translation-type: tm+mt
-source-git-commit: c97f610c2ea231b40bfd59e7998557768070a108
+source-git-commit: 1acfc2c352199022f1bd6c9d043ccc6714c6148b
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1291'
 ht-degree: 99%
 
 ---
@@ -101,7 +101,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
   </td>
   <td>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html"> Tutoriales de Target</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/target-learn/tutorials/overview.html"> Tutoriales de Target</a></li>
       <li><a href="https://developers.adobetarget.com/api/delivery-api/"> API del lado del servidor de Target</a></li>
       <li><a href="https://github.com/adobe/target-nodejs-sdk"> SDK de NodeJS de Target</a></li>
       <li><a href="https://github.com/adobe/target-java-sdk"> SDK de Java de Target</a></li>
@@ -274,6 +274,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/launch/using/overview.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
+      <li><a href="https://docs.adobe.com/content/help/en/debugger/using-v2/experience-cloud-debugger.html"> Depurador v2 (Beta)</a></li>
     </ul>
     <p><strong>Servicios de aplicaciones con la tecnología de Experience Platform</strong></p>
     <ul>
