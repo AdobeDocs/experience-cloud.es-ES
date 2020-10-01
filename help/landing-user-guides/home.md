@@ -1,9 +1,9 @@
 ---
 title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 8a8c58787439effac3ee69dbe2f49853550bdb10
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
 ht-degree: 100%
 
@@ -291,7 +291,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/understanding-journey-orchestration.translate.html"> Guía de implementación de Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API de desarrollador de Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/edge/home.html"> SDK web de Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/journey-orchestration/introduction.html"> Tutoriales de Journey Orchestration</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html"> Tutoriales de Journey Orchestration</a></li>
     </ul>
   </td>
 </tr>
@@ -315,7 +315,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/programming/home.translate.html"> Guía de programación de Primetime</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/migration/home.translate.html"> Guía de conversión y migración de Primetime</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/reference-implementation/home.translate.html"> Implementación de referencia de Primetime</a></li>
-      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/ad-insertion/home.translate.html"> Primetime Dynamic Ad Insertion</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/ad-insertion/home.translate.html"> Inserción de publicidad dinámica de Primetime</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/drm/home.translate.html"> Primetime Digital Rights Management</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/primetime/reference/api-references.translate.html"> Referencias de API de Primetime</a></li>
       <li><a href="https://helpx.adobe.com/es/primetime/archives.html"> Documentación archivada de Primetime</a></li>
