@@ -1,9 +1,9 @@
 ---
 title: Distribución de software
 description: Utilizar la distribución de software de Adobe Experience Cloud
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 7a6397fa27deb3bb59372754104bd2a7115acedf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '500'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 A partir de junio de 2020, la página de [!UICONTROL distribución de software] de la solución Experience Cloud sustituye al [!UICONTROL PackageShare] de AEM y [!DNL Neolane] para [!DNL Campaign]. Proporciona una experiencia más eficiente para encontrar y descargar el software. Con una interfaz de usuario intuitiva, una búsqueda simplificada y una velocidad de descarga notablemente mejorada, la descarga de paquetes de software para productos de Experience Cloud ofrece una buena experiencia de usuario. Los paquetes de software aprobados de Adobe y los paquetes de compañías asociadas ya están disponibles para los siguientes productos:
 
 1. **Adobe Experience Manager**: todo lo relacionado con el servicio y el mantenimiento, la seguridad, la puesta en marcha de herramientas y mucho más para todas las versiones de AEM compatibles.
-1. **Adobe Experience Manager as a [!UICONTROL Cloud Service ]**: herramientas de migración de [!UICONTROL AEM Cloud SDK], [!UICONTROL AEM Cloud] y más.
+1. **Adobe Experience Manager as a [!UICONTROL Cloud Service]**: herramientas de migración de [!UICONTROL AEM Cloud SDK], [!UICONTROL AEM Cloud] y más.
 1. **Adobe Campaign**: todas las versiones actuales del instalador de [!DNL Campaign] y las herramientas relacionadas.
 1. **General**: herramientas de uso general que incluyen JDK de [!DNL Oracle] para clientes de Adobe.
 
