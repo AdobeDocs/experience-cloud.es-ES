@@ -1,8 +1,11 @@
 ---
 title: Tutoriales de Adobe Experience Cloud
 description: Enlaces a todos los tutoriales y guías de aprendizaje de Experience Cloud
-translation-type: ht
+translation-type: tm+mt
 source-git-commit: 0231cf7fcd40d46873964fbd9223b989ac4309a9
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 100%
 
 ---
 
