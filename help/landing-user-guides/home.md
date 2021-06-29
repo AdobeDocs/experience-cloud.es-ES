@@ -3,9 +3,9 @@ title: Documentación de Adobe Experience Cloud
 description: Esta página incluye una lista completa de toda la documentación de Adobe Experience Cloud, así como guías de usuario y tutoriales de activación.
 exl-id: fef60cd5-62e1-48cb-9779-af3944951c62
 source-git-commit: fd3086f279572ccc2b61db1c6902ef7f7ab9591f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1295'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -208,7 +208,7 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/forms/overview.html"> Tutoriales de AEM Forms</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/sites/overview.html"> Tutoriales de AEM Sites</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html"> Tutorial WKND de AEM Sites</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/experience-manager-learn/assets/overview.html"> Tutoriales de AEM Foundation</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/assets/overview.html"> Tutoriales de AEM Foundation</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/dispatcher-tutorial/overview.html"> Tutorial de caché de AEM Dispatcher</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-with-aem-headless/overview.html"> Tutorial de AEM Headless</a></li>
     </ul>
@@ -236,9 +236,9 @@ To see a preview of our documentation staged on Experience League, see [About Mo
       <li><a href="https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html"> Guía de Mobile Services</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/mobile-services/using/home.html#section_3A500233347C4305AB545E298A827CEA"> SDK v4 de Mobile Services</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/device-co-op/using/home.html"> Guía de Device Co-op</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/launch/using/home.html"> Experience Platform Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es/launch/using/home.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/dtm/using/dtm-home.html"> Guía para Dynamic Tag Management</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Servicio de Places (anteriormente Servicio de ubicación)</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/places/using/home.html"> Servicio de Places (anteriormente Servicio de ubicación)</a></li>
     </ul>
   </td>
   <td>
@@ -270,24 +270,24 @@ To see a preview of our documentation staged on Experience League, see [About Mo
     <ul>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/landing/home.html"> Documentación de Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/release-notes/latest.translate.html"> Notas de la versión de Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/launch/using/home.html"> Experience Platform Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es/launch/using/home.html"> Experience Platform Launch</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/auditor/using/overview.html"> Auditor</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/debugger/using/experience-cloud-debugger.html"> Debugger</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/debugger/using-v2/experience-cloud-debugger.html"> Debugger v2 (Beta)</a></li>
     </ul>
     <p><strong>Servicios de aplicaciones con la tecnología de Experience Platform</strong></p>
     <ul>
-      <li><a href="https://docs.adobe.com/content/help/en/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/analytics-platform/using/cja-landing.html"> Customer Journey Analytics</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/rtcdp/overview.html"> Guía de la plataforma de datos del cliente en tiempo real</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/journeys/using/journey-orchestration-home.html"> Guía del usuario de Journey Orchestration</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/places/using/home.html"> Servicio de Places</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/places/using/home.html"> Servicio de Places</a></li>
     </ul>
   </td>
   <td>
     <ul>
       <li><a href="https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/overview.html"> Tutoriales de Experience Platform en vídeo</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/home.html"> Tutoriales de Experience Platform</a></li>
-      <li><a href="https://docs.adobe.com/content/help/en/core-services-learn/implementing-in-websites-with-launch/index.html"> Guía de implementación de Launch</a></li>
+      <li><a href="https://docs.adobe.com/content/help/es-ES/core-services-learn/implementing-in-websites-with-launch/index.html"> Guía de implementación de Launch</a></li>
       <li><a href="https://www.adobe.io/apis/experienceplatform/home/"> API de desarrollador de Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/experience-platform/edge/home.html"> SDK web de Experience Platform</a></li>
       <li><a href="https://docs.adobe.com/content/help/es-ES/journey-orchestration-learn/tutorials/understanding-journey-orchestration.html"> Tutoriales de Journey Orchestration</a></li>
