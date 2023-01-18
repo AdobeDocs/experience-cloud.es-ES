@@ -1,12 +1,12 @@
 ---
-title: Desconocido
-description: Desconocido
-exl-id: 8a277a28-c1ec-499b-9c57-e1f67ffdf327
-source-git-commit: 9a903c2c485bbe3c16d07c8495674856e8f26972
+title: Crear y administrar Déclencheur de Experience Cloud
+description: Descubra la IU de Adobe Experience Cloud Triggers
+source-git-commit: fb41c2e26a4945a9d9f24fec7f4c68a35af2c428
 workflow-type: tm+mt
-source-wordcount: '3'
-ht-degree: 100%
+source-wordcount: '16'
+ht-degree: 25%
 
 ---
 
-# Desconocido
+
+# Activadores de Adobe Experience Cloud{#triggers-home}
