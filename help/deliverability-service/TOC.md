@@ -7,11 +7,11 @@ hide: true
 source-git-commit: 3eb95ed738d053cc1250e66a28a00f26506f530d
 workflow-type: tm+mt
 source-wordcount: '17'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Servicio de entrega de Adobe {#deliverability-server}
 
 * [Inicio](home.md)
-* [Lista global de supresión](global-suppression-list.md)
+* [Lista de supresión global](global-suppression-list.md)
