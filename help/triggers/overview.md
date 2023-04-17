@@ -4,20 +4,20 @@ description: Descubra la IU de Adobe Experience Cloud Triggers
 hide: true
 hidefromtoc: true
 source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '271'
+ht-degree: 100%
 
 ---
 
-# Información general sobre Triggers {#overview}
+# Información general sobre los activadores {#overview}
 
-Los Déclencheur de Experience Cloud proporcionan una solución integral para identificar, definir y monitorear los comportamientos críticos del consumidor. Con estos déclencheur, puede generar comunicaciones entre aplicaciones para volver a atraer visitantes, lo que resulta en una experiencia de usuario más personalizada y atractiva.
-Puede utilizar déclencheur en las decisiones en tiempo real y la personalización, por ejemplo:
+Los activadores de Experience Cloud proporcionan una solución completa para identificar, definir y monitorizar los comportamientos críticos del consumidor. Con estos activadores, puede generar comunicaciones entre aplicaciones para volver a atraer a visitantes, lo que se traduce en una experiencia de usuario más personalizada y atractiva.
+Puede utilizar activadores en las decisiones en tiempo real y la personalización, por ejemplo:
 
 * Configure campañas de remarketing rápidas para abandonos del carro de compras o abandonos del carro de compras con productos eliminados, lo que ayuda a aumentar las conversiones y los ingresos.
-* Identifique formularios y aplicaciones incompletos, lo que le permite realizar un seguimiento con comunicaciones personalizadas para fomentar la finalización y reducir las tasas de abandono.
-* Supervise las acciones o secuencias de acciones del sitio que desee rastrear, proporcionando información valiosa sobre el comportamiento del usuario y permitiéndole optimizar la experiencia del usuario en función de sus acciones.
+* Identifique formularios y aplicaciones incompletos, lo que le permite realizar un seguimiento con comunicaciones personalizadas para fomentar que se completen y reducir las tasas de abandono.
+* Monitorice las acciones o las secuencias de acciones del sitio que desee rastrear, lo que le proporcionará información valiosa sobre el comportamiento del usuario y le permitirá optimizar la experiencia del usuario en función de sus acciones.
 
 ## Tipos de Triggers
 
