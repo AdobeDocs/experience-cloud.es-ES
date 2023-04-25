@@ -1,18 +1,17 @@
 ---
 title: Crear y administrar Experience Cloud Triggers
 description: Descubra la IU de Adobe Experience Cloud Triggers
-hide: true
-hidefromtoc: true
-source-git-commit: 9f1b3257e49c34d2909d457c098a2081a2fb69a3
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 98%
 
 ---
 
-# Información general sobre los activadores {#overview}
+# Acerca de los Déclencheur de Experience Cloud {#overview}
 
 Los activadores de Experience Cloud proporcionan una solución completa para identificar, definir y monitorizar los comportamientos críticos del consumidor. Con estos activadores, puede generar comunicaciones entre aplicaciones para volver a atraer a visitantes, lo que se traduce en una experiencia de usuario más personalizada y atractiva.
+
 Puede utilizar activadores en las decisiones en tiempo real y la personalización, por ejemplo:
 
 * Configure campañas de remarketing rápidas para abandonos del carro de compras o abandonos del carro de compras con productos eliminados, lo que ayuda a aumentar las conversiones y los ingresos.

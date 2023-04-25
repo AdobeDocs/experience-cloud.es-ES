@@ -3,10 +3,11 @@ title: Crear y administrar Experience Cloud Triggers
 description: Descubra la IU de Adobe Experience Cloud Triggers
 hide: true
 hidefromtoc: true
-source-git-commit: ce0faf9fab45c931feb666ac0c77f5ab5c231746
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
+source-git-commit: 743244e72cfe2dfb44a6c9adba699f90db1fe04d
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 100%
 
 Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
 
-1. En Experience Cloud, seleccione el menú avanzado y, a continuación, Activadores.
+1. En el Experience Cloud, seleccione el menú del conmutador de soluciones y, a continuación, **[!UICONTROL Déclencheur]**.
 
    ![](assets/triggers_7.png)
 
@@ -38,7 +39,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
 1. Seleccione el **[!UICONTROL Grupo de informes]** de Analytics utilizado para este activador. Esta configuración identifica los datos de sistema de informes que se van a utilizar.
 
-   [Más información sobre el grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=es).
+   [Más información sobre el grupo de informes](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite.html?lang=es){target="_blank"}.
 
 1. Elija el **[!UICONTROL Activador después de que no haya acción para]** el periodo de validez.
 
