@@ -1,8 +1,10 @@
 ---
 title: Crear y administrar Experience Cloud Triggers
 description: Descubra la IU de Adobe Experience Cloud Triggers
+hide: true
+hidefromtoc: true
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: f5b706e57d187d57d63aa9b468c8b35c2653c446
+source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
 workflow-type: tm+mt
 source-wordcount: '484'
 ht-degree: 97%
