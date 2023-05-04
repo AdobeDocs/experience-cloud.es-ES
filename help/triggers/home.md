@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: aad9c013-6671-4e3b-adfc-fab79f2a3ef7
 source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '131'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 La nueva interfaz de usuario para activadores de Experience Cloud ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios.
 
-Puede utilizar Experience Cloud Triggers para conectar datos entre Adobe Campaign y Adobe Analytics mediante una canalización. La canalización recupera las acciones o activadores de los usuarios desde el sitio web. El abandono del carro de compras es un ejemplo de activador. Los déclencheur se procesan en Adobe Campaign para enviar correos electrónicos en tiempo casi real.
+Puede utilizar Experience Cloud Triggers para conectar datos entre Adobe Campaign y Adobe Analytics mediante una canalización. La canalización recupera las acciones o activadores de los usuarios desde el sitio web. El abandono del carro de compras es un ejemplo de activador. Los activadores se procesan en Adobe Campaign para enviar correos electrónicos en tiempo casi real.
 
 
 **Vínculos útiles:**
