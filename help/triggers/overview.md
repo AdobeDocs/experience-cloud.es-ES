@@ -5,13 +5,13 @@ hide: true
 hidefromtoc: true
 exl-id: 2c8f58aa-cade-46c1-beaa-cfe7720e4e90
 source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Acerca de los Déclencheur de Experience Cloud {#overview}
+# Acerca de los activadores de Experience Cloud {#overview}
 
 Los activadores de Experience Cloud proporcionan una solución completa para identificar, definir y monitorizar los comportamientos críticos del consumidor. Con estos activadores, puede generar comunicaciones entre aplicaciones para volver a atraer a visitantes, lo que se traduce en una experiencia de usuario más personalizada y atractiva.
 
