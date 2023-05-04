@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 7304dc2d08f78bd287fc0cae6e11021aa6ed1149
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
 
-1. En el Experience Cloud, seleccione el menú del conmutador de soluciones y, a continuación, **[!UICONTROL Déclencheur]**.
+1. En Experience Cloud, seleccione el menú selector de soluciones y, a continuación, **[!UICONTROL Activadores]**.
 
    ![](assets/triggers_7.png)
 
