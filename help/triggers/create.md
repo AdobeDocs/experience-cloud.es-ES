@@ -2,20 +2,24 @@
 title: Crear y administrar Experience Cloud Triggers
 description: Descubra la IU de Adobe Experience Cloud Triggers
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
-source-git-commit: 3edbf7991e19d524ce5284a0cdd46676b9640062
+source-git-commit: 9cdff509e07f1e01b6c6a403288093998e5db152
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 95%
 
 ---
 
 # Crear un activador de Experience Cloud {#create-triggers}
 
+>[!AVAILABILITY]
+>
+>La nueva interfaz de usuario de Adobe Experience Cloud Triggers se está implementando progresivamente para todos los clientes. Para obtener más información, póngase en contacto con el representante del Adobe.
+
+Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
+
 >[!NOTE]
 >
 > La nueva interfaz de usuario para activadores de Experience Cloud ofrece una experiencia intuitiva para administrar los comportamientos de los consumidores y personalizar las experiencias de los usuarios. Para volver a la interfaz anterior, haga clic en el botón **[!UICONTROL Ir al modo clásico]**.
-
-Cree un activador y configure sus condiciones. Por ejemplo, puede especificar los criterios de las reglas de un Trigger durante una visita, por ejemplo, métricas como Abandonos del carro de compras, o dimensiones como el nombre del producto. Cuando se cumplen las reglas, se ejecuta el Trigger.
 
 1. En Experience Cloud, seleccione el menú selector de soluciones y, a continuación, **[!UICONTROL Activadores]**.
 
