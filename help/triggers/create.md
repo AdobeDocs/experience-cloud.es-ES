@@ -3,9 +3,9 @@ title: Crear y administrar Experience Cloud Triggers
 description: Descubra la IU de Adobe Experience Cloud Triggers
 exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 source-git-commit: 94ca96baaef706ace2ed131a5c2974371a5e0e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '505'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -58,7 +58,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
    Cada contenedor procesa de forma independiente en el nivel de visita, lo que significa que si dos contenedores se unen con la variable **[!UICONTROL Y]**, las reglas solo se cumplirán cuando dos visitas cumplan los requisitos.
 
-1. Desde el **[!UICONTROL Metadatos]** , haga clic en **[!UICONTROL + DIMENSION]** para elegir una dimensión de Campaign determinada o variables que sean relevantes para el comportamiento de un visitante.
+1. En el campo **[!UICONTROL Metadatos]**, haga clic en **[!UICONTROL + Dimensión]** para elegir una dimensión de Campaign determinada o variables que sean relevantes para el comportamiento de un visitante.
 
    ![](assets/triggers_3.png)
 
