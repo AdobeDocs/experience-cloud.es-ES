@@ -4,8 +4,7 @@ description: Obtenga información sobre cómo realizar suscripciones con API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
