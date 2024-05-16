@@ -2,15 +2,15 @@
 title: Interfaz de usuario web de Adobe Campaign
 description: Interfaz de usuario web de Discover Adobe Campaign
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: d63ad47dc2fc7836956234d812001b06172d06a4
+exl-id: eecf4e13-820d-4454-9f11-f50be565bb79
+source-git-commit: ba22719c91d44e537020d17a53ff7f8f6a929111
 workflow-type: tm+mt
 source-wordcount: '276'
-ht-degree: 8%
+ht-degree: 11%
 
 ---
 
-
-# Campaign Standard de la transición a Campaign v8 {#triggers-home}
+# Transición de Campaign Standard a Campaign v8 {#triggers-home}
 
 Como usuario Campaign Standard que está realizando la transición a Campaign v8, ahora puede beneficiarse de la nueva versión de la interfaz de usuario web de Adobe Campaign y de la potente consola v8. La transición es sencilla y le permitirá utilizar todas las funciones intuitivas diseñadas para simplificar la creación de campañas personalizadas entre canales. La interfaz de usuario web de Campaign también ofrece un lienzo conectado con Adobe Experience Platform para una experiencia unificada.
 
@@ -21,7 +21,7 @@ Además, esta transición traerá muchos beneficios:
 * Integración con Adobe Experience Platform
 * Interfaz de usuario y experiencia coherentes
 
-Para obtener más información sobre las funcionalidades clave y las diferencias de concepto, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-web/v8/rn/acs-migration.html).
+Para obtener más información sobre las funcionalidades clave y las diferencias de concepto, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-web/v8/release-notes/acs-migration).
 
 ## Novedades
 
