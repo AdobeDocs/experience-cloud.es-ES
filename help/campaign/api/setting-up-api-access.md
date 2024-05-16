@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
+source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 31%
+source-wordcount: '392'
+ht-degree: 28%
 
 ---
 
@@ -24,7 +25,7 @@ El acceso a la API de Adobe Campaign Standard se configura mediante los pasos si
 
 1. **Compruebe que tiene un certificado digital** o créese uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
 1. **Cree una nueva integración con el servicio de Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) y configúrelo. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
-1. **Cree un token web JSON (JWT)** a partir de las credenciales generadas anteriormente y firme con la clave privada. El JWT codifica toda la información de identidad y seguridad que necesita el Adobe para comprobar su identidad y concederle acceso a la API.
+1. **Creación de un servidor a servidor OAuth** siguiendo estos pasos [pasos de implementación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -32,8 +33,6 @@ El acceso a la API de Adobe Campaign Standard se configura mediante los pasos si
    >* [Migración](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/)
    >* [Implementación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
    >* [Preguntas frecuentes sobre JWT en desuso](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/faqs/)
-
-1. **Intercambio del JWT por un token de acceso** a través de una solicitud de POST. Este token de acceso debe utilizarse en cada encabezado de sus solicitudes de API.
 
 Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, cada solicitud a un servicio de Adobe debe incluir la información siguiente en el encabezado Autorización.
 
