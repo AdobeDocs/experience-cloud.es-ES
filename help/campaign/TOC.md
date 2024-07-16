@@ -4,17 +4,17 @@ user-guide-description: Adobe Campaign v8
 breadcrumb-title: Adobe Campaign v8
 solution: Experience Cloud
 role: User
-source-git-commit: dfe80854447b2a49b53908947b7814c7b8e29fa5
+source-git-commit: 0650d42102216c353c5843322d01af5af80d2e5c
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 72%
+source-wordcount: '159'
+ht-degree: 71%
 
 ---
 
 # Adobe Campaign v8 {#campaign}
 
 + [Inicio](campaign-standard-migration-home.md)
-+ Creación de informes dinámicos {#reporting}
++ Informes dinámicos {#reporting}
    + [Introducción a los informes dinámicos](reporting/get-started-reporting.md)
    + Acerca de los informes {#about-reporting}
       + [Acerca de los informes dinámicos](reporting/about-dynamic-reports.md)
@@ -39,7 +39,8 @@ ht-degree: 72%
       + [Adición de visualizaciones](reporting/adding-visualizations.md)
       + [Adición de componentes](reporting/adding-components.md)
       + [Creación de una dimensión de perfil personalizada](reporting/creating-a-custom-profile-dimension.md)
-+ Marca {#branding}
+      + [Acuerdo de uso de creación de informes dinámicos](reporting/pii-agreement.md)
++ Personalización de marca {#branding}
    + [Acerca de la marca](branding/branding-gs.md)
    + [Configurar una marca](branding/branding-configure.md)
    + [Asignar una marca](branding/branding-assign.md)
@@ -54,8 +55,8 @@ ht-degree: 72%
       + [Mecanismo de metadatos](api/metadata-mechanism.md)
       + [Verbos](api/verbs.md)
       + Operaciones adicionales {#additional-operations}
-         + [Clasificación](api/sorting.md)
-         + [Filtro](api/filtering.md)
+         + [Orden](api/sorting.md)
+         + [Filtrado](api/filtering.md)
          + [Recuento](api/counting.md)
          + [Paginación](api/pagination.md)
       + [Recursos personalizados](api/custom-resources.md)
@@ -64,7 +65,7 @@ ht-degree: 72%
       + [Recuperación de perfiles](api/retrieving-profiles.md)
       + [Actualización de perfiles](api/updating-profiles.md)
       + [Creación de perfiles](api/creating-profiles-api.md)
-   + Administración de servicios y suscripciones {#managing-services-and-subscriptiopns}
+   + Administrar servicios y suscripción {#managing-services-and-subscriptiopns}
       + [Creación de un servicio](api/creating-a-service.md)
       + [Recuperación de suscripciones](api/retrieving-subscriptions.md)
       + [Realización de suscripciones](api/perform-subscriptions.md)
