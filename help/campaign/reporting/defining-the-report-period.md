@@ -4,7 +4,8 @@ description: El periodo de tiempo del informe permite filtrar los datos según l
 audience: end-user
 level: Intermediate
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 3%

@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo crear un servicio con API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 91bbce9e-a618-4be2-840b-c7d021271f4e
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 
 # Creación de un servicio con API{#creating-a-service-api}
 
-La creación de servicios se realiza con un **POST** solicitud en el recurso de servicio.
+La creación de servicios se realiza con una solicitud **POST** en el recurso de servicios.
 
 Si desea crear el servicio con atributos específicos, agréguelos a la carga útil. De lo contrario, el nuevo servicio se creará con los predeterminados.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Solicitud del POST de ejemplo para crear un servicio con atributos específicos.
 

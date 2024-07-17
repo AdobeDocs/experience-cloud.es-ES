@@ -9,7 +9,8 @@ hide: true
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '661'
 ht-degree: 1%
@@ -22,8 +23,8 @@ Una vez creado y publicado un evento transaccional, debe integrar la activación
 
 Por ejemplo, desea que se active un evento &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos que tiene en el carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
 
-1. Envíe una solicitud según el método POST, que almacena en déclencheur la variable [envío del evento transaccional](#sending-a-transactional-event).
-1. La respuesta a la solicitud del POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener la [estado del evento](#transactional-event-status).
+1. Envíe una solicitud según el método POST, que almacena en déclencheur el [envío del evento transaccional](#sending-a-transactional-event).
+1. La respuesta a la solicitud del POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener el [estado del evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
 
@@ -33,9 +34,9 @@ El evento transaccional se envía a través de una solicitud de POST con la sigu
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;organization>**: su ID de ORGANIZACIÓN personal. Consulte [esta sección](must-read.md).
+* **&lt;ORGANIZATION>**: su ID. DE ORGANIZACIÓN personal. Consulte [esta sección](must-read.md).
 
-* **&lt;transactionalapi>**: los puntos finales de la API de mensajes transaccionales.
+* **&lt;transactionalAPI>**: los extremos de la API de mensajes transaccionales.
 
   El nombre del punto de conexión de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor &quot;mc&quot; seguido de su ID personal de organización. Veamos el ejemplo de la empresa de Geometrixx, con &quot;geometrixx&quot; como ID de organización. En ese caso, la solicitud del POST sería la siguiente:
 
@@ -43,13 +44,13 @@ POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 
   Tenga en cuenta que el extremo de la API de mensajes transaccionales también está visible durante la vista previa de la API.
 
-* **&lt;eventid>**: el tipo de evento que desea enviar. Este ID se genera al crear la configuración de evento
+* **&lt;eventID>**: el tipo de evento que desea enviar. Este ID se genera al crear la configuración de evento
 
 ### encabezado de solicitud de POST
 
 La solicitud debe contener un encabezado &quot;Content-Type: application/json&quot;.
 
-Debe añadir un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
+Debe agregar un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
 
 ```
 -X POST \
@@ -66,8 +67,8 @@ Los datos de evento están contenidos dentro del cuerpo del POST JSON. La estruc
 
 Se pueden añadir los siguientes parámetros opcionales al contenido del evento para administrar el envío de mensajes transaccionales vinculados al evento:
 
-* **vencimiento** (opcional): después de esta fecha, se cancela el envío del evento transaccional.
-* **programado** (opcional): a partir de esta fecha, se procesa el evento transaccional y se envía el mensaje transaccional.
+* **caducidad** (opcional): después de esta fecha, se cancelará el envío del evento transaccional.
+* **programado** (opcional): a partir de esta fecha, el evento transaccional se procesará y se enviará el mensaje transaccional.
 
 >[!NOTE]
 >
@@ -81,7 +82,7 @@ La respuesta del POST devuelve el estado del evento transaccional en el momento 
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Solicitud del POST para enviar el evento.
 
@@ -131,12 +132,12 @@ Respuesta a la solicitud del POST.
 
 En la respuesta, el campo &quot;estado&quot; permite saber si el evento se ha procesado o no:
 
-* **pendiente**: el evento está pendiente: el evento adquiere este estado cuando acaba de activarse.
-* **procesamiento**: el evento está pendiente de envío: se está transformando en un mensaje y el mensaje se está enviando.
-* **pausado**: el proceso de eventos se está pausando. Ya no se procesa, sino que se mantiene en cola en la base de datos de Adobe Campaign.
-* **Procesado**: el evento se procesó y el mensaje se envió correctamente.
-* **ignorado**: el envío ignoró el evento, normalmente cuando una dirección está en cuarentena.
-* **deliveryFailed**: error de envío mientras se procesaba el evento.
+* **pendiente**: el evento está pendiente; el evento adquiere este estado cuando acaba de activarse.
+* **procesamiento**: el evento está pendiente de envío. Se está transformando en un mensaje y el mensaje se está enviando.
+* **en pausa**: el proceso de eventos se está pausando. Ya no se procesa, sino que se mantiene en cola en la base de datos de Adobe Campaign.
+* **procesado**: el evento se procesó y el mensaje se envió correctamente.
+* **omitido**: el envío omitió el evento, normalmente cuando una dirección está en cuarentena.
+* **deliveryFailed**: se produjo un error de entrega mientras se procesaba el evento.
 * **routingFailed**: la fase de enrutamiento ha fallado; esto puede ocurrir, por ejemplo, cuando no se encuentra el tipo de evento especificado.
-* **toOld**: el evento caducó antes de que se pudiera procesar. Esto puede ocurrir por varios motivos, por ejemplo, cuando un envío falla varias veces (esto hace que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
-* **targetingFailed**: el Campaign Standard no ha podido enriquecer un vínculo que se está utilizando para la segmentación de mensajes.
+* **toOld**: el evento caducó antes de que se pudiera procesar; esto puede ocurrir por varios motivos, por ejemplo, cuando un envío falla varias veces (esto hace que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
+* **targetingFailed**: el Campaign Standard no pudo enriquecer un vínculo que se está usando para el direccionamiento de mensajes.

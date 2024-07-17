@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 51abadc86b97097d13824651d8c50d4ddd014a51
+exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 18%
@@ -33,39 +34,39 @@ Para crear una plantilla de envíos, puede duplicar una plantilla integrada, con
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
-1. Navegar a **[!UICONTROL Recursos]** `>` **[!UICONTROL Plantillas]** `>` **[!UICONTROL Plantillas de envío]** en el explorador de Adobe Campaign.
+1. Vaya a **[!UICONTROL Recursos]** `>` **[!UICONTROL Plantillas]** `>` **[!UICONTROL Plantillas de envío]** en el explorador de Adobe Campaign.
 
 1. Seleccione una plantilla de envío o duplique una existente.
 
    ![](assets/branding_assign_V8_1.png)
 
-1. Acceda a la **[!UICONTROL Propiedades]** de la plantilla de envíos seleccionada.
+1. Acceda a las **[!UICONTROL propiedades]** de la plantilla de envíos seleccionada.
 
    ![](assets/branding_assign_V8_2.png)
 
-1. Desde el **[!UICONTROL General]** pestaña, seleccione su marca en la **[!UICONTROL Marca]** menú desplegable.
+1. En la ficha **[!UICONTROL General]**, seleccione su marca en la lista desplegable **[!UICONTROL Marca]**.
 
    ![](assets/branding_assign_V8_3.png)
 
-1. Una vez configurada, seleccione **OK**.
+1. Una vez configurado, seleccione **Aceptar**.
 
 Ahora puede utilizar esta plantilla para realizar envíos.
 
->[!TAB Adobe Campaign Web]
+>[!TAB Web de Adobe Campaign]
 
 Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
-1. Vaya a la **[!UICONTROL Plantillas]** pestaña, desde el **[!UICONTROL Envíos]** menú de la izquierda y seleccione una plantilla de envío.
+1. Vaya a la ficha **[!UICONTROL Plantillas]**, en el menú izquierdo de **[!UICONTROL Envíos]**, y seleccione una plantilla de envío.
 
    ![](assets/branding_assign_web_1.png)
 
-1. Clic **[!UICONTROL Configuración]**.
+1. Haga clic en **[!UICONTROL Configuración]**.
 
    ![](assets/branding_assign_web_2.png)
 
-1. Desde el **[!UICONTROL Envío]** pestaña, acceda a **[!UICONTROL Marca]** y seleccione la marca que desea vincular a la plantilla.
+1. En la ficha **[!UICONTROL Envío]**, acceda al campo **[!UICONTROL Marca]** y seleccione la marca que desee vincular a la plantilla.
 
    ![](assets/branding_assign_web_3.png)
 
@@ -83,31 +84,31 @@ Ahora puede utilizar esta plantilla para realizar envíos.
 
 Para crear un nuevo envío independiente, siga los pasos a continuación.
 
-1. Para crear un nuevo envío, vaya a **[!UICONTROL Campañas]** pestaña.
+1. Para crear un envío nuevo, vaya a la pestaña **[!UICONTROL Campañas]**.
 
-1. Clic **[!UICONTROL Envíos]** y haga clic en **[!UICONTROL Crear]** botón situado sobre la lista de envíos existentes.
+1. Haga clic en **[!UICONTROL Envíos]** y haga clic en el botón **[!UICONTROL Crear]** situado encima de la lista de envíos existentes.
 
    ![](assets/branding_assign_V8_4.png)
 
 1. Seleccione una plantilla de envíos.
 
-1. Acceda a la **[!UICONTROL Propiedades]** de la plantilla de envíos seleccionada.
+1. Acceda a las **[!UICONTROL propiedades]** de la plantilla de envíos seleccionada.
 
    ![](assets/branding_assign_V8_5.png)
 
-1. Desde el **[!UICONTROL General]** pestaña, seleccione su marca en la **[!UICONTROL Marca]** menú desplegable.
+1. En la ficha **[!UICONTROL General]**, seleccione su marca en la lista desplegable **[!UICONTROL Marca]**.
 
    ![](assets/branding_assign_V8_6.png)
 
-1. Una vez configurada, seleccione **OK**.
+1. Una vez configurado, seleccione **Aceptar**.
 
-1. Personalice aún más las entregas. Para obtener más información sobre la creación de correos electrónicos, consulte la [Diseño y envío de correos electrónicos](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sección.
+1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Diseñar y enviar correos electrónicos](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
 
->[!TAB Adobe Campaign Web]
+>[!TAB Web de Adobe Campaign]
 
 Para crear un nuevo envío independiente, siga los pasos a continuación.
 
-1. Vaya a la **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Creación de envíos]** botón.
+1. Vaya al menú **[!UICONTROL Envíos]** en el carril izquierdo y haga clic en el botón **[!UICONTROL Crear envío]**.
 
    ![](assets/branding_assign_web_4.png)
 
@@ -115,11 +116,11 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 
 1. Haga clic en el botón **[!UICONTROL Crear envío]** para confirmar.
 
-1. Desde el **[!UICONTROL Propiedades]** página, haga clic en **[!UICONTROL Configuración]**.
+1. En la página **[!UICONTROL Propiedades]**, haga clic en **[!UICONTROL Configuración]**.
 
    ![](assets/branding_assign_web_5.png)
 
-1. Desde el **[!UICONTROL Envío]** pestaña, acceda a **[!UICONTROL Marca]** field.
+1. Desde la ficha **[!UICONTROL Envío]**, acceda al campo **[!UICONTROL Marca]**.
 
    ![](assets/branding_assign_web_6.png)
 
@@ -127,6 +128,6 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personalice aún más las entregas. Para obtener más información sobre la creación de correos electrónicos, consulte la [Creación de su primer correo electrónico](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email) sección.
+1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Crear su primer correo electrónico](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]

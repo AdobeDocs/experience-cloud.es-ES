@@ -1,10 +1,11 @@
 ---
 title: Lista de componentes
-description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
+description: Aquí encontrará la lista de todos los componentes disponibles en     Informes dinámicos, así como sus definiciones.
 level: Beginner
 audience: end-user
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: b11d696767209145511b38735f22275a38676ade
+exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 2%
@@ -13,7 +14,7 @@ ht-degree: 2%
 
 # Lista de componentes {#list-of-components}
 
-Tenga en cuenta que si dos componentes no son compatibles, la celda mostrará el valor **Ninguno**.
+Tenga en cuenta que si dos componentes no son compatibles, la celda mostrará el valor **None**.
 
 ## Dimensiones {#dimensions}
 
@@ -23,44 +24,44 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
  <thead> 
   <tr> 
    <th> Dimension<br/> </th> 
-   <th> Definición<br/> </th> 
+   <th> Definición <br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Navegador<br/> </td> 
+   <td> Explorador<br/> </td> 
    <td> Explorador desde el que se abrió o se hizo clic en el mensaje.<br/> </td> 
   </tr> 
   <tr> 
    <td> Campaign<br/> </td> 
-   <td> Etiqueta e ID de la campaña.<br/> </td> 
+   <td> Etiqueta e ID de su campaña.<br/> </td> 
   </tr> 
   <tr> 
    <td> Entrega<br/> </td> 
-   <td> Etiqueta e ID de envío.<br/> </td> 
+   <td> Etiqueta e ID de la entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Dispositivo<br/> </td> 
    <td> Dispositivo desde el que se abrió, vio o hizo clic la notificación push/SMS/de correo electrónico.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Motivo del error<br/> </td> 
-   <td> Tipos de errores que ocasionaban devoluciones para cada entrega; por ejemplo, usuario desconocido, dominio no válido o buzón lleno.<br/> </td> 
+   <td> Motivo del error <br/> </td> 
+   <td> Tipos de errores que ocasionaron devoluciones para cada entrega; por ejemplo, usuario desconocido, dominio no válido o buzón lleno.<br/> </td> 
   </tr> 
   <tr> 
    <td> Nombre de aplicación móvil<br/> </td> 
-   <td> Nombre de la aplicación móvil<br/> </td> 
+   <td> Nombre de la aplicación móvil <br/> </td> 
   </tr>
   <tr> 
    <td> Plataforma<br/> </td> 
-   <td> Plataforma del dispositivo desde el que se abrió, visualizó o hizo clic en el mensaje.<br/> </td> 
+   <td> Plataforma del dispositivo desde el que se abrió, vio o hizo clic en el mensaje.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Perfil<br/> </td> 
+   <td> Perfil <br/> </td> 
    <td> Reagrupa los campos de perfil predeterminados y personalizados creados durante la extensión de recursos de perfil.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Dominio del destinatario<br/> </td> 
+   <td> Dominio del destinatario <br/> </td> 
    <td> Dominio utilizado para abrir el correo electrónico.<br/> </td> 
   </tr> 
   <tr> 
@@ -72,20 +73,20 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
    <td> Dominio utilizado para enviar el correo electrónico.<br/> </td> 
   </tr> 
   <tr> 
-   <td> IP del remitente<br/> </td> 
+   <td> IP del remitente <br/> </td> 
    <td> IP utilizada para enviar el correo electrónico.<br/> </td> 
   </tr> 
   <tr> 
-   <td> URL de seguimiento<br/> </td> 
-   <td> URL en la que el usuario hizo clic desde el mensaje.<br/> </td> 
+   <td> URL de seguimiento <br/> </td> 
+   <td> Dirección URL en la que el usuario hizo clic desde el mensaje.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Categoría de URL de seguimiento<br/> </td> 
-   <td> Categoría asignada a la URL de seguimiento.<br/> </td> 
+   <td> Categoría de URL de seguimiento <br/> </td> 
+   <td> Categoría asignada a la dirección URL de seguimiento.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Etiqueta de URL de seguimiento<br/> </td> 
-   <td> Etiqueta proporcionada a la dirección URL, como una página espejo, póngase en contacto con nosotros o abra.<br/> </td> 
+   <td> Etiqueta de URL de seguimiento <br/> </td> 
+   <td> Etiqueta asignada a la dirección URL, como una página espejo, póngase en contacto con nosotros o abra.<br/> </td> 
   </tr> 
   <tr> 
    <td> Envío transaccional<br/> </td> 
@@ -93,7 +94,7 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
   </tr> 
   <tr> 
    <td> Variante<br/> </td> 
-   <td> Variante del correo electrónico en el caso de las pruebas A/B.<br/> </td> 
+   <td> Variante del correo electrónico en el caso de la prueba A/B.<br/> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,29 +108,29 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
 <table> 
  <thead> 
   <tr> 
-   <th> Métrica<br/> </th> 
-   <th> Definición<br/> </th> 
+   <th> Métrica <br/> </th> 
+   <th> Definición <br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> En la lista de bloqueados<br/> </td> 
-   <td> Número de destinatarios que han declarado un correo electrónico como no deseado o no deseado.<br/> </td> 
+   <td> En la lista de bloqueados <br/> </td> 
+   <td> Número de destinatarios que han declarado un correo electrónico como correo no deseado.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Lista de bloqueados de la<br/> </td> 
+   <td> Tasa de Lista de bloqueados de<br/> </td> 
    <td> Porcentaje de envíos marcados en el momento de la lista de bloqueados de la.<br/> </td> 
   </tr> 
   <tr> 
    <td> Devoluciones + Errores<br/> </td> 
-   <td> Total de errores acumulados durante el envío y el procesamiento automático de devoluciones en relación con el número total de mensajes enviados.<br/> </td> 
+   <td> Total de errores acumulados durante el envío y el procesamiento automático de devolución en relación con el número total de mensajes enviados.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br/> </td> 
-   <td> Porcentaje de correos electrónicos devueltos en comparación con los enviados por correo electrónico.<br/> </td> 
+   <td> Devolución + Tasa de error <br/> </td> 
+   <td> Porcentaje de correos electrónicos que rebotaron en comparación con el correo electrónico enviado.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br/> </td> 
+   <td> Haga clic<br/> </td> 
    <td> Número de veces que se hizo clic en un contenido en una entrega.<br/> </td> 
   </tr> 
   <tr> 
@@ -141,7 +142,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de mensajes enviados correctamente en relación con el número total de mensajes enviados.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de entrega<br/> </td> 
+   <td> Tasa de entrega <br/> </td> 
    <td> Porcentaje de mensajes enviados correctamente.<br/> </td> 
   </tr> 
   <tr> 
@@ -149,28 +150,28 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número total de errores permanentes, como una dirección de correo electrónico incorrecta.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de salida hacia otro sitio dura<br/> </td> 
-   <td> Porcentaje de envíos que fallaron debido a errores permanentes.<br/> </td> 
+   <td> Tasa de devoluciones graves <br/> </td> 
+   <td> Porcentaje de envíos erróneos debido a errores permanentes.<br/> </td> 
   </tr> 
   <tr> 
    <td> Página espejo<br/> </td> 
    <td> Número de destinatarios que hicieron clic en el vínculo de la página espejo.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Velocidad de página espejo<br/> </td> 
+   <td> Tasa de la página espejo <br/> </td> 
    <td> Porcentaje de clics en el vínculo de la página espejo comparados con el total de mensajes de envío.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Clics de oferta<br/> </td> 
-   <td> Número de veces que se hizo clic en una oferta en una entrega.<br/> </td> 
+   <td> Clics de ofertas<br/> </td> 
+   <td> Cantidad de veces que se hizo clic en una oferta en una entrega.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de pulsaciones de oferta<br/> </td> 
+   <td> Tasa de clics en ofertas<br/> </td> 
    <td> Porcentaje de clics en una oferta.<br/> </td> 
   </tr> 
   <tr> 
    <td> Apertura<br/> </td> 
-   <td> Número de veces que se ha abierto un mensaje en una entrega.<br/> </td> 
+   <td> Número de veces que se abrió un mensaje en una entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Tasa de apertura<br/> </td> 
@@ -182,11 +183,11 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
   </tr> 
   <tr> 
    <td> Cuarentena<br/> </td> 
-   <td> Número de mensajes que rebotaron y que dieron lugar a la cuarentena de la dirección.<br/> </td> 
+   <td> Número de mensajes que rebotaron y que dieron como resultado la cuarentena de la dirección.<br/> </td> 
   </tr> 
   <tr> 
    <td> Tasa de cuarentena<br/> </td> 
-   <td> Porcentaje de cuarentenas comparadas con mensajes enviados.<br/> </td> 
+   <td> Porcentaje de cuarentena comparado con los mensajes enviados.<br/> </td> 
   </tr> 
   <tr> 
    <td> Rechazado<br/> </td> 
@@ -197,12 +198,12 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Porcentaje de mensajes marcados como rechazados.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Rechazo suave<br/> </td> 
-   <td> Número total de errores temporales, como una bandeja de entrada llena.<br/> </td> 
+   <td> Devolución suave<br/> </td> 
+   <td> Número total de errores temporales, como una bandeja de entrada completa.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de devoluciones suaves<br/> </td> 
-   <td> Porcentaje de envíos que fallaron debido a un motivo temporal.<br/> </td> 
+   <td> Tasa de salida hacia otro sitio <br/> </td> 
+   <td> Porcentaje de envíos erróneos debido a un motivo temporal.<br/> </td> 
   </tr> 
   <tr> 
    <td> Clics únicos<br/> </td> 
@@ -213,7 +214,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de destinatarios que abrieron la entrega.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Suscripción única cancelada<br/> </td> 
+   <td> Cancelación de suscripción única<br/> </td> 
    <td> Número de destinatarios que hicieron clic en el vínculo de baja de suscripción.<br/> </td> 
   </tr> 
   <tr> 
@@ -221,7 +222,7 @@ Las siguientes tablas proporcionan la lista de métricas utilizadas en los infor
    <td> Número de bajas únicas comparadas con los mensajes enviados.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Cancelado<br/> </td> 
+   <td> Canceló la suscripción<br/> </td> 
    <td> Número de clics en el vínculo de baja de suscripción.<br/> </td> 
   </tr> 
  </tbody> 
@@ -354,13 +355,13 @@ La siguiente tabla le proporciona la lista de segmentos utilizados en los inform
 <table> 
  <thead> 
   <tr> 
-   <th> Segmento<br/> </th> 
-   <th> Definición<br/> </th> 
+   <th> Segmento <br/> </th> 
+   <th> Definición <br/> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> Edad: 1<br/> </td> 
+   <td> Edad: Boomers 1<br/> </td> 
    <td> Destinatarios nacidos entre 1946 y 1954.<br/> </td> 
   </tr> 
   <tr> 
@@ -372,15 +373,15 @@ La siguiente tabla le proporciona la lista de segmentos utilizados en los inform
    <td> Destinatarios de 18 a 25 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: De 26 a 30 años<br/> </td> 
+   <td> Edad: De 26 a 30<br/> </td> 
    <td> Destinatarios de 26 a 30 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: De 31 a 40 años<br/> </td> 
+   <td> Edad: De 31 a 40<br/> </td> 
    <td> Destinatarios de 31 a 40 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: De 41 a 50 años<br/> </td> 
+   <td> Edad: De 41 a 50<br/> </td> 
    <td> Destinatarios de 41 a 50 años.<br/> </td> 
   </tr> 
   <tr> 
@@ -393,27 +394,27 @@ La siguiente tabla le proporciona la lista de segmentos utilizados en los inform
   </tr> 
   <tr> 
    <td> Edad: Generación Z<br/> </td> 
-   <td> Destinatarios nacidos desde 1995 hasta la actualidad.<br/> </td> 
+   <td> Destinatarios nacidos desde 1995 hasta la fecha.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Mayor de 50 años<br/> </td> 
+   <td> Edad: mayor de 50<br/> </td> 
    <td> Destinatarios cuya edad es mayor de 50 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Menos de 25 años<br/> </td> 
+   <td> Edad: Menos de 25<br/> </td> 
    <td> Destinatarios cuya edad es menor de 25 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Menos de 30 años<br/> </td> 
+   <td> Edad: Menos de 30<br/> </td> 
    <td> Destinatarios cuya edad es menor de 30 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Menos de 40 años<br/> </td> 
+   <td> Edad: Menos de 40<br/> </td> 
    <td> Destinatarios cuya edad es menor de 40 años.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Edad: Menos de 50 años<br/> </td> 
-   <td> Destinatarios cuya edad es inferior a 50 años.<br/> </td> 
+   <td> Edad: Menos de 50<br/> </td> 
+   <td> Destinatarios cuya edad es menor de 50 años.<br/> </td> 
   </tr> 
   <tr> 
    <td> Edad: Generación silenciosa<br/> </td> 

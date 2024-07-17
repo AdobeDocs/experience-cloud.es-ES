@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: de97a194-d497-4665-906e-53178fd3b119
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -27,7 +28,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de muestra en la colección de perfiles.
 

@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 9%
@@ -19,15 +20,15 @@ ht-degree: 9%
 Los extremos disponibles para la API de REST de Adobe Campaign:
 
 * **/profileAndServices**: interactúe con los campos predeterminados. No se puede acceder a los campos extendidos con este extremo.
-* **/profileAndServicesExt**: interactúe con los campos personalizados agregados durante la extensión de recurso personalizado de Perfil o Servicios. Para obtener más información sobre recursos personalizados, consulte [esta sección](custom-resources.md).
-* **/&lt;transactionalapi>**: interactúe con la API de mensajes transaccionales (el nombre del punto final de la API de mensajes transaccionales depende de la configuración de la instancia). Para obtener más información, consulte [esta sección](managing-transactional-messages.md).
-* **/workflow/execution**: interactúe con flujos de trabajo. Para obtener más información, consulte [esta sección](controlling-a-workflow.md).
+* **/profileAndServicesExt**: interactúe con los campos personalizados agregados durante la extensión de recursos personalizados de perfil o servicios. Para obtener más información sobre los recursos personalizados, consulte [esta sección](custom-resources.md).
+* **/&lt;transactionalAPI>**: interactúe con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de su instancia). Para obtener más información, consulte [esta sección](managing-transactional-messages.md).
+* **/workflow/execution**: interactuar con flujos de trabajo. Para obtener más información, consulte [esta sección](controlling-a-workflow.md).
 
-De forma predeterminada, los recursos principales disponibles para **profileAndServices** y **profileAndServicesExt** Las API son:
+De manera predeterminada, los recursos principales disponibles para las API **profileAndServices** y **profileAndServicesExt** son:
 
-* **/perfil**: interactúe con los perfiles de la base de datos de Campaign. Para añadir perfiles a un servicio, utilice el **/service** punto final. Para obtener más información sobre los perfiles en Campaign, consulte [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
-* **/service**: administre los servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interactúe con los perfiles de la base de datos de Campaign. Para agregar perfiles a un servicio, use el extremo **/service**. Para obtener más información sobre los perfiles de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
+* **/servicio**: administrar servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
->Todos los demás recursos que se han ampliado o creado están disponibles a través de la **ProfileAndServicesExt** Solo API. Deben estar vinculados al **Perfil** para que sea accesible.
+>Todos los demás recursos que se han ampliado o creado están disponibles únicamente a través de la API **ProfileAndServicesExt**. Deben estar vinculados al recurso **Profile** para que sea accesible.

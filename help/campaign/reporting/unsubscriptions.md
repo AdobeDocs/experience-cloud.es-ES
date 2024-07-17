@@ -4,7 +4,8 @@ description: Con el informe predeterminado Cancelación de suscripciones, obteng
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 3f4400f24b75e8e435610afbe49e9d9444dbf563
+exl-id: 91ec13d7-1c2b-45ae-af29-89d02c0f3bcb
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '77'
 ht-degree: 15%
@@ -17,4 +18,4 @@ El informe **[!UICONTROL Unsubscriptions]** identifica los envíos con la mayor 
 
 ![](assets/delivery_reports_unsub.png)
 
-El **[!UICONTROL PRINCIPALES 5 entregas]** la tabla y el gráfico muestran los cinco envíos principales con la mayor cantidad de mensajes enviados y la cantidad de destinatarios que se han dado de baja. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.
+La tabla y el gráfico **[!UICONTROL TOP 5 deliveries]** muestran los cinco envíos principales con la mayor cantidad de mensajes enviados y la cantidad de destinatarios que se han dado de baja. Los datos enumerados aquí se basan en el número de clics en el vínculo de baja del mensaje.

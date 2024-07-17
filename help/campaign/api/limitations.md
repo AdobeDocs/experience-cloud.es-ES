@@ -8,7 +8,8 @@ role: Data Engineer
 level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 4ddde59006a72f34090a0ed4a765447c69c5f029
+exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '1165'
 ht-degree: 1%
@@ -27,7 +28,7 @@ Con la migración, se añaden dos perfiles de producto a las cuentas técnicas e
 
 ### ID de inquilino
 
-Después de la migración, para cualquier integración futura, se recomienda utilizar su **ID de inquilino de Campaign v8** en URL de REST, reemplazando el ID de inquilino de Campaign Standard anterior.
+Después de la migración, para cualquier integración futura, se recomienda usar su **ID de inquilino de Campaign v8** en las URL de REST, reemplazando su ID de inquilino de Campaign Standard anterior.
 
 ### Uso de claves
 
@@ -44,16 +45,16 @@ Por ahora, las API de REST enumeradas a continuación están disponibles para su
 
 >[!AVAILABILITY]
 >
->Por ahora, la **Mensajes transaccionales** La API de REST no está disponible.
+>Por ahora, la API de REST **mensajes transaccionales** no está disponible.
 >
 >Las API de REST enumeradas a continuación están en desuso y no están disponibles para su uso:
 >* Historial de marketing
 >* Unidades organizativas
 >* Administración de la privacidad
 
-## Filtro
+## Filtrado
 
-* Para utilizar los filtros en las cargas útiles de API REST, debe editarlos en Campaign v8 y proporcionar un nombre para utilizarlo en las cargas útiles. Para ello, acceda a los parámetros adicionales del filtro desde el **[!UICONTROL Parámetros]** y proporcione el nombre que desee en la pestaña **[!UICONTROL Nombre del filtro en la API de REST]** field.
+* Para utilizar los filtros en las cargas útiles de API REST, debe editarlos en Campaign v8 y proporcionar un nombre para utilizarlo en las cargas útiles. Para ello, obtenga acceso a los parámetros adicionales del filtro desde la ficha **[!UICONTROL Parámetros]** y proporcione el nombre que desee en el campo **[!UICONTROL Nombre del filtro en la API de REST]**.
 
   ![](assets/api-filtering.png)
 
@@ -113,13 +114,13 @@ La sección siguiente enumera las diferencias entre los códigos de error y los 
 | Uso de raw-id no existente en el URI | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se puede encontrar el documento con la ruta &#39;Servicio&#39; de la clave &#39;adobe_nl:0&#39; (documento con el esquema &#39;service&#39; y el nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | Uso de raw-id no existente en el cuerpo de la solicitud | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se pudo encontrar documento con ruta &#39;Servicio&#39; de la clave &#39;adobe_nl&#39; (documento con esquema &#39;service&#39; y nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
-| Inserte un perfil o servicio con un valor de enumeración de sexo no válido (o cualquier cosa) | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. El valor &quot;no válido&quot; no es válido para &quot;nms:recipient:enumeración &#39;gender&#39; del campo &#39;@gender&#39; | 500: Se ha producido un error. Póngase en contacto con el administrador. |
+| Inserte un perfil o servicio con un valor de enumeración de sexo no válido (o cualquier cosa) | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. El valor &quot;invalid&quot; no es válido para la enumeración &quot;nms:recipient:gender&quot; del campo &quot;@gender&quot; | 500: Se ha producido un error. Póngase en contacto con el administrador. |
 
 ## Perfil: zona horaria
 
-Con el Campaign Standard, la zona horaria se muestra como parte de la respuesta JSON de **profileAndServices/profile** Llamadas de API de REST.
+Con el Campaign Standard, la zona horaria se muestra como parte de la respuesta JSON de **profileAndServices/profile** llamadas a la API de REST.
 
-Con Campaign v8, la zona horaria solo se muestra al usuario como parte de **profileAndServicesExt/profile** Llamadas de API de REST. No forma parte de **profileAndServices/profile** Llamadas a la API de REST, ya que se añade en un esquema ampliado.
+Con Campaign v8, la zona horaria solo se muestra al usuario como parte de las llamadas a la API REST **profileAndServicesExt/profile**. No forma parte de las llamadas a la API REST **profileAndServices/profile** porque se está agregando en un esquema extendido.
 
 ## Flujos de trabajo: activación de señal externa
 

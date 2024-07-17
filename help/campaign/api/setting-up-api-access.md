@@ -11,21 +11,21 @@ exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 18979fea28f4f3adce1139293203a59876831313
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 28%
+ht-degree: 27%
 
 ---
 
 # Configuración del acceso a API {#setting-up-api-access}
 
-El acceso a la API de Adobe Campaign Standard se configura mediante los pasos siguientes. Cada uno de estos pasos se detalla en [Documentación de Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
+El acceso a la API de Adobe Campaign Standard se configura mediante los pasos siguientes. Cada uno de estos pasos se detalla en la [documentación de Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md).
 
 >[!IMPORTANT]
 >
->Para administrar certificados en [Adobe Developer](https://developer.adobe.com/), asegúrese de que tiene **Administrador del sistema** derechos de la organización o [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en el Admin Console.
+>Para administrar certificados en [Adobe Developer](https://developer.adobe.com/), asegúrate de que tienes los derechos de **administrador del sistema** en la organización o de [cuenta de desarrollador](https://helpx.adobe.com/es/enterprise/using/manage-developers.html) en el Admin Console.
 
 1. **Compruebe que tiene un certificado digital** o créese uno si es necesario. Las claves pública y privada proporcionadas con el certificado son necesarias en los siguientes pasos.
-1. **Cree una nueva integración con el servicio de Adobe Campaign** in [Adobe Developer](https://developer.adobe.com/) y configúrelo. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
-1. **Creación de un servidor a servidor OAuth** siguiendo estos pasos [pasos de implementación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
+1. **Cree una nueva integración al servicio Adobe Campaign** en [Adobe Developer](https://developer.adobe.com/) y configúrelo. A continuación, se generarán sus credenciales (clave de API, secreto de cliente...).
+1. **Cree una credencial de servidor a servidor OAuth** siguiendo estos [pasos de implementación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/)
 
    >[!IMPORTANT]
    >
@@ -44,14 +44,14 @@ Para establecer una sesión segura de API de Adobe I/O de servicio a servicio, c
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;organization>**: Este es su ID de ORGANIZACIÓN personal, el Adobe proporciona un ID de ORGANIZACIÓN para cada una de las instancias
+* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; el Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
 
-   * &lt;organization> : su instancia de producción,
-   * &lt;organization-mkt-stage>: su instancia de fase.
+   * &lt;ORGANIZATION> : su instancia de producción,
+   * &lt;ORGANIZATION-mkt-stage>: su instancia de fase.
 
-  Para obtener el valor del ID de organización, consulte con su administrador o contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">Documentación de Adobe Developer</a>).
+  Para obtener el valor del ID de organización, consulte con su administrador o contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentación de Adobe Developer</a>).
 
-* **&lt;access_token>**: el token de acceso personal, que se recuperó al intercambiar el token web JSON a través de una solicitud de POST.
+* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su token web JSON a través de una solicitud de POST.
 
 * **&lt;API_KEY>**: su clave de API personal. Se proporciona en Adobe I/O después de crear una nueva integración con el servicio de Adobe Campaign.
 

@@ -6,7 +6,8 @@ context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 56f2d2ff4b2ba4184629615a14724e6640df6961
+exl-id: 7afc802d-e90c-48c8-aa04-3ea543dfdfbc
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 57%
@@ -19,7 +20,7 @@ ht-degree: 57%
 >
 >Los usuarios finales no pueden crear ni modificar marcas: estas operaciones deben ser realizadas por el administrador técnico de Adobe Campaign. Para cualquier pregunta, póngase en contacto con el servicio de atención al cliente de Adobe.
 
-En Adobe Campaign V8, las marcas se encuentran en **[!UICONTROL Administración > Plataforma > Marca]** menú.
+En Adobe Campaign V8, las marcas se encuentran en el menú **[!UICONTROL Administración > Plataforma > Marca]**.
 
 Una **[!UICONTROL marca]** se define con las siguientes características:
 
@@ -33,7 +34,7 @@ Una **[!UICONTROL marca]** se define con las siguientes características:
 
   ![](assets/branding_1.png)
 
-* **[!UICONTROL Parámetros de encabezado de correos electrónicos enviados]** , que personaliza lo que ven los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Parámetros de encabezado de correos electrónicos enviados]** que personalizan lo que verán los destinatarios de sus campañas. Esta sección contiene los campos siguientes:
 
    * **[!UICONTROL Remitente (dirección de correo electrónico)]** con la dirección de correo electrónico de la marca.
    * **[!UICONTROL Remitente (nombre)]** con el nombre de la marca.
@@ -47,11 +48,11 @@ Una **[!UICONTROL marca]** se define con las siguientes características:
 
   ![](assets/branding_2.png)
 
-* **[!UICONTROL Configuraciones de marca]** define los servidores utilizados para el seguimiento también para el acceso a la página de aterrizaje. Esta sección contiene los campos siguientes:
+* **[!UICONTROL Configuraciones de marca]** define los servidores que se usan para realizar el seguimiento también para el acceso a la página de aterrizaje. Esta sección contiene los campos siguientes:
 
-   * **[!UICONTROL Subdominio de marca]** hace referencia a la dirección URL del subdominio designado específica de esta marca, solicitada para la delegación desde el Adobe.
+   * **[!UICONTROL Subdominio de marca]** hace referencia a la dirección URL de subdominio designada específica de esta marca, solicitada para delegación desde el Adobe.
 
-  Tenga en cuenta que la configuración de los servidores de seguimiento, réplica y aplicaciones se almacena en cuentas externas independientes asociadas con el enrutamiento. Esta configuración se aplica durante el aprovisionamiento y no debe modificarse. Para mostrar las direcciones URL, acceda al **[!UICONTROL Prefijos de marca]** de la cuenta externa.
+  Tenga en cuenta que la configuración de los servidores de seguimiento, réplica y aplicaciones se almacena en cuentas externas independientes asociadas con el enrutamiento. Esta configuración se aplica durante el aprovisionamiento y no debe modificarse. Para mostrar las direcciones URL, acceda a la pestaña **[!UICONTROL Prefijos de marca]** desde su cuenta externa.
 
   ![](assets/branding_3.png)
 

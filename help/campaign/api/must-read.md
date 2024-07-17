@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -36,11 +37,11 @@ Todos los recursos de la API están disponibles en **JSON** con una extensión U
 
 >[!NOTE]
 >
->Sin extensión en la dirección URL, la variable **el formato json es el predeterminado** para el tipo de contenido.
+>Sin extensión en la dirección URL, el formato **json es el predeterminado** para el tipo de contenido.
 
 <br/>
 
-***solicitar muestra***
+***solicitud de muestra***
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile.json \
@@ -66,11 +67,11 @@ Si el recurso de perfil se ha ampliado con un campo de clave personalizada, pued
 
 Las claves personalizadas no se pueden modificar mediante una operación de PATCH si el valor de la clave es diferente de la clave de origen o si utiliza su propia clave comercial como URI en lugar de la proporcionada por Adobe.
 
-Utilizar una clave personalizada para **recursos de perfil de nivel superior** solo. La API devuelve las direcciones URL, que nunca debe crear usted mismo.
+Use una clave personalizada solo para **recursos de perfil de nivel superior**. La API devuelve las direcciones URL, que nunca debe crear usted mismo.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 GET Para recuperar las suscripciones de un perfil mediante una clave personalizada, realice una operación en la clave personalizada.
 

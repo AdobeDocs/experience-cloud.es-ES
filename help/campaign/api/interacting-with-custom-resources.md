@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 # Interacción con recursos personalizados {#interacting-with-custom-resources}
 
-El **/customResources** Este punto de conexión le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
+El extremo **/customResources** le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 
 El extremo /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
 

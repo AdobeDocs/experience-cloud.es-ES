@@ -7,10 +7,11 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '481'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
@@ -51,19 +52,19 @@ En los pasos siguientes se describe un caso de uso paso a paso para importar y u
 >
 >Nuestro ejemplo utiliza Postman. Sin embargo, siéntase libre de usar su cliente REST favorito.
 
-1. Descargue la colección JSON haciendo clic en [aquí](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
+1. Descargue la colección JSON haciendo clic [aquí](https://helpx.adobe.com/content/dam/help/en/campaign/kb/working-with-acs-api/_jcr_content/main-pars/download_section/download-1/KB_postman_collection.json.zip).
 
-1. Abra Postman y seleccione la **Archivo** / **Importar** menú.
+1. Abra Postman y, a continuación, seleccione el menú **Archivo** / **Importar**.
 
 1. Arrastre y suelte el archivo descargado en la ventana. Se muestran las solicitudes de API prediseñadas, listas para usar.
 
    ![texto alternativo](assets/postman_collection.png)
 
-1. Seleccione el **Creación de un perfil** solicitud, actualice la solicitud del POST y la **Encabezados** con su propia información (&lt;organization>, &lt;api_key>, &lt;access_token>). Para obtener más información, consulte [esta sección](setting-up-api-access.md).
+1. Seleccione la solicitud **Creando un perfil**, luego actualice la solicitud del POST y la pestaña **Encabezados** con su propia información (&lt;ORGANIZACIÓN>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obtener más información, consulte [esta sección](setting-up-api-access.md).
 
    ![texto alternativo](assets/postman_uc1.png)
 
-1. Rellene el **Cuerpo** con la información que desee añadir al nuevo perfil y, a continuación, haga clic en el icono **Enviar** para ejecutar la solicitud.
+1. Rellene la ficha **Cuerpo** con la información que desee agregar al nuevo perfil y, a continuación, haga clic en el botón **Enviar** para ejecutar la solicitud.
 
    ![texto alternativo](assets/postman_uc2.png)
 

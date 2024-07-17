@@ -4,10 +4,11 @@ description: Comprenda los resultados de los informes con una lista de la fórmu
 level: Intermediate
 audience: end-user
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 031d5b692d9b9e4420b14ba1ab892fbafed57ec0
+exl-id: 06fb21a5-ae98-4c14-97f0-7f851d60ae7d
+source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 8%
+ht-degree: 7%
 
 ---
 
@@ -38,13 +39,13 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> En la lista de bloqueados<br/> </td> 
+   <td> En la lista de bloqueados <br/> </td> 
    <td> @blacklisted<br/> </td> 
    <td> count(@failureReason=8, @failureType=2)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de Lista de bloqueados de la<br/> </td> 
+   <td> Tasa de Lista de bloqueados de<br/> </td> 
    <td> @rateBlacklisted<br/> </td> 
    <td> @blacklisted/@sent<br/> </td> 
    <td> El denominador para el cálculo de tasa se basa en el recuento de Enviados (Entregados + Devoluciones).<br/> </td> 
@@ -56,13 +57,13 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Devolución + Tasa de error<br/> </td> 
+   <td> Devolución + Tasa de error <br/> </td> 
    <td> @rateBounces<br/> </td> 
    <td> @bounces/@sent<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Clic<br/> </td> 
+   <td> Haga clic<br/> </td> 
    <td> @clicks<br/> </td> 
    <td> count(@trackingUrlType=1 ó 10 ó 11)<br/> </td> 
    <td> </td> 
@@ -71,7 +72,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> Tasa de pulsaciones<br/> </td> 
    <td> @clickthrough<br/> </td> 
    <td> @uniqueclicks/@delivered<br/> </td> 
-   <td> El denominador para el cálculo de la tasa se basa únicamente en Entregado.<br/> </td> 
+   <td> El denominador para el cálculo de tasa se basa en Sólo entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Entrega<br/> </td> 
@@ -80,7 +81,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de entrega<br/> </td> 
+   <td> Tasa de entrega <br/> </td> 
    <td> @rateDelivered<br/> </td> 
    <td> @delivered/@sent<br/> </td> 
    <td> El denominador para el cálculo de tasa se basa en el recuento de Enviados (Entregados + Devoluciones).<br/> </td> 
@@ -92,7 +93,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de devoluciones duras<br/> </td> 
+   <td> Tasa de devoluciones graves<br/> </td> 
    <td> @rateHardBounces<br/> </td> 
    <td> @hardBounces/@sent<br/> </td> 
    <td> El denominador para el cálculo de tasa se basa en el recuento de Enviados (Entregados + Devoluciones).<br/> </td> 
@@ -113,16 +114,16 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> Página espejo<br/> </td> 
    <td> @mirrorPage<br/> </td> 
    <td> count(@trackingUrlType=6)<br/> </td> 
-   <td> El denominador para el cálculo de la tasa se basa únicamente en Entregado.<br/> </td> 
+   <td> El denominador para el cálculo de tasa se basa en Sólo entrega.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Velocidad de página espejo<br/> </td> 
+   <td> Tasa de la página espejo <br/> </td> 
    <td> @rateMirrorPage<br/> </td> 
    <td> @mirrorPage/@delivered<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Sin conexión<br/> </td> 
+   <td> No conectado<br/> </td> 
    <td> @notConnected<br/> </td> 
    <td> count(@failureReason=6)<br/> </td> 
    <td> </td> 
@@ -137,7 +138,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> Tasa de apertura<br/> </td> 
    <td> @rateOpens<br/> </td> 
    <td> @opens/@delivered<br/> </td> 
-   <td> El denominador para el cálculo de la tasa se basa únicamente en Entregado.<br/> </td> 
+   <td> El denominador para el cálculo de tasa se basa en Sólo entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Cuarentena<br/> </td> 
@@ -170,13 +171,13 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Rechazo suave<br/> </td> 
+   <td> Devolución suave<br/> </td> 
    <td> @softBounces<br/> </td> 
    <td> count(@failureType=1)<br/> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> Tasa de devoluciones suaves<br/> </td> 
+   <td> Tasa de salida hacia otro sitio <br/> </td> 
    <td> @rateSoftBounces<br/> </td> 
    <td> @softBounces/@sent<br/> </td> 
    <td> El denominador para el cálculo de tasa se basa en el recuento de Enviados (Entregados + Devoluciones).<br/> </td> 
@@ -209,7 +210,7 @@ Las tablas siguientes proporcionan la lista de los indicadores utilizados en los
    <td> Tasa de cancelación de suscripción<br/> </td> 
    <td> @rateUnsubscribes<br/> </td> 
    <td> @unsubscribes/@delivered<br/> </td> 
-   <td> El denominador para el cálculo de la tasa se basa únicamente en Entregado.<br/> </td> 
+   <td> El denominador para el cálculo de tasa se basa en Sólo entrega.<br/> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido<br/> </td> 

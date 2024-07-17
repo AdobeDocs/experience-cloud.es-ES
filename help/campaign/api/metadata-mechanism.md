@@ -7,7 +7,8 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -22,7 +23,7 @@ Puede recuperar los metadatos de los recursos mediante **resourceType** en una s
 
 La respuesta devuelve los metadatos principales del recurso (todos los demás campos son descriptivos o internos):
 
-* El **Contenido** nodo devuelve los campos del recurso. Para cada campo de la **content** , podemos encontrar los siguientes campos:
+* El nodo **Content** devuelve los campos del recurso. Para cada campo en el nodo **content**, se pueden encontrar los siguientes campos:
 
    * &quot;apiName&quot;: nombre del atributo utilizado en las API.
    * &quot;tipo&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, enumeración...).
@@ -31,9 +32,9 @@ La respuesta devuelve los metadatos principales del recurso (todos los demás ca
    * &quot;resType&quot;: es el tipo técnico.
 
      Si &quot;type&quot; se completa con el valor &quot;link&quot; o &quot;collection&quot;, el valor resTarget es el nombre del recurso al que se dirige el vínculo.
-Si &quot;type&quot; se completa con el valor &quot;enumeration&quot;, se agrega un campo &quot;values&quot; y cada valor de enumeración se detalla en la variable **values** nodo.
+Si &quot;type&quot; se completa con el valor &quot;enumeration&quot;, se agrega un campo &quot;values&quot; y cada valor de enumeración se detalla en el nodo **values**.
 
-* El **Filtros** node devuelve la dirección URL para recuperar los filtros asociados. Para obtener más información sobre los filtros, consulte [esta sección](filtering.md) sección.
+* El nodo **Filters** devuelve la URL para recuperar los filtros asociados. Para obtener más información sobre los filtros, consulte [esta sección](filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
 <!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
@@ -42,7 +43,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Realice una solicitud de GET en el recurso.
 

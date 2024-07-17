@@ -4,7 +4,8 @@ description: Obtenga más información sobre cómo recuperar perfiles con API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 19679804-f728-49fa-b26e-8f31b67c29bf
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 4%
@@ -13,15 +14,15 @@ ht-degree: 4%
 
 # Recuperación de perfiles con API {#retrieving-profiles}
 
-La recuperación de perfiles se realiza con un **GET** solicitud.
+La recuperación de perfiles se realiza con una solicitud **GET**.
 
-A continuación, puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información, consulte [Operaciones adicionales](sorting.md) sección.
+A continuación, puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información, consulte la sección [Operaciones adicionales](sorting.md).
 
 Además, las API de Campaign Standard le permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
 
 <br/>
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de GET de muestra para recuperar todos los perfiles.
 
@@ -84,13 +85,13 @@ Además, las API de Campaign Standard le permiten buscar perfiles en función de
 
 ## Búsqueda de perfiles basados en un campo {#searching-field}
 
-El **[!UICONTROL filterType]** El parámetro permite recuperar perfiles basados en uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya agregado en el filtrado avanzado al ampliar el recurso de perfil.
+El parámetro **[!UICONTROL filterType]** le permite recuperar perfiles basados en uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado que se haya agregado en el filtrado avanzado al ampliar el recurso de perfil.
 
 >[!NOTE]
 >
 >Las búsquedas distinguen entre mayúsculas y minúsculas y solo se realizan en prefijos. Por ejemplo, no podrá buscar un perfil con las últimas letras de su apellido.
 
-***Solicitudes de ejemplo***
+***Solicitudes de muestra***
 
 * Solicitud de muestra para filtrar perfiles sobre la base del nombre.
 

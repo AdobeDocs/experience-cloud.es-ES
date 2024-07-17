@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo recuperar suscripciones con API
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+exl-id: 6d935074-3196-45c5-97cd-ccb7c80bbba8
+source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 0%
@@ -22,11 +23,11 @@ Este es un procedimiento de dos pasos.
 
 >[!CAUTION]
 >
->La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a utilizar. <b>Utilice siempre la dirección URL contenida en la respuesta para realizar la solicitud de API posterior</b>.
+>La API de REST devuelve la propiedad &quot;href&quot;, que contiene la dirección URL que se va a utilizar. <b>Use siempre la dirección URL contenida en la respuesta para realizar la solicitud de API posterior</b>.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Realice una solicitud de GET para recuperar el servicio.
 
@@ -88,7 +89,7 @@ Este es un procedimiento de dos pasos.
 
 <br/>
 
-***Solicitud de ejemplo***
+***Solicitud de muestra***
 
 Realice una solicitud de GET para recuperar el perfil.
 
