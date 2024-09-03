@@ -5,14 +5,18 @@ audience: end-user
 level: Intermediate
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
 exl-id: 36506f7d-aeeb-41cf-b971-6e42e1c7cdc8
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '238'
 ht-degree: 3%
 
 ---
 
 # Definición del período de informe{#defining-the-report-period}
+
+>[!NOTE]
+>
+>Los informes de datos están disponibles durante los últimos 13 meses. Para obtener más información sobre los períodos de retención de datos, póngase en contacto con los consultores de Adobe o con los administradores técnicos.
 
 Antes de iniciar o acceder a un informe, debe aplicar un periodo de tiempo. Se puede acceder al periodo determinado en la parte superior derecha del informe.
 

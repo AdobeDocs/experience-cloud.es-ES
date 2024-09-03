@@ -7,18 +7,14 @@ role: Admin
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '471'
 ht-degree: 18%
 
 ---
 
 # Asignar su marca {#branding-assign}
-
->[!IMPORTANT]
->
->Actualmente, las opciones de promoción de la marca se limitan a envíos por correo electrónico y push.
 
 ## Vinculación de una marca a una plantilla {#linking-a-brand-to-a-template}
 
