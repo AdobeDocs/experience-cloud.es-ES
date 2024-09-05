@@ -8,9 +8,9 @@ role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Estos son algunos ejemplos:
 
 * Inscripción en línea de clientes potenciales.
 * Administración de preferencias de comunicación de marketing y perfil de cliente existente.
-* Activación de la comunicación transaccional basada en eventos: confirmación de pedido, itinerario de reserva, restablecimiento de contraseña, etc.
+  <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * Comunicación por correo electrónico incluso de abandono del carro de compras.
 
 Las páginas de aterrizaje de registro permiten a los clientes o clientes potenciales registrar su nombre y dirección de correo electrónico. Una vez que el Campaign Standard captura la información y las preferencias del perfil, puede enviar mensajes personalizados según los intereses de la persona.
