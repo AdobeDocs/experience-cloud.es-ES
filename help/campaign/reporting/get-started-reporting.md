@@ -5,10 +5,10 @@ audience: end-user
 level: Beginner
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
 exl-id: 6feac90f-f7c1-48b5-94ff-7fef92a2af83
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: b65dbece574778eada43497456ff0eed850a3598
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 13%
+source-wordcount: '287'
+ht-degree: 14%
 
 ---
 
@@ -16,9 +16,12 @@ ht-degree: 13%
 
 El sistema de informes dinámico proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics.
 
-## Administrar informes {#manage-share-reports}
+<table>
+<tr>
+<td><img src="assets/do-not-localize/icon_manage.svg" width="60px"><p><a href="#manage-share-reports">Administrar informes</a></p></td><td><img src="assets/do-not-localize/icon_build.svg" width="60px"><p><a href="#build-reports">Creación de informes</a></p></td><td><img src="assets/do-not-localize/icon_customize.svg" width="60px"><p><a href="#customize-reports">Personalización de informes</a></p></td></tr>
+</table>
 
-<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+## Administrar informes {#manage-share-reports}
 
 Con la creación de informes dinámicos **interfaz de arrastrar y soltar**, puede explorar datos, determinar el rendimiento de sus campañas de correo electrónico en relación con los segmentos de clientes más importantes y medir su impacto en los destinatarios desde un solo lugar.
 
@@ -31,8 +34,6 @@ Más información:
 
 ## Creación de informes {#build-reports}
 
-<img src="assets/do-not-localize/icon_build.svg" width="60px">
-
 La interfaz de usuario web de Adobe Campaign incluye un conjunto de **informes dinámicos listos para usar** que le permiten medir varios aspectos de sus campañas de marketing: devoluciones, envíos que se han declarado como los más frecuentes como correo no deseado o no deseado, envíos más vistos por los destinatarios, informes relacionados con los canales, rendimiento de envíos e informes de seguimiento...
 
 **Combine diferentes componentes** (dimensiones, métricas y segmentos, períodos de tiempo) para crear sus propios informes o personalizar informes predeterminados.
@@ -44,8 +45,6 @@ Más información:
 * [Lista de informes](defining-the-report-period.md)
 
 ## Personalización de informes {#customize-reports}
-
-<img src="assets/do-not-localize/icon_customize.svg" width="60px">
 
 **Personalice sus informes** aprovechando las capacidades de diseño de creación de informes dinámicos: agregue tantos componentes como necesite (paneles y tablas de forma libre) para analizar los datos mediante las métricas y dimensiones disponibles.
 
