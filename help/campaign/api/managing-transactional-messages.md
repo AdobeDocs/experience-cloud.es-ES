@@ -4,20 +4,22 @@ description: Obtenga información sobre cómo administrar mensajes transaccional
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-hidefromtoc: true
-hide: true
 role: Data Engineer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 6f9c9dd7dcac96980bbf5f7228e021471269d187
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '678'
 ht-degree: 1%
 
 ---
 
 # Administración de mensajes transaccionales {#managing-transactional-messages}
+
+>[!AVAILABILITY]
+>
+>Por ahora, la mensajería transaccional mediante las API de REST solo está disponible para el canal de correo electrónico y para los eventos transaccionales (los datos de enriquecimiento solo están disponibles a través de la carga útil, de forma similar a como funciona Adobe Campaign V8).
 
 Una vez creado y publicado un evento transaccional, debe integrar la activación de este evento en el sitio web.
 
@@ -140,4 +142,3 @@ En la respuesta, el campo &quot;estado&quot; permite saber si el evento se ha pr
 * **deliveryFailed**: se produjo un error de entrega mientras se procesaba el evento.
 * **routingFailed**: la fase de enrutamiento ha fallado; esto puede ocurrir, por ejemplo, cuando no se encuentra el tipo de evento especificado.
 * **toOld**: el evento caducó antes de que se pudiera procesar; esto puede ocurrir por varios motivos, por ejemplo, cuando un envío falla varias veces (esto hace que el evento ya no esté actualizado) o cuando el servidor ya no puede procesar eventos después de sobrecargarse.
-* **targetingFailed**: el Campaign Standard no pudo enriquecer un vínculo que se está usando para el direccionamiento de mensajes.
