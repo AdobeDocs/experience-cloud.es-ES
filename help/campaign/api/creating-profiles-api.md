@@ -23,7 +23,7 @@ La creación de perfiles se realiza con una solicitud **POST** en el recurso de 
 >
 >Si desea asociar una <b>orgUnit</b> al perfil creado, debe extender el recurso de perfil con este campo y, después de la publicación de la extensión, realizar una solicitud de POST en el extremo <b>ProfileAndServicesExt</b>.
 >
->Para obtener más información sobre la extensión de recursos del perfil, consulte la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentación de Campaign</a>.
+>Para obtener más información sobre la extensión de recursos del perfil, consulte la <a href="https://helpx.adobe.com/es/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentación de Campaign</a>.
 
 <br/>
 

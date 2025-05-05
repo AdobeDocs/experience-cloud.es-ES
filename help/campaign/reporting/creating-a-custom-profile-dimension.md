@@ -28,7 +28,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
    ![](assets/custom_field_1.png)
 
-1. Identifique el esquema de destinatario personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado nms:recipient, consulte [este procedimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifique el esquema de destinatario personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado nms:recipient, consulte [este procedimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Añada el campo personalizado al editor de esquemas.
 
@@ -42,7 +42,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-1. A continuación, identifique el esquema broadLogRcp personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado de registro de envío, consulte [este procedimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. A continuación, identifique el esquema broadLogRcp personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado de registro de envío, consulte [este procedimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Añada el mismo campo personalizado que el esquema Recipient al editor de esquemas.
 
@@ -50,7 +50,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-1. Para aplicar las modificaciones realizadas en los esquemas, inicie el Asistente para la actualización de bases de datos mediante **[!UICONTROL Herramientas]** > **[!UICONTROL Avanzadas]** > **[!UICONTROL Actualizar la estructura de la base de datos]** y ejecute Actualizar la estructura de la base de datos. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Para aplicar las modificaciones realizadas en los esquemas, inicie el Asistente para la actualización de bases de datos mediante **[!UICONTROL Herramientas]** > **[!UICONTROL Avanzadas]** > **[!UICONTROL Actualizar la estructura de la base de datos]** y ejecute Actualizar la estructura de la base de datos. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 

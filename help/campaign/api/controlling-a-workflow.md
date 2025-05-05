@@ -32,7 +32,7 @@ Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo
 * Reanudar
 * Stop
 
-Para obtener más información sobre los comandos de ejecución, consulte la [documentación de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html).
+Para obtener más información sobre los comandos de ejecución, consulte la [documentación de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=es).
 
 <br/>
 

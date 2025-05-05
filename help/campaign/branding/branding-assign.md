@@ -26,7 +26,7 @@ La plantilla se vinculará a la marca. En el editor de correo electrónico, los 
 
 >[!TAB Adobe Campaign V8]
 
-Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-templates)
+Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-templates)
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
@@ -50,7 +50,7 @@ Ahora puede utilizar esta plantilla para realizar envíos.
 
 >[!TAB Web de Adobe Campaign]
 
-Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/delivery-template)
+Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/delivery-template)
 
 Una vez creada la plantilla, puede vincularla a una marca. Para ello:
 
@@ -98,7 +98,7 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 
 1. Una vez configurado, seleccione **Aceptar**.
 
-1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Diseñar y enviar correos electrónicos](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Diseñar y enviar correos electrónicos](https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/email/create-email).
 
 >[!TAB Web de Adobe Campaign]
 
@@ -124,6 +124,6 @@ Para crear un nuevo envío independiente, siga los pasos a continuación.
 
    ![](assets/branding_assign_web_7.png)
 
-1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Crear su primer correo electrónico](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/email/create-email).
+1. Personalice aún más las entregas. Para obtener más información sobre cómo crear un correo electrónico, consulte la sección [Crear su primer correo electrónico](https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/email/create-email).
 
 >[!ENDTABS]
