@@ -4,9 +4,9 @@ description: Descubra la lista de supresión global
 hide: true
 exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 source-git-commit: 9d12eece2ca9f8f36951f8575bb0ac42bc10a728
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Para ello, seleccione el botón **[!UICONTROL Añadir correo electrónico o domi
 
    >[!NOTE]
    >
-   >En este campo se permiten todos los caracteres imprimibles ASCII comprendidos entre 32 y 126. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
+   >En este campo se permiten todos los caracteres imprimibles ASCII comprendidos entre 32 y 126. La lista completa se puede encontrar en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
 
 1. Haga clic en **[!UICONTROL Enviar]** para confirmar.
 
@@ -81,7 +81,7 @@ Para ello, seleccione el botón **[!UICONTROL Añadir correo electrónico o domi
 
    >[!NOTE]
    >
-   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la columna **Comentario**. La lista completa se encuentra en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
+   >Se permiten todos los caracteres ASCII comprendidos entre 32 y 126 en la columna **Comentario**. La lista completa se puede encontrar en [esta página](https://en.wikipedia.org/wiki/Wikipedia:ASCII#ASCII_printable_characters){target="_blank"}, por ejemplo.
 
 1. Una vez completada, arrastre y suelte el archivo CSV y, a continuación, haga clic en **[!UICONTROL Enviar]** para confirmar.
 
