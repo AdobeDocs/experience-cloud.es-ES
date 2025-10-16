@@ -4,11 +4,11 @@ description: Cree integraciones y construya su propio ecosistema interconectando
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: ea8b978d8f71942c8d034804ca269957a09a52db
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 48%
@@ -21,7 +21,7 @@ ht-degree: 48%
 >
 >Esta documentación está destinada a los clientes de Adobe Campaign Standard que migran a Campaign v8.
 >
->Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Las API de REST de Campaign están destinadas a permitirle **crear integraciones** para Adobe Campaign y **construir su propio ecosistema** al interconectar Adobe Campaign con el panel de tecnologías que utiliza.
 
@@ -35,11 +35,11 @@ Con las API de REST de Adobe Campaign, puede acceder a las siguientes funcionali
 <td valign="top"><a href="managing-transactional-messages.md"><img width="60px" alt="condiciones" src="assets/icon_transactionalmessage.svg"/></a><p><a href="managing-transactional-messages.md">Mensajes transaccionales</a></p></td>
 </tr></table>
 
-Para utilizar las API de REST de Campaign, necesita una cuenta Adobe I/O. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
+Para utilizar las API de REST de Campaign, necesita una cuenta de Adobe I/O. Este es un primer paso obligatorio para avanzar y descubrir las características de la API.
 Para obtener más información, consulte [esta sección](setting-up-api-access.md).
 
 Las API que proporcionamos utilizan **conceptos estándar** con una interfaz REST y cargas JSON.
 
 En esta documentación se describen detalladamente todos los extremos con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, los ejemplos de código y las guías de inicio rápido. Todos los ejemplos funcionan con Postman, pero no dude en usar su cliente REST favorito.
 
-Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es).
+Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).

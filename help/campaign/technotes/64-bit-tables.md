@@ -1,16 +1,16 @@
 ---
 title: Interfaz de usuario web de Adobe Campaign
 description: Tablas de 64 bits
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: ab5f01fd-4ad5-46e9-b132-011fe0f7bbd2
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 6%
+source-wordcount: '163'
+ht-degree: 7%
 
 ---
 
-# Esquemas de 64 bits {#64-bit-tables}
+# Esquemas de 64 bits {#sixty-four-bit-tables}
 
 Para facilitar la transición de Campaign Standard a Campaign v8, se han cambiado varias tablas de 32 a 64 bits. De hecho, Campaign Standard admite PK de 64 bits en varios esquemas predeterminados, mientras que Campaign v8 admite PK de 32 bits en la mayoría de los esquemas.
 

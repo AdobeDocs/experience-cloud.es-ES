@@ -4,11 +4,11 @@ description: Más información sobre el mecanismo de metadatos.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Mecanismo de metadatos {#metadata-mechanism}
 
-Puede recuperar los metadatos de los recursos mediante **resourceType** en una solicitud de GET:
+Puede recuperar los metadatos de los recursos mediante **resourceType** en una petición GET:
 
 `GET /profileAndServices/resourceType/<resourceName>`
 
@@ -27,7 +27,7 @@ La respuesta devuelve los metadatos principales del recurso (todos los demás ca
 
    * &quot;apiName&quot;: nombre del atributo utilizado en las API.
    * &quot;tipo&quot;: es la definición de tipo de alto nivel (cadena, número, vínculo, colección, enumeración...).
-   * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (por ejemplo, smartCase).
+   * &quot;dataPolicy&quot;: el valor del campo debe seguir las reglas de directiva dadas. Por ejemplo, si la regla dataPolicy se establece en &quot;correo electrónico&quot;, el valor debe ser un correo electrónico válido. Durante un PATCH o un POST, dataPolicy puede comprobar el valor o modificarlo para transformarlo (smartCase por ejemplo).
    * &quot;category&quot;: proporciona la categoría del campo en el editor de consultas.
    * &quot;resType&quot;: es el tipo técnico.
 
@@ -45,7 +45,7 @@ si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
 
 ***Solicitud de muestra***
 
-Realice una solicitud de GET en el recurso.
+Realice una petición GET en el recurso.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \

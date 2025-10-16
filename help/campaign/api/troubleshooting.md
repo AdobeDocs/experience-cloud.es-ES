@@ -1,19 +1,19 @@
 ---
 title: Solución de problemas API
 description: Obtenga más información acerca de problemas comunes relacionados con las API de Campaign Standard
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
-source-git-commit: 84b72258789ba61016deb813e93bdca0ea142712
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '359'
 ht-degree: 0%
 
 ---
 
 # Solución de problemas API {#troubleshooting}
 
-* **Al ir a la consola de Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas de empresa. Si cree que debería tener acceso, comuníquese con el administrador del sistema.&quot;**
+* **Al ir a la consola de Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas empresariales. Si cree que debería tener acceso, comuníquese con el administrador del sistema.&quot;**
 
 Solo puede crear claves API para las organizaciones de las que es administrador. Si se muestra este mensaje, desea crear claves de API y desea preguntar a uno de los administradores de la organización.
 
@@ -73,7 +73,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, recibe {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que está solicitando no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles organization_ids. Debe comprobar que el que elige es el que introduce en la dirección URL.
 

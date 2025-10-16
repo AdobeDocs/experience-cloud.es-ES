@@ -4,11 +4,11 @@ description: Obtenga más información acerca de los verbos utilizados en las AP
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: de97a194-d497-4665-906e-53178fd3b119
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '139'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 ***Solicitudes de muestra***
 
-* Solicitud de GET de muestra en la colección de perfiles.
+* Solicitud GET de ejemplo en la colección de perfiles.
 
 
   ```
@@ -66,7 +66,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud de GET de muestra en un perfil específico.
+* Solicitud de GET de ejemplo en un perfil específico.
 
 
   ```
@@ -92,7 +92,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del POST de muestra para crear un perfil.
+* Ejemplo de solicitud POST para crear un perfil.
 
 
   ```
@@ -116,7 +116,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del PATCH de muestra para actualizar un perfil.
+* Solicitud de PATCH de ejemplo para actualizar un perfil.
 
   ```
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -136,7 +136,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   }
   ```
 
-* Solicitud del DELETE de muestra para eliminar un perfil.
+* Ejemplo de solicitud de DELETE para eliminar un perfil.
 
   ```
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \

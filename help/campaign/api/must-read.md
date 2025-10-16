@@ -4,11 +4,11 @@ description: Debe leerse antes de usar las API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 9e2d1b59-55a5-4715-adfb-35191a9df536
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -21,13 +21,13 @@ ht-degree: 0%
 
 * Las API de Adobe Campaign solo deben utilizarse de servidor a servidor.
 * Consulte siempre con su contacto técnico de Adobe si el caso de uso que desea implementar está alineado con la escala permitida por las API de Adobe Campaign.
-* La configuración de un acceso de AdobeIO requiere permisos específicos; póngase en contacto con el soporte técnico de Adobe para cualquier problema.
+* La configuración de un acceso de AdobeIO requiere permisos específicos; póngase en contacto con el soporte técnico de Adobe si tiene algún problema.
 
 ## Derechos y acceso
 
 * De forma predeterminada, las API de Adobe Campaign utilizan el contexto de administrador y, por lo tanto, las unidades y funciones de la organización no se aplican.
 * Las API de Adobe Campaign se excluyen del contexto de funciones.
-* Si desea configurar las API con una unidad organizativa o funciones, consulte primero con su contacto técnico de Adobe.
+* Si desea configurar las API con una unidad organizativa o funciones, póngase en contacto primero con su contacto técnico de Adobe.
 
 ## Representación de recursos
 
@@ -73,7 +73,7 @@ Use una clave personalizada solo para **recursos de perfil de nivel superior**. 
 
 ***Solicitud de muestra***
 
-GET Para recuperar las suscripciones de un perfil mediante una clave personalizada, realice una operación en la clave personalizada.
+Para recuperar las suscripciones de un perfil mediante una clave personalizada, realice una operación GET en la clave personalizada.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/<customKey> \
@@ -83,7 +83,7 @@ GET Para recuperar las suscripciones de un perfil mediante una clave personaliza
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-Realizar una solicitud de GET en la URL de suscripciones devuelta.
+Realizar una petición GET en la URL de suscripciones devuelta.
 
 ```
 -X GET <SUBSCRIPTION_URL> \

@@ -4,11 +4,11 @@ description: Obtenga más información sobre la administración de recursos pers
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 19bfeecb-da60-479c-a929-0cfb72ef59e3
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 0%
@@ -37,7 +37,7 @@ A continuación, se muestra un ejemplo para recuperar los metadatos de un recurs
 GET /customResources/resourceType/<customResourceName>
 ```
 
-Para realizar una creación, actualización o eliminación, se utilizan el GET, el POST, el PATCH y el DELETE.
+Para realizar una creación, actualización o eliminación, se utilizan GET, POST, PATCH y DELETE.
 
 ```
 POST /customResources/<customResourceName>

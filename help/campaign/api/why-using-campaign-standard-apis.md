@@ -4,11 +4,11 @@ description: Obtenga más información sobre las API de Campaign Standard y por 
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: ef045e5d-cd02-44a0-9a1e-d468483a38d9
-source-git-commit: 6e4e214731b9772014d01dde89b3f80e4c4e93a6
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 1%
@@ -28,7 +28,7 @@ Estos son algunos ejemplos:
   <!--* Event based transactional communication triggering – order confirmation, booking Itinerary, password reset, etc.-->
 * Comunicación por correo electrónico incluso de abandono del carro de compras.
 
-Las páginas de aterrizaje de registro permiten a los clientes o clientes potenciales registrar su nombre y dirección de correo electrónico. Una vez que el Campaign Standard captura la información y las preferencias del perfil, puede enviar mensajes personalizados según los intereses de la persona.
+Las páginas de aterrizaje de registro permiten a los clientes o clientes potenciales registrar su nombre y dirección de correo electrónico. Una vez que Campaign Standard captura la información y las preferencias del perfil, puede enviar mensajes personalizados según los intereses de la persona.
 
 Se crean con los elementos siguientes:
 
@@ -40,13 +40,13 @@ Se crean con los elementos siguientes:
 
    ![texto alternativo](assets/apis_uc2.png)
 
-1. Un perfil puede cambiar sus detalles después de hacer clic en el vínculo &quot;Actualizar detalles&quot; del correo electrónico. Esto lleva el perfil a la página &quot;Actualizar el perfil y los detalles de preferencia&quot;. Para realizar la operación, los detalles del perfil (Pkey) se pasan al servidor de Campaign y el perfil se recupera y representa. Una vez que el perfil hace clic en el botón &quot;Actualizar&quot;, la información se actualiza en el sistema (mediante un comando del PATCH).
+1. Un perfil puede cambiar sus detalles después de hacer clic en el vínculo &quot;Actualizar detalles&quot; del correo electrónico. Esto lleva el perfil a la página &quot;Actualizar el perfil y los detalles de preferencia&quot;. Para realizar la operación, los detalles del perfil (Pkey) se pasan al servidor de Campaign y el perfil se recupera y representa. Una vez que el perfil hace clic en el botón &quot;Actualizar&quot;, la información se actualiza en el sistema (mediante un comando de PATCH).
 
    ![texto alternativo](assets/apis_uc3.png)
 
-Hay una colección de solicitudes disponibles para ayudarle a familiarizarse con las solicitudes de API de Campaign Standard. Esta colección en formato JSON proporciona solicitudes de API prediseñadas que representan casos de uso comunes.
+Hay una colección de solicitudes disponibles para ayudarle a familiarizarse con las solicitudes de la API de Campaign Standard. Esta colección en formato JSON proporciona solicitudes de API prediseñadas que representan casos de uso comunes.
 
-En los pasos siguientes se describe un caso de uso paso a paso para importar y utilizar la colección con el fin de crear un perfil en la base de datos de Campaign Standard.
+En los pasos siguientes se describe un caso de uso paso a paso para importar y utilizar la colección para crear un perfil en la base de datos de Campaign Standard.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ En los pasos siguientes se describe un caso de uso paso a paso para importar y u
 
    ![texto alternativo](assets/postman_collection.png)
 
-1. Seleccione la solicitud **Creando un perfil**, luego actualice la solicitud del POST y la pestaña **Encabezados** con su propia información (&lt;ORGANIZACIÓN>, &lt;API_KEY>, &lt;ACCESS_TOKEN>). Para obtener más información, consulte [esta sección](setting-up-api-access.md).
+1. Seleccione la solicitud **Creando un perfil**, luego actualice la solicitud POST y la pestaña **Encabezados** con su propia información (&lt;ORGANIZACIÓN>, &lt;API_KEY>, &lt;TOKEN_DE_ACCESO>). Para obtener más información, consulte [esta sección](setting-up-api-access.md).
 
    ![texto alternativo](assets/postman_uc1.png)
 

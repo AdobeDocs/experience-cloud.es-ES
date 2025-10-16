@@ -1,11 +1,11 @@
 ---
 title: Realización de suscripciones
 description: Obtenga información sobre cómo realizar suscripciones con API
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 64f321a3-436a-4b7c-99d8-0c006203012e
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## Método 1: Suscripción de un perfil a un servicio
 
-Realice una solicitud de GET para recuperar el perfil.
+Realice una petición GET para recuperar el perfil.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
@@ -40,7 +40,7 @@ Devuelve la URL de suscripciones del perfil.
   }
 ```
 
-Realice una solicitud de POST en la URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
+Realice una petición POST en la URL de suscripciones con la clave principal de servicio deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
@@ -69,7 +69,7 @@ Devuelve el perfil actualizado con el nodo de servicio completado.
 
 ## Método 2: Añadir un perfil a los suscriptores de un servicio
 
-Realice una solicitud de GET para recuperar el servicio.
+Realice una petición GET para recuperar el servicio.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
@@ -93,7 +93,7 @@ Devuelve la URL de suscripciones del servicio.
   },
 ```
 
-Realice una solicitud de POST en la URL de suscripciones con la clave principal del perfil deseada dentro de la carga útil.
+Realice una petición POST en la URL de suscripciones con la clave principal del perfil deseada dentro de la carga útil.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign//profileAndServices/service/<PKEY>/subscriptions/ \

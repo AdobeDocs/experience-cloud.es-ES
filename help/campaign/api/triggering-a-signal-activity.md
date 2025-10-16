@@ -4,11 +4,11 @@ description: Obtenga información sobre cómo almacenar en déclencheur una acti
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 9f94e98f-fe04-4369-8946-1380e02cdece
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 2%
@@ -31,7 +31,7 @@ Para almacenar en déclencheur un flujo de trabajo, siga los pasos a continuaci�
 
    `GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>`
 
-1. Realice una solicitud **POST** en la dirección URL devuelta para almacenar en déclencheur la actividad de señal con el parámetro **&quot;origen&quot;** en la carga. Este atributo es obligatorio, permite indicar el origen de la solicitud que lo activa.
+1. Realice una solicitud **POST** en la dirección URL devuelta para almacenar en déclencheur la actividad de señal con el parámetro **&quot;source&quot;** en la carga. Este atributo es obligatorio, permite indicar el origen de la solicitud que lo activa.
 
 Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga útil con el atributo **&quot;parameters&quot;**. La sintaxis consiste en el nombre del parámetro seguido de su valor (se admiten los siguientes tipos: **string**, **number**, **boolean** y **date/time**).
 
@@ -62,7 +62,7 @@ Si desea llamar al flujo de trabajo con parámetros, agréguelos a la carga úti
 
 ***Solicitud de muestra***
 
-Realice una solicitud de GET en el flujo de trabajo.
+Realice una petición GET en el flujo de trabajo.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID> \
@@ -91,7 +91,7 @@ Devuelve la actividad de señal de flujo de trabajo y la URL de déclencheur aso
 }
 ```
 
-Para almacenar en déclencheur una actividad de señal, realice una solicitud de POST en la dirección URL de déclencheur con la &quot;fuente&quot;. Agregue los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
+Para almacenar en déclencheur una actividad de señal, realice una petición POST en la dirección URL de déclencheur con el &quot;origen&quot;. Agregue los atributos &quot;parameters&quot; si desea llamar al flujo de trabajo con parámetros.
 
 ```
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<PKEY>/activities/activity/<PKEY>/trigger \
@@ -115,7 +115,7 @@ Para almacenar en déclencheur una actividad de señal, realice una solicitud de
 
 <!-- + réponse -->
 
-Si uno de los parámetros no se declara en la actividad Señal externa, la solicitud del POST devuelve el error siguiente, que indica qué parámetro falta.
+Si uno de los parámetros no se declara en la actividad Señal externa, la solicitud POST devuelve el error siguiente, que indica qué parámetro falta.
 
 ```
 RST-360011 An error has occurred - please contact your administrator.

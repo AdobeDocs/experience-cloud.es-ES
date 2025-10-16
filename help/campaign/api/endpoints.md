@@ -4,11 +4,11 @@ description: Obtenga más información acerca de los extremos de las API.
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
-source-git-commit: 14d8cf78192bcad7b89cc70827f5672bd6e07f4a
+source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 9%
@@ -26,8 +26,8 @@ Los extremos disponibles para la API de REST de Adobe Campaign:
 
 De manera predeterminada, los recursos principales disponibles para las API **profileAndServices** y **profileAndServicesExt** son:
 
-* **/profile**: interactúe con los perfiles de la base de datos de Campaign. Para agregar perfiles a un servicio, use el extremo **/service**. Para obtener más información sobre los perfiles de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/es/campaign/standard/audiences/using/about-profiles.html).
-* **/servicio**: administrar servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/es/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interactúe con los perfiles de la base de datos de Campaign. Para agregar perfiles a un servicio, use el extremo **/service**. Para obtener más información sobre los perfiles de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
+* **/servicio**: administrar servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >
