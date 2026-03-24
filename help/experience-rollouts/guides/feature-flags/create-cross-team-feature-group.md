@@ -1,9 +1,9 @@
 ---
 title: Crear un grupo de funciones entre equipos
 description: Obtenga información sobre cómo crear un grupo de funciones entre equipos en los despliegues de Adobe Experience para coordinar los indicadores de funciones en las aplicaciones propiedad de distintos equipos.
-source-git-commit: a1ed4582217001ffcf500cd7b634d9959adbe028
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -34,7 +34,7 @@ Inicie el proceso de creación desde la sección Versiones de la consola:
 Proporcione un título, clave, descripción y, opcionalmente, una etiqueta. Configure las siguientes opciones:
 
 * **Despliegue porcentual**: establezca la cantidad de audiencia que recibe la función.
-* **Tipo de despliegue**: elija manual o automatizado. Consulte [Despliegues automatizados](../automated-rollouts/automated-rollout-concept.md) para obtener más información sobre cómo funcionan los despliegues automatizados.
+* **Tipo de despliegue** — Definir como Manual. El porcentaje se administra paso a paso a medida que progresa el despliegue.
 
 >[!NOTE]
 >
@@ -91,4 +91,3 @@ Consulte [Versiones y grupos de características entre equipos](releases-and-cro
 
 * [Versiones y grupos de funciones entre equipos](releases-and-cross-team-feature-groups.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)
-* [Creación de un despliegue automatizado](../automated-rollouts/create-automated-rollout.md)

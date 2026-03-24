@@ -1,9 +1,9 @@
 ---
 title: API de administración de grupos de funciones
 description: Referencia de la API para la API de administración de grupos de funciones de los despliegues de experiencias, incluidos los puntos finales para obtener, crear, actualizar, eliminar y controlar planes de despliegue para grupos de funciones.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '575'
 ht-degree: 14%
 
 ---
@@ -90,28 +90,6 @@ El cuerpo de la solicitud usa el [objeto de grupo de características](#feature-
 }
 ```
 
-**Muestra — despliegue automatizado:**
-
-```json
-{
-  "params": { "rolloutType": "automated", "label": "my-automated-group", "tags": [] },
-  "status": "SAVED",
-  "type": "group",
-  "name": "my.automated.group",
-  "variations": [{ "variantPercentage": 100, "variantName": "Variant 1", "features": [] }],
-  "phaseRollOutPlan": {
-    "phaseRollOutBlocks": [
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 1, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": false, "phaseRule": null, "waitRule": { "waitDuration": { "val": "2", "unit": "HOURS" } }, "blockId": 2, "blockName": "", "isBlockActivated": false },
-      { "isPhaseBlock": true, "phaseRule": { "audience": [] }, "waitRule": null, "blockId": 3, "blockName": "", "isBlockActivated": false }
-    ],
-    "rollOutPlanState": "DRAFT"
-  },
-  "clients": [],
-  "org": { "id": 95 }
-}
-```
-
 ### Respuesta {#create-response}
 
 | Estado | Descripción |
@@ -136,29 +114,6 @@ Actualiza un grupo de funciones existente. Pase la misma estructura que el cuerp
 | `200` | Correcto. El cuerpo de respuesta es el objeto del grupo de funciones actualizado. |
 | `400` | Carga no válida. |
 | `403` | Permisos insuficientes. |
-
-## Pausar, reanudar o cancelar un plan de despliegue {#pause-resume-abort}
-
-Controla la ejecución de un plan de despliegue de pruebas A/B o automatizadas en curso.
-
-| Acción | Punto de conexión |
-|---|---|
-| **Reanudar** | `POST /m/api/v1/mgmt/phaserollout/resume` |
-| **Pause** | `POST /m/api/v1/mgmt/phaserollout/pause` |
-| **Anular** | `POST /m/api/v1/mgmt/phaserollout/abort` |
-
-### Cuerpo de solicitud {#control-request-body}
-
-```json
-{
-  "entityId": 10282,
-  "fgEntityType": "GROUP"
-}
-```
-
-### Respuesta {#control-response}
-
-Devuelve `true` si se realizó correctamente.
 
 ## Eliminar grupo de funciones {#delete-group}
 
@@ -230,4 +185,3 @@ Cada bloque de `phaseRollOutBlocks` es un **bloque de fase** (`isPhaseBlock: tru
 * [Información general sobre las API de administración de funciones](feature-management-apis-overview.md)
 * [API de administración de indicadores de funcionalidad](feature-flags-management-api.md)
 * [API de parche de administración](management-patch-api.md)
-* [Creación de un despliegue automatizado](../guides/automated-rollouts/create-automated-rollout.md)

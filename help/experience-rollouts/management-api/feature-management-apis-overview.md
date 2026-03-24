@@ -1,9 +1,9 @@
 ---
 title: Información general sobre las API de administración de funciones
 description: Información general sobre las API de administración de despliegues de experiencias, que le permiten crear, leer, actualizar y eliminar indicadores de características, grupos de características y versiones mediante programación.
-source-git-commit: 6ecedbfc6c7de392f214f3f8f2e71aa18e1bacb9
+source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Las API de administración de despliegues de experiencia permiten administrar in
 Las siguientes API de administración están disponibles:
 
 * [API de administración de indicadores de características](feature-flags-management-api.md): cree, lea, actualice y elimine indicadores de características para una aplicación.
-* [API de administración de grupos de funciones](feature-group-management-api.md): cree, lea, actualice, elimine y controle planes de despliegue automatizados para grupos de funciones.
+* [API de administración de grupos de características](feature-group-management-api.md): cree, lea, actualice y elimine grupos de características.
 * [API de administración de versiones](release-management-apis.md): cree y edite grupos de funciones y versiones entre equipos.
 
 ## Requisitos comunes {#common-requirements}
@@ -45,6 +45,5 @@ Las siguientes guías le ayudarán a crear cargas útiles de API correctas:
 
 ## Consulte también {#see-also}
 
-* [API de funciones de GET V3](../feature-api/get-feature-api-v3.md)
-* [API de funciones de GET V2](../feature-api/get-feature-api-v2.md)
+* **GET Feature API V3** y **GET Feature API V2**; consulte la sección Feature API de esta guía para obtener las referencias completas.
 * [Suscripción a la aplicación API](../guides/integrate/subscribe-to-api-application.md)
