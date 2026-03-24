@@ -1,28 +1,40 @@
 ---
 title: Despliegues de Adobe Experience
 description: Aprenda a utilizar los despliegues de Adobe Experience para ofrecer funciones de forma segura y gradual con despliegues controlados, indicadores de funciones y administración de audiencias segmentadas.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
+source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 0%
+source-wordcount: '346'
+ht-degree: 1%
 
 ---
 
-
 # Despliegues de Adobe Experience {#experience-rollouts-home}
 
-Los lanzamientos de Adobe Experience son una plataforma de administración de funciones y de versiones controladas que ayuda a los equipos de productos a ofrecer nuevas funciones de forma segura, gradual y con menos riesgos.
+Los despliegues de experiencia de Adobe permiten a los equipos de productos enviar nuevas funciones de forma gradual y segura, sin reimplementaciones ni tiempo de inactividad. Usted define quién ve qué, cuándo y a qué ritmo. Si algo sale mal, se desactiva la función al instante. Si sale bien, la audiencia se amplía según la programación.
 
-En lugar de habilitar una nueva función para todos a la vez, los Despliegues de experiencias permiten a los equipos de productos:
+## Lo que puede hacer
 
-* **Liberar características gradualmente**: Comience con un pequeño porcentaje de usuarios y luego aumente con el tiempo. Si algo no se comporta como se espera, la función se puede desactivar rápidamente sin tiempo de inactividad o reinstalar el software.
+**Controlar quién ve las nuevas características.** Versiones de Target para usuarios, organizaciones, regiones o atributos personalizados específicos. Comience con un grupo pequeño, valide la experiencia y expanda, todo desde la consola, sin cambios en el código.
 
-* **Funciones de destino para audiencias específicas**: habilite nuevas funciones para grupos seleccionados (por ejemplo, programas beta, determinadas regiones o planes específicos) para que los cambios se puedan validar y refinar antes de que estén disponibles en todo el mundo.
+**Ejecutar experimentos A/B.** Sirva diferentes variantes a diferentes segmentos de su audiencia y mida cuál tiene un mejor rendimiento. Utilice los resultados para tomar decisiones informadas sobre el producto antes de una versión completa.
 
-* **Ejecutar experimentos y pruebas A/B**: Pruebe distintas versiones de una característica (como diseños alternativos, flujos o recomendaciones) y mida cuál funciona mejor, utilizando datos para guiar las decisiones de los productos.
+**Reducir el riesgo de versión.** Divida los cambios grandes en despliegues más pequeños y controlados. Si aparece un error o un problema de rendimiento, deshabilite solo la función afectada; el resto de la aplicación permanecerá estable.
 
-* **Reducir el riesgo de versiones críticas**: Divida los cambios grandes en implementaciones más pequeñas y controladas para que los problemas sean más fáciles de detectar, entender y solucionar antes de que afecten a todos.
+**Coordinar entre equipos.** Los grupos de funciones entre equipos permiten que varios equipos participen en una sola versión coordinada, cada uno de los cuales gestiona sus propios indicadores de funciones a la vez que comparten una programación y una audiencia de despliegue comunes.
 
-* **Responder rápidamente a los problemas**: si aparece un error o un problema de rendimiento, desactive sólo la característica afectada y mantenga estable el resto de la aplicación.
+## Incorpore su primera función
 
-En la práctica, los Despliegues de experiencias ayudan a los usuarios finales a experimentar mejoras más frecuentes con menos interrupciones: las nuevas funciones pueden llegar antes, probarse con más cuidado y ajustarse rápidamente en función de los comentarios del mundo real.
+La obtención de valor de los lanzamientos de experiencias comienza con tres pasos:
+
+1. **Configure su equipo y su aplicación** — [Solicite acceso](guides/console/request-access.md) a la consola y, a continuación, [incorpore su aplicación](guides/applications/onboard-your-application.md) para que los lanzamientos de experiencias sepan qué clientes atender.
+
+2. **Crear y publicar una marca de características** — Siga la guía de [Crear su primera marca de características](guides/feature-flags/create-your-first-feature-flag.md) para definir una marca, establecer su audiencia inicial y publicarla en su entorno.
+
+3. **Integrar con su aplicación**: conecte su aplicación a la API de despliegues de experiencia o a SDK para que pueda recuperar y aplicar indicadores de características durante la ejecución. Comience con los [pasos de integración](guides/integrate/integration-steps.md) para su tipo de aplicación.
+
+Una vez que su primer indicador esté activo, puede refinar su audiencia, configurar un despliegue gradual y promocionarlo a través de [estados de lanzamiento](guides/feature-flags/release-states.md) desde guardado a despliegue completo.
+
+## ¿Necesita ayuda?
+
+Si algo no se comporta como se espera, la [guía de solución de problemas](guides/support/troubleshooting.md) trata los problemas más comunes. Para cualquier otra cosa, [comuníquese con la atención al cliente](guides/support/contact-support.md).
