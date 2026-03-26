@@ -1,17 +1,17 @@
 ---
 title: Asociar entornos a una aplicación
 description: Obtenga información sobre cómo vincular las instancias de aplicaciones entre entornos en los despliegues de Adobe Experience para poder administrar los indicadores de funcionalidades de forma coherente desde el desarrollo hasta la producción.
-source-git-commit: 5c99061a7f2aaaad98190166ea6fd79b7eb26dec
+exl-id: 53080db1-f257-4369-82ab-57c84395a40a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 1%
 
 ---
 
-
 # Asociar entornos a una aplicación {#associate-environments}
 
-La vinculación de las instancias de aplicación entre entornos permite la visibilidad entre entornos y los flujos de trabajo de importación. Debe tener el rol **Administrador** para configurarlo. Consulte [Funciones de usuario](../teams/user-roles.md) si necesita verificar su función.
+La vinculación de las instancias de aplicación entre entornos permite la visibilidad entre entornos y los flujos de trabajo de importación. Debe tener el rol **Administrador** para configurarlo. Póngase en contacto con el administrador del equipo si necesita comprobar o actualizar su función.
 
 Para obtener información general sobre por qué esto resulta útil, consulte [Concepto entre entornos](cross-environment-concept.md).
 

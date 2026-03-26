@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Despliegues de Adobe Experience
 user-guide-description: Aprenda a utilizar los despliegues de Adobe Experience para administrar indicadores de funcionalidades, despliegues controlados y versiones de destino en las aplicaciones.
-source-git-commit: db719ba7b9db91aea818d8ef216a28fcedc6aa65
+source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 5%
+source-wordcount: '291'
+ht-degree: 6%
 
 ---
 
@@ -27,15 +27,8 @@ ht-degree: 5%
 + Guías {#guides}
    + Introducción a la consola {#console}
       + [Inicie sesión en la consola Despliegues de experiencias](guides/console/log-in-to-the-console.md)
-      + [Resumen de los entornos](guides/console/environments-overview.md)
+      + [Seleccione la zona protegida](guides/console/environments-overview.md)
       + [Solicitar acceso](guides/console/request-access.md)
-      + [Equipos y sus administradores](guides/console/teams-and-admins.md)
-      + [Crear un nuevo equipo](guides/console/create-a-new-team.md)
-   + Equipos {#teams}
-      + [Administrar equipos](guides/teams/manage-teams.md)
-      + [Funciones de usuario](guides/teams/user-roles.md)
-      + [Añadir miembros a su equipo](guides/teams/add-team-members.md)
-      + [Preguntas frecuentes sobre administración de equipos](guides/teams/team-management-faq.md)
    + Aplicaciones {#applications}
       + [Administrar aplicaciones](guides/applications/manage-applications.md)
       + [Incorporar la aplicación](guides/applications/onboard-your-application.md)
@@ -49,19 +42,13 @@ ht-degree: 5%
       + [SDK](guides/integrate/sdks.md)
       + [Pasos de integración](guides/integrate/integration-steps.md)
       + [Suscripción a la aplicación API en Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
-   + Indicadores de funciones y versiones {#feature-flags-releases}
-      + [Funciones, grupos de funciones y versiones](guides/feature-flags/features-feature-groups-releases.md)
+   + Indicadores de función {#feature-flags}
+      + [Características y grupos de características](guides/feature-flags/features-feature-groups-releases.md)
       + [Creación de la primera marca de funcionalidad](guides/feature-flags/create-your-first-feature-flag.md)
       + [Configurar una función para que se implemente gradualmente](guides/feature-flags/set-feature-gradual-rollout.md)
       + [Creación de un grupo de funciones](guides/feature-flags/create-a-feature-group.md)
       + [Configuración de un grupo de funciones para su despliegue gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [Pruebas A/B con indicadores de funcionalidades](guides/feature-flags/a-b-testing.md)
-      + [Versiones y grupos de funciones entre equipos](guides/feature-flags/releases-and-cross-team-feature-groups.md)
-      + [Flujo de trabajo de la versión de extremo a extremo](guides/feature-flags/release-workflow-end-to-end.md)
-      + [Solicitar una versión](guides/feature-flags/request-a-release.md)
-      + [Actualizar reglas de audiencia de lanzamiento](guides/feature-flags/update-release-audience-rules.md)
-      + [Estados de versión](guides/feature-flags/release-states.md)
-      + [Crear un grupo de funciones entre equipos](guides/feature-flags/create-cross-team-feature-group.md)
       + [Preguntas frecuentes sobre gestión de versiones](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
       + [Programación](guides/feature-flags/schedule.md)

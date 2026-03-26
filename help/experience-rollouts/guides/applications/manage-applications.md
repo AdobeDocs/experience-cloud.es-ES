@@ -1,13 +1,13 @@
 ---
 title: Administrar aplicaciones
 description: Obtenga información sobre cómo administrar aplicaciones en los despliegues de Adobe Experience, incluida la adición de nuevas aplicaciones y la comprensión de la propiedad del equipo.
-source-git-commit: 53edbee220e7ef17c4a3ea066743192c1e9681f4
+exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
+source-git-commit: 8dc03f77f4e13ac9196df0910b1c00904b57a934
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '167'
 ht-degree: 1%
 
 ---
-
 
 # Administrar aplicaciones {#manage-applications}
 
@@ -28,10 +28,8 @@ Cada aplicación es propiedad de exactamente un equipo. Solo los miembros de ese
 Este modelo de propiedad también afecta a la forma en que se estructuran los grupos de funciones:
 
 * **Dentro de su equipo**: un propietario de la versión del producto puede agrupar indicadores de características en aplicaciones que sean propiedad del mismo equipo. Consulte [Grupos de características para controlar varias características](../../concepts/feature-groups-to-control-multiple-features.md).
-* **En todos los equipos**: si necesita agrupar indicadores de características de aplicaciones propiedad de equipos diferentes, use un grupo de características entre equipos, que requiere el rol **Administrador de características**.
 
 ## Consulte también {#see-also}
 
 * [Incorporar la aplicación](onboard-your-application.md)
 * [Grupos de funciones para controlar varias funciones](../../concepts/feature-groups-to-control-multiple-features.md)
-* [Funciones de usuario](../teams/user-roles.md)

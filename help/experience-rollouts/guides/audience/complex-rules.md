@@ -1,13 +1,13 @@
 ---
 title: Reglas de audiencia complejas
 description: Aprenda a trabajar con conjuntos de reglas de audiencia grandes o complejos en los lanzamientos de Adobe Experience, incluidos los límites de valor masivo y cómo dividir reglas en varias condiciones.
-source-git-commit: 3f3f7145b3c58dc721cbeb850e9e8571e3255bb1
+exl-id: 37e037b6-45eb-4261-b580-30d94d8e55da
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
-
 
 # Reglas de audiencia complejas {#complex-rules}
 
@@ -36,4 +36,3 @@ Es el mismo mecanismo que se utiliza para las reglas de porcentaje en combinaci�
 
 * [Audiencia en indicadores y grupos de características](audience-in-feature-flags-and-feature-groups.md)
 * [Agregar reglas de porcentaje en criterios de audiencia](adding-percentage-rules.md)
-* [Actualizar reglas de audiencia de lanzamiento](../feature-flags/update-release-audience-rules.md)

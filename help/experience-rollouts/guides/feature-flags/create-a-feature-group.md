@@ -1,13 +1,13 @@
 ---
 title: Creación de un grupo de funciones
 description: Obtenga información sobre cómo crear un grupo de funciones en los lanzamientos de Adobe Experience para administrar varios indicadores de funciones en las aplicaciones de su equipo como una sola unidad.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
-
 
 # Creación de un grupo de funciones {#create-feature-group}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Antes de crear un grupo de funciones, complete lo siguiente:
 
 * Tiene acceso a la consola Despliegues de experiencias. Consulte [Iniciar sesión en la consola](../console/log-in-to-the-console.md)
-* Pertenece a un equipo; consulte [Administrar equipos](../teams/manage-teams.md)
 * Su aplicación está integrada. Consulte [Incorporar su aplicación](../applications/onboard-your-application.md)
-* Tiene la función **Desarrollador** o **Propietario de la versión del producto**; consulte [Funciones de usuario](../teams/user-roles.md)
+* Tiene la función **Desarrollador** o **Propietario de la versión del producto**
 * Ha creado las marcas de características que desea agregar al grupo. Consulte [Crear su primera marca de características](create-your-first-feature-flag.md)
 
 Para obtener una introducción a los grupos de características, vea [Grupos de características para controlar varias características](../../concepts/feature-groups-to-control-multiple-features.md).

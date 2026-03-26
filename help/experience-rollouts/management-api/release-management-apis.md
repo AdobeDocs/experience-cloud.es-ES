@@ -1,13 +1,13 @@
 ---
 title: API de administración de versiones
 description: Referencia de la API para las API de administración de versiones de los despliegues de experiencia, incluidos los puntos de conexión para obtener, crear y editar versiones y grupos de funciones entre equipos.
-source-git-commit: 8a92b7a3e8c52da8bb2474f52c831e159420b878
+exl-id: e8d1d025-0645-4cf2-921f-d94c9f71282d
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '490'
 ht-degree: 13%
 
 ---
-
 
 # API de administración de versiones {#release-management-apis}
 
@@ -146,4 +146,3 @@ Actualiza una versión existente o un grupo de funciones entre equipos. Pase el 
 * [Información general sobre las API de administración de funciones](feature-management-apis-overview.md)
 * [API de administración de indicadores de funcionalidad](feature-flags-management-api.md)
 * [API de administración de grupos de funciones](feature-group-management-api.md)
-* [Crear un grupo de funciones entre equipos](../guides/feature-flags/create-cross-team-feature-group.md)

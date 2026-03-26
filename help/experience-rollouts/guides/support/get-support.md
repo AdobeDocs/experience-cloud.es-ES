@@ -1,13 +1,13 @@
 ---
 title: Obtener asistencia técnica
 description: Descubra cómo obtener ayuda con los lanzamientos de Adobe Experience, incluidos los recursos de autoservicio, y cómo enviar una solicitud de asistencia cuando necesite ayuda.
-source-git-commit: d824d85c6701edc9be314713bb8e9624b183e2d2
+exl-id: f4ba9c00-941b-4c33-b42f-087113d58b0d
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '188'
 ht-degree: 1%
 
 ---
-
 
 # Obtener asistencia técnica {#get-support}
 
@@ -19,8 +19,7 @@ Antes de enviar una solicitud de asistencia, pruebe estas opciones de autoservic
 
 * **Buscar en esta documentación**: use la función de búsqueda para buscar guías, explicaciones de conceptos y contenido explicativo.
 * **Usar el área de trabajo de características** — Diagnosticar problemas de evaluación de indicadores de características para usuarios específicos sin escribir código. Consulte [Solución de problemas](troubleshooting.md) para obtener instrucciones.
-* **Comprobar estados de versión**: confirme que la función se encuentra en el estado correcto para la audiencia a la que va dirigida. Consulte [Estados de la versión](../feature-flags/release-states.md).
-* **Verificar reglas de audiencia**: revise los criterios de audiencia y la configuración de porcentaje para la función. Ver [Actualizar reglas de audiencia de la versión](../feature-flags/update-release-audience-rules.md).
+* **Verificar el estado de la marca de características**: confirme que la marca de características se ha publicado y que las reglas de audiencia están correctamente configuradas.
 
 ## Enviar una solicitud de asistencia {#submit-request}
 

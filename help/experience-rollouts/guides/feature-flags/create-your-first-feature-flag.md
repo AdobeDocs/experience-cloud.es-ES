@@ -1,13 +1,13 @@
 ---
 title: Creación de la primera marca de funcionalidad
 description: Obtenga información sobre cómo crear un indicador de funciones en los despliegues de Adobe Experience, establecer una audiencia y probarlo antes de desplegarlo a los usuarios.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: ae115120-8da9-465e-a556-c17591ea7054
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
-
 
 # Creación de la primera marca de funcionalidad {#create-feature-flag}
 
@@ -16,9 +16,8 @@ ht-degree: 0%
 Antes de crear un indicador de funcionalidad, complete lo siguiente:
 
 * Tiene acceso a la consola Despliegues de experiencias. Consulte [Iniciar sesión en la consola](../console/log-in-to-the-console.md)
-* Pertenece a un equipo; consulte [Administrar equipos](../teams/manage-teams.md)
 * Su aplicación está integrada. Consulte [Incorporar su aplicación](../applications/onboard-your-application.md)
-* Tiene la función **Desarrollador** o **Propietario de la versión del producto**; consulte [Funciones de usuario](../teams/user-roles.md)
+* Tiene la función **Desarrollador** o **Propietario de la versión del producto**
 
 ## Paso 1: Crear el indicador de funcionalidad {#create}
 
@@ -61,4 +60,3 @@ El rol **Desarrollador** se encuentra en una zona protegida. Los desarrolladores
 
 * [Configurar una función para que se implemente gradualmente](set-feature-gradual-rollout.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)
-* [Funciones de usuario](../teams/user-roles.md)

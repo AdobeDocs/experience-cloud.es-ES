@@ -2,9 +2,9 @@
 title: Despliegues de Adobe Experience
 description: Aprenda a utilizar los despliegues de Adobe Experience para ofrecer funciones de forma segura y gradual con despliegues controlados, indicadores de funciones y administración de audiencias segmentadas.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 65effd7e3b12404359e3693820bbf9e5080bea03
+source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '343'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ La obtención de valor de los lanzamientos de experiencias comienza con tres pas
 
 3. **Integrar con su aplicación**: conecte su aplicación a la API de despliegues de experiencia o a SDK para que pueda recuperar y aplicar indicadores de características durante la ejecución. Comience con los [pasos de integración](guides/integrate/integration-steps.md) para su tipo de aplicación.
 
-Una vez que su primer indicador esté activo, puede refinar su audiencia, configurar un despliegue gradual y promocionarlo a través de [estados de lanzamiento](guides/feature-flags/release-states.md) desde guardado a despliegue completo.
+Una vez que la primera marca esté activa, puede refinar su audiencia, configurar un despliegue gradual y promocionarla de guardada a despliegue completo.
 
 ## ¿Necesita ayuda?
 

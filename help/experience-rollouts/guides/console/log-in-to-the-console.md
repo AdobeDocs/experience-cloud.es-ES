@@ -1,13 +1,13 @@
 ---
 title: Inicie sesión en la consola Despliegues de experiencias
 description: Obtenga información sobre cómo empezar a usar los lanzamientos de Adobe Experience Cloud buscando a su equipo, solicitando acceso e iniciando sesión en la consola.
-source-git-commit: a7ff5bf33bd8e8c5ff89848955bf6af33b0d6c21
+exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
-
 
 # Inicie sesión en la consola Despliegues de experiencias {#log-in}
 
@@ -17,7 +17,7 @@ Para empezar a usar los despliegues de experiencias, hay que seguir tres pasos: 
 
 Los despliegues de experiencias están organizados en torno a **equipos**. Cada equipo posee una o más aplicaciones y administra los indicadores de características de dichas aplicaciones. Para poder iniciar sesión, debe pertenecer a un equipo.
 
-Consulte con el jefe de producto o de ingeniería si ya existe un equipo para el proyecto. Si es así, pídale al administrador del equipo que le agregue con la [función de usuario](../teams/user-roles.md) correcta. Si todavía no existe ningún equipo, siga los pasos de [Crear un nuevo equipo](create-a-new-team.md).
+Consulte con el jefe de producto o de ingeniería si ya existe un equipo para el proyecto. Si es así, pídale al administrador del equipo que le añada la función de usuario correcta. Si aún no existe ningún equipo, póngase en contacto con el administrador de despliegues de experiencias de su organización.
 
 ## Solicitar acceso {#request-access}
 
@@ -31,7 +31,7 @@ Una vez concedido el acceso:
 
 1. Vaya a [https://experience.adobe.com/](https://experience.adobe.com/) e inicie sesión con sus credenciales de organización.
 2. Seleccione **Despliegues de experiencias** del conmutador de aplicaciones.
-3. Seleccione el entorno adecuado: **Fase** para pruebas, **Producción** para despliegues activos. Consulte [Resumen de entornos](environments-overview.md) para obtener más información.
+3. Seleccione la zona protegida correcta. Consulte [Seleccione su zona protegida](environments-overview.md) para obtener más información.
 
 ## Primeros pasos después de iniciar sesión {#first-steps}
 
@@ -43,4 +43,4 @@ Después de iniciar sesión, compruebe que la aplicación aparece en la consola.
 |---|---|
 | **Equipo** | Grupo autoadministrado que posee aplicaciones y administra indicadores de características. Los equipos tienen una estructura plana con diferentes funciones de usuario y niveles de permisos. |
 | **Aplicación** | La aplicación que desea controlar con indicadores de características. Cada aplicación es propiedad de un equipo. |
-| **Indicador de característica/Grupo de características/Versión** | Los artefactos creados en los Despliegues de experiencias para la prueba de funciones y la administración de versiones. |
+| **Indicador de característica/Grupo de características** | Los artefactos creados en Despliegues de experiencias para pruebas de funciones y despliegues controlados. |

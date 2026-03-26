@@ -1,17 +1,17 @@
 ---
 title: Incorporar la aplicación
 description: Obtenga información sobre cómo incorporar una nueva aplicación a los despliegues de Adobe Experience para que su equipo pueda empezar a crear y administrar indicadores de funcionalidades.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
+source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
 
-
 # Incorporar la aplicación {#onboard-your-application}
 
-Debe tener el rol **Administrador** para agregar una aplicación nueva. Consulte [Funciones de usuario](../teams/user-roles.md) si necesita verificar la función o solicitarla al administrador del equipo.
+Debe tener el rol **Administrador** para agregar una aplicación nueva. Póngase en contacto con el administrador del equipo si necesita comprobar o actualizar su función.
 
 ## Agregar nueva aplicación {#add-application}
 
@@ -45,5 +45,4 @@ Una vez integrada la aplicación, el equipo puede empezar a crear indicadores de
 ## Consulte también {#see-also}
 
 * [Administrar aplicaciones](manage-applications.md)
-* [Funciones de usuario](../teams/user-roles.md)
 * [Inicie sesión en la consola de](../console/log-in-to-the-console.md)
