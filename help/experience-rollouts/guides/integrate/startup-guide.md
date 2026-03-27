@@ -1,13 +1,13 @@
 ---
 title: Guía de inicio
 description: Siga estos pasos para integrar su aplicación con los despliegues de Adobe Experience, desde solicitar acceso a crear su primer indicador de funcionalidad.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '286'
 ht-degree: 1%
 
 ---
-
 
 # Guía de inicio {#startup-guide}
 
@@ -29,21 +29,17 @@ Antes de la incorporación, prepare lo siguiente:
 | **Clientes del lado del servidor** | Si se integra con un SDK del lado del servidor, necesita un ID de cliente de administración con los permisos adecuados. |
 | **Clientes de escritorio** | Se puede utilizar un código de producto y una versión de producto en lugar de un ID de cliente. |
 
-## Paso 3: Suscripción a la API de despliegues de experiencia {#step-3-subscribe}
+## Paso 3: Consiga sus credenciales {#step-3-credentials}
 
-Suscríbase a la API de despliegues de experiencia a través de Adobe Developer Console para que su aplicación pueda llamar a los extremos de los indicadores de funcionalidades. Ver [Suscribirse a la aplicación API en Adobe Developer Console](subscribe-to-api-application.md).
+Si está realizando la integración mediante un SDK del lado del servidor, necesita un ID de cliente de token de servicio. Póngase en contacto con la asistencia de despliegues de experiencia para que su ID de cliente esté incluido en la lista de permitidos antes de poder realizar llamadas de API desde SDK.
 
->[!NOTE]
->
->Si está realizando la integración mediante un SDK del lado del servidor, necesita un ID de cliente de token de servicio. Póngase en contacto con el servicio de asistencia de Despliegues de experiencias para que su ID de cliente esté incluido en la lista de permitidos.
-
-## Paso 4: Integración con una SDK o la API {#step-4-integrate}
+## Paso 4: Integración con un SDK {#step-4-integrate}
 
 Siga los [pasos de integración](integration-steps.md) para su tipo de aplicación. Elija la ruta que se ajuste a la pila:
 
 * **Servicios web** → Java SDK o Node.js SDK
-* **Aplicaciones web y móviles** → API de funciones V3
-* **Aplicaciones de escritorio** → API de característica V2
+* **Aplicaciones web y móviles** → Web SDK o SDK móvil (próximamente)
+* **Aplicaciones de escritorio** → SDK (próximamente)
 
 ## Paso 5: Crear y probar el primer indicador de funcionalidad {#step-5-feature-flag}
 

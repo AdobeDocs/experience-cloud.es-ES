@@ -1,13 +1,13 @@
 ---
 title: Guía de integración de SDK de Node.js
 description: Obtenga información sobre cómo integrar los despliegues de experiencia de SDK de Node.js en su servicio back-end para recuperar y evaluar indicadores de funcionalidades.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+exl-id: 063829fe-6933-45ff-add4-285ca7391778
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
-
 
 # Guía de integración de SDK de Node.js {#nodejs-sdk-integration-guide}
 
@@ -15,14 +15,14 @@ La biblioteca de despliegues de experiencia Node.js de SDK es una biblioteca del
 
 >[!NOTE]
 >
->El SDK de Node.js está diseñado para utilizarse únicamente en el lado del servidor. Para aplicaciones web del lado del cliente, llame directamente al extremo REST de la API de funciones V3.
+>El SDK de Node.js está diseñado para utilizarse únicamente en el lado del servidor. Para las aplicaciones web del lado del cliente, utilice el SDK web. La documentación de Web SDK se está preparando actualmente y estará disponible próximamente.
 
 ## Requisitos previos {#prerequisites}
 
 Antes de integrar el SDK de Node.js, asegúrese de lo siguiente:
 
 * Una aplicación del lado del servidor de Node.js
-* Una **clave de API** y **token de servicio** obtenidos a través de Adobe Developer Console; consulte [Suscribirse a la aplicación de API](../../integrate/subscribe-to-api-application.md)
+* Una **clave de API** y un **token de servicio** obtenidos a través de Adobe Developer Console. Póngase en contacto con el servicio de asistencia técnica de los lanzamientos de experiencias para que se incluida en la lista de permitidos su ID de cliente.
 * Sus **ID de cliente de aplicaciones** se registraron en la consola de despliegues de experiencias; consulte [Incorporar su aplicación](../../applications/onboard-your-application.md)
 
 ## Instalación de SDK {#install}
@@ -160,5 +160,4 @@ floodgateClient.createInstance(
 
 * [Notas de la versión de SDK de Node.js](nodejs-sdk-release-notes.md)
 * [SDK](../../integrate/sdks.md)
-* [Suscripción a la aplicación API](../../integrate/subscribe-to-api-application.md)
 * [Pasos de integración](../../integrate/integration-steps.md)

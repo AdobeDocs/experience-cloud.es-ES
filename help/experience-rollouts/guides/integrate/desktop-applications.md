@@ -1,31 +1,25 @@
 ---
 title: Aplicaciones de escritorio
-description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en una aplicación de escritorio mediante la API de funciones V2.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en una aplicación de escritorio mediante SDK.
+exl-id: e26c8af8-893a-43f4-905c-7292cc887900
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 1%
+source-wordcount: '73'
+ht-degree: 2%
 
 ---
 
-
 # Aplicaciones de escritorio {#desktop-applications}
 
-Las aplicaciones de escritorio se integran con los despliegues de experiencias realizando llamadas directas a la API de REST. Use la **API de características V2** para clientes de escritorio.
+Las aplicaciones de escritorio se integran con los despliegues de experiencias a través de SDK. Póngase en contacto con su representante de Adobe para obtener instrucciones de integración específicas para su pila de escritorio.
 
-Consulte **GET Feature API V2** en la sección Feature API de esta guía para obtener la referencia completa de la API.
-
-## Requisitos de integración {#requirements}
-
-Los clientes de escritorio deben:
-
-* **Respete el valor TTL** devuelto en la respuesta de la API. El TTL define cuánto tiempo el cliente debe almacenar en caché los datos de indicadores de funciones antes de volver a llamar a la API. Implemente un caso de prueba que valide este comportamiento para asegurarse de que las versiones de aplicaciones anteriores entren en hibernación correctamente cuando no se proporcionen indicadores de características.
-* **Controlar correctamente los escenarios de error HTTP**. Compile un conjunto de características de reserva para que la aplicación siga funcionando si la API no está disponible temporalmente.
-* **Mantenga un plan de prueba de integración detallado** que cubre los requisitos de TTL y de gestión de errores anteriores.
+>[!NOTE]
+>
+>La documentación de Desktop SDK se está preparando actualmente y estará disponible próximamente.
 
 ## ID de aplicación {#app-id}
 
-Los clientes de escritorio pueden usar un **código de producto y una versión de producto** como identificador de aplicación al llamar a la API, en lugar de un identificador de cliente estándar.
+Los clientes de escritorio pueden usar un **código de producto y una versión del producto** como identificador de la aplicación.
 
 ## Consulte también {#see-also}
 

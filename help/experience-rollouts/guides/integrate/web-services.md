@@ -1,13 +1,13 @@
 ---
 title: Servicios web
 description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en un servicio web back-end mediante Java o Node.js SDK.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 9%
+source-wordcount: '97'
+ht-degree: 12%
 
 ---
-
 
 # Servicios web {#web-services}
 
@@ -22,11 +22,7 @@ Los servicios back-end se integran con los despliegues de experiencias mediante 
 
 ## Otros idiomas {#other-languages}
 
-Si el servicio back-end utiliza un idioma no enumerado anteriormente, puede integrarlo directamente con la API de REST:
-
-* API de funciones V3: consulte la sección API de funciones de esta guía para obtener la referencia completa
-
-Póngase en contacto con el servicio de asistencia de Despliegues de experiencias si necesita orientación sobre la integración con una pila no compatible.
+Si el servicio back-end utiliza un idioma no enumerado anteriormente, póngase en contacto con el servicio de asistencia de despliegues de experiencias para obtener instrucciones sobre la integración con su pila específica.
 
 ## Consulte también {#see-also}
 

@@ -1,13 +1,13 @@
 ---
 title: SDK
 description: Obtenga información acerca de la arquitectura de SDK en los Despliegues de Adobe Experience y los SDK disponibles para Java y Node.js.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+exl-id: 110a440d-b52a-4e1e-a94f-86f9741a223a
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '312'
 ht-degree: 2%
 
 ---
-
 
 # SDK {#sdks}
 
@@ -48,15 +48,6 @@ Consulte la [Guía de integración de Java SDK](../sdk-releases/java/java-sdk-in
 La SDK de Node.js se distribuye mediante npm.
 
 Consulte la [Guía de integración de SDK de Node.js](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) para obtener instrucciones de configuración.
-
-## Elección entre SDK y la API de REST {#sdk-vs-api}
-
-| Situación | Recomendación |
-|---|---|
-| Servicio back-end Java o Node.js | Utilice la SDK adecuada para el almacenamiento en caché automático y la integración simplificada |
-| Otro idioma back-end | Utilice directamente la API de funciones V3 (consulte la sección API de funciones de esta guía) |
-| Aplicación web o móvil | Utilice directamente la API de funciones V3 (consulte la sección API de funciones de esta guía) |
-| Aplicación de escritorio | Utilice directamente la API de funciones V2 (consulte la sección API de funciones de esta guía) |
 
 ## Consulte también {#see-also}
 

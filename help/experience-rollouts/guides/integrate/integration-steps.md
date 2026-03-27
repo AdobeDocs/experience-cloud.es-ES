@@ -1,13 +1,13 @@
 ---
 title: Pasos de integración
-description: Siga los pasos de integración del tipo de aplicación para conectar los despliegues de Adobe Experience a su servicio web, aplicación web o móvil o aplicación de escritorio.
-source-git-commit: b82520eebe0070b5f76e0f7daeb2bb79a4bccca0
+description: Siga los pasos de integración del tipo de aplicación para conectar los despliegues de Adobe Experience a su servicio web, aplicación web o móvil o aplicación de escritorio mediante los SDK disponibles.
+exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 3%
+source-wordcount: '175'
+ht-degree: 4%
 
 ---
-
 
 # Pasos de integración {#integration-steps}
 
@@ -27,23 +27,23 @@ Siga la [guía de integración de SDK de Node.js](../sdk-releases/nodejs/nodejs-
 
 **Otros idiomas**
 
-Si la pila no aparece en la lista anterior, integre directamente con la **API de características V3** (consulte la sección API de características de esta guía). Póngase en contacto con el servicio de asistencia de Despliegues de experiencias si necesita ayuda.
+Póngase en contacto con el servicio de asistencia de Despliegues de experiencias para obtener instrucciones sobre su pila específica.
 
 ## Aplicaciones web y móviles {#web-mobile}
 
-Las aplicaciones web y móviles llaman a la **API de características V3** para recuperar los indicadores de características del usuario actual y aplicar lógica condicional en la aplicación.
+Las aplicaciones web y móviles se integran mediante la web de SDK y la SDK móvil respectivamente.
 
-Consulte **API de características de GET V3** en la sección API de características de esta guía para obtener la referencia completa de la API.
+>[!NOTE]
+>
+>La documentación de Web SDK y Mobile SDK se está preparando actualmente y estará disponible próximamente. Póngase en contacto con su representante de Adobe para obtener ayuda sobre el acceso anticipado.
 
 ## Aplicaciones de escritorio {#desktop}
 
-Las aplicaciones de escritorio llaman a la **API de características V2** para recuperar los indicadores de características.
+Las aplicaciones de escritorio se integran mediante SDK. Póngase en contacto con su representante de Adobe para obtener instrucciones de integración específicas para su pila de escritorio.
 
-Consulte **GET Feature API V2** en la sección Feature API de esta guía para obtener la referencia completa de la API.
-
->[!IMPORTANT]
+>[!NOTE]
 >
->Los clientes de escritorio deben respetar el valor TTL en la respuesta de API e implementar la gestión de errores correcta para la no disponibilidad de la API. Consulte [Aplicaciones de escritorio](desktop-applications.md) para conocer los requisitos.
+>La documentación de Desktop SDK se está preparando actualmente y estará disponible próximamente.
 
 ## Consulte también {#see-also}
 

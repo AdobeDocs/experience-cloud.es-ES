@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Despliegues de Adobe Experience
 user-guide-description: Aprenda a utilizar los despliegues de Adobe Experience para administrar indicadores de funcionalidades, despliegues controlados y versiones de destino en las aplicaciones.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 6%
+source-wordcount: '242'
+ht-degree: 8%
 
 ---
 
@@ -41,7 +41,6 @@ ht-degree: 6%
       + [Servicios web](guides/integrate/web-services.md)
       + [SDK](guides/integrate/sdks.md)
       + [Pasos de integración](guides/integrate/integration-steps.md)
-      + [Suscripción a la aplicación API en Adobe Developer Console](guides/integrate/subscribe-to-api-application.md)
    + Indicadores de función {#feature-flags}
       + [Características y grupos de características](guides/feature-flags/features-feature-groups-releases.md)
       + [Creación de la primera marca de funcionalidad](guides/feature-flags/create-your-first-feature-flag.md)
@@ -76,14 +75,3 @@ ht-degree: 6%
          + [Guía de integración de SDK de Node.js](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
          + [Notas de la versión de SDK de Node.js](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
       + [pruebas comparativas de SDK](guides/sdk-releases/java-sdk-benchmarking.md)
-+ API de funciones {#feature-api}
-   + [API de funciones de GET V3](feature-api/get-feature-api-v3.md)
-   + [API de funciones de GET V2](feature-api/get-feature-api-v2.md)
-+ API de administración {#management-api}
-   + [Información general sobre las API de administración de funciones](management-api/feature-management-apis-overview.md)
-   + [API de administración de indicadores de funcionalidad](management-api/feature-flags-management-api.md)
-   + [API de administración de grupos de funciones](management-api/feature-group-management-api.md)
-   + [API de administración de versiones](management-api/release-management-apis.md)
-   + [Obtener el ID de cliente de una aplicación](management-api/get-client-id.md)
-   + [Obtener los criterios de audiencia deseados](management-api/get-audience-criteria.md)
-   + [API de parche de administración](management-api/management-patch-api.md)
