@@ -9,9 +9,9 @@ level: Experienced
 mini-toc-levels: 1
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 1%
 
 ---
@@ -106,7 +106,7 @@ La sección siguiente enumera diferencias menores entre las respuestas de Campai
 
 La sección siguiente enumera las diferencias entre los códigos de error y los mensajes de Campaign Standard y Campaign v8.
 
-| Escenario | Campaign Standard | Versión 8 de Campaign |
+| Situación | Campaign Standard | Versión 8 de Campaign |
 |  ---  |  ---  |  ---  |
 | Usar una clave principal no válida en el cuerpo de la solicitud | 500: atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) |
 | Usar una clave principal no válida en el URI | 500: atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) Extremo no compatible. (extremo=rest/profileAndServices/profile/@jksad) |
@@ -129,10 +129,12 @@ La API de GET de flujo de trabajo de Campaign Standard devuelve nombres de pará
 
 Campaign v8 no admite variables de instancia de flujo de trabajo de publicidad, pero espera que los desarrolladores sepan cuáles son. Como tal, después de la migración, la información de parámetros en el cuerpo de la solicitud de POST deberá construirse sin la disponibilidad de la información de parámetros en la respuesta de la API de GET.
 
-<!--## Transactional messages
+<!--
+## Transactional messages
 
 * With Campaign Standard, a POST request returns empty fields for elements and attributes in the request body. With Campaign v8, the response returns values that match the ones in the request body instead.
 
 * When publishing an event configuration, the API preview panel displays the REST URL alongside the request body syntax.
 
-    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.-->
+    Since Campaign v8 does not support event configuration fields definition (event creation is just adding a value to eventType enumeration), there is no API preview panel when adding an event type. The REST URL is displayed  in the transactional message user interface once an event transactional message is published.
+-->

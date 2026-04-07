@@ -4,9 +4,9 @@ description: Obtenga más información acerca de problemas comunes relacionados 
 role: Developer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Algo ha salido mal. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que está solicitando no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles organization_ids. Debe comprobar que el que elige es el que introduce en la dirección URL.
 
@@ -85,7 +85,8 @@ Su token no es válido (se ha utilizado una llamada IMS incorrecta para generar 
 
 Según la configuración de la instancia, el perfil creado debe asociarse a una **orgUnit**. Para saber cómo agregar este campo en su creación, consulte [esta sección](creating-profiles-api.md).
 
-<!-- * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
+<!-- 
+* (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)
 
 With Curl
 List all profiles

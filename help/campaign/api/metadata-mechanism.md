@@ -8,7 +8,7 @@ role: Developer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 58ec0999-b28a-4198-8d57-729b074c6a6d
-source-git-commit: 11c49b273164b632bcffb7de01890c6f9d7ae9c2
+source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 1%
@@ -37,8 +37,10 @@ Si &quot;type&quot; se completa con el valor &quot;enumeration&quot;, se agrega 
 * El nodo **Filters** devuelve la URL para recuperar los filtros asociados. Para obtener más información sobre los filtros, consulte [esta sección](filtering.md).
 
 <!-- créer une section au même niveau sur les liens -->
-<!-- dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
-si on prend l'exemple de l'org unit, on aura un bon exemple lien -->
+<!-- 
+dans l'exemple: birthdate, email +  mettre 2 liens : un de type 1-1 , 1-N
+si on prend l'exemple de l'org unit, on aura un bon exemple lien 
+-->
 <!-- plus reparler du node Data -->
 
 <br/>
