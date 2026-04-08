@@ -1,13 +1,13 @@
 ---
 title: Grupos de funciones para controlar varias funciones
 description: Descubra cómo los grupos de funciones en los Despliegues de experiencias le permiten agrupar y administrar indicadores de funciones relacionados en todas las aplicaciones como una sola unidad.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 1%
+source-wordcount: '174'
+ht-degree: 0%
 
 ---
-
 
 # Grupos de funciones para controlar varias funciones {#feature-groups}
 
@@ -21,14 +21,5 @@ Por ejemplo, considere una función de colaboración que implique cambios en una
 
 ## Agrupación entre aplicaciones {#cross-application}
 
-Los grupos de características admiten la administración de características entre aplicaciones siempre que los indicadores pertenezcan al **mismo equipo** en los despliegues de experiencias. Un equipo puede ser propietario de varias aplicaciones, por lo que los indicadores relacionados de esas aplicaciones se pueden agrupar.
+Los grupos de funciones admiten la administración de funciones entre aplicaciones. Los indicadores relacionados de varias aplicaciones se pueden agrupar.
 
-## Grupos de funciones frente a versiones {#vs-releases}
-
-| | Grupo de funciones | Versión |
-|---|---|---|
-| Ámbito | Dentro de un solo equipo | En varios equipos |
-| Ejemplo de uso | Coordinación de indicadores dentro del equipo | Coordinación del lanzamiento de equipos grandes y múltiples |
-| Privilegios necesarios | Nivel de equipo | Superior (administrador de versiones) |
-
-Si los indicadores de características que desea agrupar pertenecen a aplicaciones propiedad de equipos diferentes, use una [versión](release-management.md) en lugar de un grupo de características.

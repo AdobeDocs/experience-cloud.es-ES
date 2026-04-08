@@ -2,10 +2,10 @@
 title: Servicios web
 description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en un servicio web back-end mediante Java o Node.js SDK.
 exl-id: 2e73fc30-93d4-46dc-8855-950dd1b15064
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 12%
+source-wordcount: '85'
+ht-degree: 10%
 
 ---
 
@@ -15,14 +15,13 @@ Los servicios back-end se integran con los despliegues de experiencias mediante 
 
 ## SDK disponibles {#available-sdks}
 
-| Idioma | Guía de integración | Notas de la versión |
-|---|---|---|
-| **Java** | [Guía de integración de Java SDK](../sdk-releases/java/java-sdk-integration-guide.md) | [Notas de la versión de Java SDK](../sdk-releases/java/java-sdk-release-notes.md) |
-| **Nodo.js** | [Guía de integración de SDK de Node.js](../sdk-releases/nodejs/nodejs-sdk-integration-guide.md) | [Notas de la versión de SDK de Node.js](../sdk-releases/nodejs/nodejs-sdk-release-notes.md) |
+>[!NOTE]
+>
+>La documentación de SDK del lado del servidor se está preparando actualmente y estará disponible próximamente. Póngase en contacto con su representante de Adobe para obtener ayuda sobre el acceso anticipado.
 
 ## Otros idiomas {#other-languages}
 
-Si el servicio back-end utiliza un idioma no enumerado anteriormente, póngase en contacto con el servicio de asistencia de despliegues de experiencias para obtener instrucciones sobre la integración con su pila específica.
+Póngase en contacto con el servicio de asistencia de Despliegues de experiencias para obtener instrucciones sobre cómo integrar con su pila específica.
 
 ## Consulte también {#see-also}
 

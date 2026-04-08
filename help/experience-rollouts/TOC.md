@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Despliegues de Adobe Experience
 user-guide-description: Aprenda a utilizar los despliegues de Adobe Experience para administrar indicadores de funcionalidades, despliegues controlados y versiones de destino en las aplicaciones.
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '180'
 ht-degree: 8%
 
 ---
@@ -21,8 +21,6 @@ ht-degree: 8%
    + [¿Qué es un indicador de funcionalidad?](concepts/what-is-a-feature-flag.md)
    + [Indicadores de características para habilitar y deshabilitar características](concepts/feature-flags-to-enable-disable-features.md)
    + [Grupos de funciones para controlar varias funciones](concepts/feature-groups-to-control-multiple-features.md)
-   + [Concepto de administración de versiones](concepts/concept-of-release-management.md)
-   + [Administración de versiones en despliegues de experiencias](concepts/release-management.md)
    + [Despliegue gradual](concepts/gradual-rollout.md)
 + Guías {#guides}
    + Introducción a la consola {#console}
@@ -48,30 +46,14 @@ ht-degree: 8%
       + [Creación de un grupo de funciones](guides/feature-flags/create-a-feature-group.md)
       + [Configuración de un grupo de funciones para su despliegue gradual](guides/feature-flags/set-feature-group-gradual-rollout.md)
       + [Pruebas A/B con indicadores de funcionalidades](guides/feature-flags/a-b-testing.md)
-      + [Preguntas frecuentes sobre gestión de versiones](guides/feature-flags/release-management-faqs.md)
       + [Analytics](guides/feature-flags/analytics.md)
-      + [Programación](guides/feature-flags/schedule.md)
    + Criterios de audiencia {#audience}
       + [Audiencia en indicadores y grupos de características](guides/audience/audience-in-feature-flags-and-feature-groups.md)
       + [Uso del contexto en las reglas de audiencia](guides/audience/using-context-in-audience-rules.md)
       + [Reglas de audiencia complejas](guides/audience/complex-rules.md)
-      + [Uso de datos de organización empresarial en reglas de audiencia](guides/audience/using-enterprise-org-data.md)
       + [Agregar reglas de porcentaje en criterios de audiencia](guides/audience/adding-percentage-rules.md)
-      + [Regla de audiencia con variable de contexto IP de cliente](guides/audience/clientip-rule.md)
-   + Flujos de trabajo entre entornos {#cross-environment}
-      + [Concepto entre entornos](guides/cross-environment/cross-environment-concept.md)
-      + [Asociar entornos a una aplicación](guides/cross-environment/associate-environments.md)
-      + [Visualización de indicadores de funcionalidades en entornos](guides/cross-environment/view-feature-flags-across-environments.md)
+   + Importar indicadores de características {#import}
       + [Importar indicadores de características](guides/cross-environment/import-feature-flags.md)
-   + Asistencia {#support}
-      + [Solución de problemas](guides/support/troubleshooting.md)
-      + [Obtener asistencia técnica](guides/support/get-support.md)
-      + [Atención al cliente](guides/support/contact-support.md)
    + Versiones de SDK {#sdk-releases}
-      + SDK de Java {#java-sdk}
-         + [Guía de integración de Java SDK](guides/sdk-releases/java/java-sdk-integration-guide.md)
-         + [Notas de la versión de Java SDK](guides/sdk-releases/java/java-sdk-release-notes.md)
-      + SDK de Node.js {#nodejs-sdk}
-         + [Guía de integración de SDK de Node.js](guides/sdk-releases/nodejs/nodejs-sdk-integration-guide.md)
-         + [Notas de la versión de SDK de Node.js](guides/sdk-releases/nodejs/nodejs-sdk-release-notes.md)
-      + [pruebas comparativas de SDK](guides/sdk-releases/java-sdk-benchmarking.md)
+      + Extensión de Android {#android-extension}
+         + [Guía de integración de Android extension](guides/sdk-releases/android/android-extension-integration-guide.md)

@@ -2,9 +2,9 @@
 title: Despliegues de Adobe Experience
 description: Aprenda a utilizar los despliegues de Adobe Experience para ofrecer funciones de forma segura y gradual con despliegues controlados, indicadores de funciones y administración de audiencias segmentadas.
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: 4a3133f014a9bb9d6ed26eb9d9f763db79ce63b3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '325'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Los despliegues de experiencia de Adobe permiten a los equipos de productos envi
 
 **Reducir el riesgo de versión.** Divida los cambios grandes en despliegues más pequeños y controlados. Si aparece un error o un problema de rendimiento, deshabilite solo la función afectada; el resto de la aplicación permanecerá estable.
 
-**Coordinar entre equipos.** Los grupos de funciones entre equipos permiten que varios equipos participen en una sola versión coordinada, cada uno de los cuales gestiona sus propios indicadores de funciones a la vez que comparten una programación y una audiencia de despliegue comunes.
+**Coordinación entre aplicaciones.** Los grupos de funciones permiten administrar varios indicadores de funciones a la vez, lo que permite compartir una audiencia de despliegue común entre aplicaciones.
 
 ## Incorpore su primera función
 
@@ -37,4 +37,4 @@ Una vez que la primera marca esté activa, puede refinar su audiencia, configura
 
 ## ¿Necesita ayuda?
 
-Si algo no se comporta como se espera, la [guía de solución de problemas](guides/support/troubleshooting.md) trata los problemas más comunes. Para cualquier otra cosa, [comuníquese con la atención al cliente](guides/support/contact-support.md).
+Si algo no se comporta como se espera, póngase en contacto con su representante de Adobe para obtener ayuda.

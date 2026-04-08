@@ -1,13 +1,13 @@
 ---
 title: Indicadores de características para habilitar y deshabilitar características
 description: Descubra cómo los indicadores de funcionalidades en los Despliegues de experiencias le permiten controlar la disponibilidad de las funcionalidades, administrar las dependencias y reducir el riesgo de implementación.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: 627775e8-9b17-4bc7-9565-07a438ae8ed7
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
-
 
 # Indicadores de características para habilitar y deshabilitar características {#feature-flags}
 
@@ -44,4 +44,3 @@ Un indicador de funcionalidad en los despliegues de experiencia sigue este ciclo
 1. Un desarrollador crea un indicador de funciones y lo prueba de forma aislada, sin exponerlo a otros usuarios.
 2. El propietario de un producto vincula una audiencia al indicador, lo que hace que la función sea visible para un conjunto definido de usuarios externos.
 3. El indicador se agrega opcionalmente a un [grupo de características](feature-groups-to-control-multiple-features.md) que se va a administrar junto con los indicadores relacionados.
-4. El indicador se agrega opcionalmente a una [versión](release-management.md) para la coordinación entre equipos.

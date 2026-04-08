@@ -1,33 +1,25 @@
 ---
 title: Administrar aplicaciones
-description: Obtenga información sobre cómo administrar aplicaciones en los despliegues de Adobe Experience, incluida la adición de nuevas aplicaciones y la comprensión de la propiedad del equipo.
+description: Obtenga información sobre cómo administrar aplicaciones en los despliegues de Adobe Experience, incluida la adición de nuevas aplicaciones.
 exl-id: 6109fdd5-b5f5-41ca-8690-8aa78df50499
-source-git-commit: 8dc03f77f4e13ac9196df0910b1c00904b57a934
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '167'
+source-wordcount: '102'
 ht-degree: 1%
 
 ---
 
 # Administrar aplicaciones {#manage-applications}
 
-Una **aplicación** en los despliegues de experiencias representa el servicio o producto que desea controlar con indicadores de características. Para que su equipo pueda crear indicadores de características, debe incorporar al menos una aplicación a la consola.
+Una **aplicación** en los despliegues de experiencias representa el servicio o producto que desea controlar con indicadores de características. Para poder crear indicadores de características, debe incorporar al menos una aplicación a la consola.
 
 ## Quién puede administrar aplicaciones {#permissions}
 
-Solo los miembros con el rol **Admin** pueden agregar o modificar aplicaciones. Si no tiene esta función, póngase en contacto con el administrador del equipo.
+Solo los miembros con el rol **Admin** pueden agregar o modificar aplicaciones. Si no tiene esta función, póngase en contacto con el administrador.
 
 ## Adición de una aplicación {#add-application}
 
-Para agregar una aplicación a tu equipo, consulta [Incorpora tu aplicación](onboard-your-application.md) para obtener instrucciones paso a paso.
-
-## Propiedad del equipo {#team-ownership}
-
-Cada aplicación es propiedad de exactamente un equipo. Solo los miembros de ese equipo pueden administrar los indicadores de características de la aplicación.
-
-Este modelo de propiedad también afecta a la forma en que se estructuran los grupos de funciones:
-
-* **Dentro de su equipo**: un propietario de la versión del producto puede agrupar indicadores de características en aplicaciones que sean propiedad del mismo equipo. Consulte [Grupos de características para controlar varias características](../../concepts/feature-groups-to-control-multiple-features.md).
+Para agregar una aplicación, consulta [Incorporar tu aplicación](onboard-your-application.md) para obtener instrucciones paso a paso.
 
 ## Consulte también {#see-also}
 

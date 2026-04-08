@@ -1,13 +1,13 @@
 ---
 title: Despliegue gradual
 description: Descubra cómo las implementaciones graduales en Despliegues de experiencias le permiten implementar por fases las funciones en producción de forma segura, con comentarios en tiempo real y un riesgo mínimo.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: ede24236-de19-4008-893c-e67bd82e23e3
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '246'
 ht-degree: 2%
 
 ---
-
 
 # Despliegue gradual {#gradual-rollout}
 
@@ -38,4 +38,3 @@ En cada paso, una sola acción puede pausar el despliegue o desactivar la funci�
 ## Consulte también {#see-also}
 
 * [Indicadores de características para habilitar y deshabilitar características](feature-flags-to-enable-disable-features.md)
-* [Administración de versiones](release-management.md)

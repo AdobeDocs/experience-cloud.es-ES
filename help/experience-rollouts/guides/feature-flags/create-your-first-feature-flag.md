@@ -2,9 +2,9 @@
 title: Creación de la primera marca de funcionalidad
 description: Obtenga información sobre cómo crear un indicador de funciones en los despliegues de Adobe Experience, establecer una audiencia y probarlo antes de desplegarlo a los usuarios.
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Después de agregar los criterios de audiencia, selecciona **Calcular** en la ba
 
 ## Paso 4: Programar (opcional) {#schedule}
 
-Puede programar una marca de funcionalidad para que se active en una fecha y hora futuras. Consulte [Programar](schedule.md) para obtener más información.
+Puede programar una marca de características para que se active en una fecha y hora futuras mediante la opción **Programar** en la configuración de la marca de características.
 
 ## Preguntas frecuentes: No puedo agregar un indicador de funcionalidad como desarrollador {#faq}
 

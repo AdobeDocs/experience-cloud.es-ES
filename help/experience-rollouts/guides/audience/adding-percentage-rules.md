@@ -1,13 +1,13 @@
 ---
 title: Agregar reglas de porcentaje en criterios de audiencia
 description: Aprenda a añadir reglas basadas en porcentajes dentro de los criterios de audiencia en los despliegues de Adobe Experience para dirigirse a diferentes porcentajes de despliegue para diferentes segmentos de audiencia.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
-
 
 # Agregar reglas de porcentaje en criterios de audiencia {#adding-percentage-rules}
 
@@ -20,7 +20,7 @@ Sin embargo, algunos escenarios de despliegue requieren porcentajes diferentes p
 * 100% de los usuarios del Reino Unido y 50% de los usuarios de Estados Unidos
 * Todos los usuarios de una lista de correo electrónico importada, más el 50 % de los usuarios de un país específico
 
-En estos casos, use la regla **Percentage** en la sección de perfil de la ficha **Audiencia**, combinada con lógica anidada.
+En estos casos, use la regla **Percentage** en la sección de contexto de la pestaña **Audience**, combinada con lógica anidada.
 
 >[!TIP]
 >
@@ -28,10 +28,10 @@ En estos casos, use la regla **Percentage** en la sección de perfil de la ficha
 
 ## Cómo añadir una regla de porcentaje {#how-to-add}
 
-La opción **Percentage** está disponible como regla en la sección Perfil de la pestaña Audiencia.
+La opción **Percentage** está disponible como regla en la sección de contexto de la pestaña Audiencia.
 
 1. Vaya a la ficha **Audiencia** de su indicador o grupo de características.
-2. En **Perfil**, agregue una regla de **Porcentaje** y establezca el valor deseado.
+2. En **Audiencia**, agregue una regla de **Porcentaje de contexto** y establezca el valor deseado.
 3. Añada cualquier otra condición de audiencia que necesite (por ejemplo, una regla de país).
 
 ## Combinación de reglas de porcentaje con lógica anidada {#nested-logic}

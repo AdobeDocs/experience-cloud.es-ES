@@ -1,13 +1,13 @@
 ---
 title: ¿Qué es un indicador de funcionalidad?
 description: Descubra cuáles son los indicadores de características y cómo le permiten activar o desactivar las características de la aplicación durante la ejecución sin tener que volver a implementarlas.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+exl-id: c4ed4ab5-0d73-4697-b05c-476d6e4010ce
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # ¿Qué es un indicador de funcionalidad? {#what-is-a-feature-flag}
 
@@ -19,4 +19,4 @@ Esta separación reduce significativamente el riesgo. Los desarrolladores pueden
 
 >[!NOTE]
 >
->En los despliegues de experiencias, un indicador de funcionalidad es la unidad atómica más importante de control de funciones. Se puede usar por sí solo para segmentar una sola característica o combinarlo con otras marcas en un [grupo de características](feature-groups-to-control-multiple-features.md) o [versión](release-management.md).
+>En los despliegues de experiencias, un indicador de funcionalidad es la unidad atómica más importante de control de funciones. Se puede usar solo para segmentar una sola característica o combinado con otras marcas en un [grupo de características](feature-groups-to-control-multiple-features.md).

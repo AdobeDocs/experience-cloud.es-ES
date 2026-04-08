@@ -2,9 +2,9 @@
 title: Creación de un grupo de funciones
 description: Obtenga información sobre cómo crear un grupo de funciones en los lanzamientos de Adobe Experience para administrar varios indicadores de funciones en las aplicaciones de su equipo como una sola unidad.
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Asigne los indicadores de funcionalidad que controlará este grupo:
 
 ## Paso 5: Programar (opcional) {#schedule}
 
-Puede programar el grupo de funciones para que se active en una fecha y hora futuras. Consulte [Programar](schedule.md) para obtener más información.
+Puede programar el grupo de características para que se active en una fecha y hora futuras mediante la opción **Programar** en la configuración del grupo de características.
 
 ## Consulte también {#see-also}
 
