@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Despliegues de Adobe Experience
 user-guide-description: Aprenda a utilizar los despliegues de Adobe Experience para administrar indicadores de funcionalidades, despliegues controlados y versiones de destino en las aplicaciones.
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 14b4d944830f8e3b3102152ae2ae36d3556f0804
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '186'
 ht-degree: 8%
 
 ---
@@ -57,3 +57,5 @@ ht-degree: 8%
    + Versiones de SDK {#sdk-releases}
       + Extensión de Android {#android-extension}
          + [Guía de integración de Android extension](guides/sdk-releases/android/android-extension-integration-guide.md)
+      + Extensión de iOS {#ios-extension}
+         + [Guía de integración de iOS extension](guides/sdk-releases/ios/ios-extension-integration-guide.md)
