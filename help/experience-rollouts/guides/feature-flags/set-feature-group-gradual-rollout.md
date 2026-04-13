@@ -1,13 +1,14 @@
 ---
 title: Configuración de un grupo de funciones para su despliegue gradual
 description: Obtenga información sobre cómo configurar un despliegue gradual basado en porcentajes para un grupo de funciones en Despliegues de experiencias de Adobe.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: fcf187f1-2f33-4e3a-b740-985d5bc0bcdc
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 3%
 
 ---
-
 
 # Configuración de un grupo de funciones para su despliegue gradual {#gradual-rollout-feature-group}
 
@@ -26,3 +27,5 @@ Puede aumentar o disminuir el porcentaje en cualquier momento para expandir, red
 * [Creación de un grupo de funciones](create-a-feature-group.md)
 * [Pruebas A/B con indicadores de funcionalidades](a-b-testing.md)
 * [Despliegue gradual](../../concepts/gradual-rollout.md)
+
+<!-- -->

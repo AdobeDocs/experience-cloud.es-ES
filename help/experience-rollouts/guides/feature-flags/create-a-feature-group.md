@@ -1,8 +1,9 @@
 ---
 title: Creación de un grupo de funciones
 description: Obtenga información sobre cómo crear un grupo de funciones en los lanzamientos de Adobe Experience para administrar varios indicadores de funciones en las aplicaciones de su equipo como una sola unidad.
+hide: true
 exl-id: 58148df1-84ee-4a78-a4b4-71f74cd8ce0a
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 0%
@@ -69,3 +70,5 @@ Puede programar el grupo de características para que se active en una fecha y h
 * [Configuración de un grupo de funciones para su despliegue gradual](set-feature-group-gradual-rollout.md)
 * [Pruebas A/B con indicadores de funcionalidades](a-b-testing.md)
 * [Grupos de funciones para controlar varias funciones](../../concepts/feature-groups-to-control-multiple-features.md)
+
+<!-- -->

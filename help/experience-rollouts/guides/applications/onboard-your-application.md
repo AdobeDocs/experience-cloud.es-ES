@@ -1,8 +1,9 @@
 ---
 title: Incorporar la aplicación
 description: Obtenga información sobre cómo incorporar una nueva aplicación a los despliegues de Adobe Experience para poder empezar a crear y administrar indicadores de funcionalidades.
+hide: true
 exl-id: d88c27a5-f490-4504-9764-5e4ce98fdf20
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 2%
@@ -45,3 +46,5 @@ Una vez integrada la aplicación, puede empezar a crear indicadores de funcional
 
 * [Administrar aplicaciones](manage-applications.md)
 * [Inicie sesión en la consola de](../console/log-in-to-the-console.md)
+
+<!-- -->

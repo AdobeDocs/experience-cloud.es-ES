@@ -1,8 +1,9 @@
 ---
 title: Pasos de integración
 description: Siga los pasos de integración del tipo de aplicación para conectar los despliegues de Adobe Experience a su servicio web, aplicación web o móvil o aplicación de escritorio mediante los SDK disponibles.
+hide: true
 exl-id: d584bdf4-9031-40e7-a7f0-807c619bbba1
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 4%
@@ -43,3 +44,5 @@ Las aplicaciones de escritorio se integran mediante SDK. Póngase en contacto co
 * [SDK](sdks.md)
 * [Servicios web](web-services.md)
 * [Aplicaciones de escritorio](desktop-applications.md)
+
+<!-- -->

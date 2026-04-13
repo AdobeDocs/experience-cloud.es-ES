@@ -1,8 +1,9 @@
 ---
 title: Uso del contexto en las reglas de audiencia
 description: Obtenga información sobre cómo utilizar variables de contexto en reglas de audiencia para indicadores de funcionalidades y grupos de funcionalidades en Despliegues de experiencias de Adobe.
+hide: true
 exl-id: 0367f475-9209-4d53-86b4-a739a73a23a7
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 0%
@@ -54,3 +55,5 @@ Si la variable de contexto que necesita no aparece en la lista, puede crear una 
 
 * [Audiencia en indicadores y grupos de características](audience-in-feature-flags-and-feature-groups.md)
 * [Agregar reglas de porcentaje en criterios de audiencia](adding-percentage-rules.md)
+
+<!-- -->

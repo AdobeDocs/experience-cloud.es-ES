@@ -1,8 +1,9 @@
 ---
 title: Aplicaciones web
 description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en una aplicación web mediante SDK web.
+hide: true
 exl-id: 9b5d744a-263d-4b10-8745-2891f111519f
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '68'
 ht-degree: 8%
@@ -25,3 +26,5 @@ Para obtener una descripción detallada completa del proceso de integración, co
 
 * [Pasos de integración](integration-steps.md)
 * [Guía de inicio](startup-guide.md)
+
+<!-- -->

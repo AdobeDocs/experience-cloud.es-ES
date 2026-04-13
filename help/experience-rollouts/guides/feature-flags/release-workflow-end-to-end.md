@@ -1,13 +1,14 @@
 ---
 title: Flujo de trabajo de la versión de extremo a extremo
 description: Conozca el flujo de trabajo completo para administrar una versión coordinada en los lanzamientos de Adobe Experience, desde la definición de indicadores de funcionalidades hasta la puesta en marcha.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: 086e3192-c22b-4de8-a15a-89edb09ac230
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 1%
 
 ---
-
 
 # Flujo de trabajo de la versión de extremo a extremo {#release-workflow}
 
@@ -46,3 +47,5 @@ Una vez publicada la versión, el Administrador de versiones puede ajustar las r
 * [Solicitar una versión](request-a-release.md)
 * [Actualizar reglas de audiencia de lanzamiento](update-release-audience-rules.md)
 * [Estados de versión](release-states.md)
+
+<!-- -->

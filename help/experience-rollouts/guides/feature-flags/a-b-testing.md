@@ -1,8 +1,9 @@
 ---
 title: Pruebas A/B con indicadores de funcionalidades
 description: Obtenga información sobre cómo ejecutar pruebas A/B con grupos de funciones en los despliegues de Adobe Experience. Para ello, configure varias variantes para un conjunto de indicadores de funciones.
+hide: true
 exl-id: bb849049-229c-40ff-bbfe-7996f868bcc3
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 1%
@@ -53,3 +54,5 @@ Guarde la configuración del grupo de funciones. Cuando esté listo para iniciar
 * [Creación de un grupo de funciones](create-a-feature-group.md)
 * [Configuración de un grupo de funciones para su despliegue gradual](set-feature-group-gradual-rollout.md)
 * [Analytics](analytics.md)
+
+<!-- -->

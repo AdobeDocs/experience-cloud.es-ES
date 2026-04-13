@@ -1,7 +1,8 @@
 ---
 title: Guía de integración de la extensión de Experience Rollout para iOS
 description: Obtenga información sobre cómo integrar la extensión de despliegue de experiencias con Adobe Experience Platform Mobile SDK en iOS.
-source-git-commit: a9f6746c2b470377d2fd58de18e984d1ec404a77
+hide: true
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 7%
@@ -445,3 +446,5 @@ NSString *version = [AEPMobileRollout extensionVersion];
 * [Pasos de integración](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
 * [Guía de integración de Android extension](../android/android-extension-integration-guide.md)
+
+<!-- -->

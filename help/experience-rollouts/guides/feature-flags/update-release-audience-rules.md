@@ -1,13 +1,14 @@
 ---
 title: Actualizar reglas de audiencia de lanzamiento
 description: Obtenga información sobre cómo configurar y actualizar los criterios de audiencia para una versión en los lanzamientos de Adobe Experience, incluidos los tipos de reglas compatibles y cómo combinarlos.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 8d546cd7-af66-47c7-aab3-c667568e8582
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 3%
 
 ---
-
 
 # Actualizar reglas de audiencia de lanzamiento {#update-release-audience-rules}
 
@@ -76,3 +77,5 @@ Utilice los iconos **+/-** para agregar o quitar condiciones. Para duplicar una 
 * [Solicitar una versión](request-a-release.md)
 * [Flujo de trabajo de la versión de extremo a extremo](release-workflow-end-to-end.md)
 * [Estados de versión](release-states.md)
+
+<!-- -->

@@ -3,9 +3,9 @@ title: Servicios de entrega de Adobe
 description: Descubra los servicios de entrega de Adobe
 hide: true
 exl-id: 31ea97e7-b0a0-4a92-bc69-a458fdbc1d7c
-source-git-commit: b5436d4e713f2f358a86f039820072225d1686f2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -16,4 +16,4 @@ Los equipos de operaciones y consultores de entrega tienen que realizar varias a
 
 Actualmente está disponible la siguiente función:
 
-**Lista de supresión global**: esta función no se expondrá a los clientes, ni para la visualización ni para actualizaciones. Sin embargo, la lista deberá supervisarse y actualizarse de manera continua tanto manualmente (por el equipo de entrega) como automáticamente (por un proveedor de terceros: Blackbox) . [Más información](global-suppression-list.md)
+**Lista de supresión global**: esta función no se expondrá a los clientes, ni para la visualización ni para actualizaciones. Sin embargo, la lista deberá monitorizarse y actualizarse de manera continua tanto manualmente (por el equipo de entrega) como automáticamente (por un proveedor de terceros: Blackbox) . [Más información](global-suppression-list.md)

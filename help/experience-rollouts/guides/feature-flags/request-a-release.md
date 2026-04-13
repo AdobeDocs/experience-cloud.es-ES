@@ -1,8 +1,9 @@
 ---
 title: Solicitar una versión
 description: Obtenga información sobre cómo solicitar una nueva versión coordinada en los lanzamientos de Adobe Experience y qué información proporcionar.
+hide: true
 exl-id: 8eee84b2-fbd5-4713-90ac-92fd7b74c163
-source-git-commit: f4c365e1a0e61ba3dec298dfa8ab0d9e74e1259a
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 2%
@@ -46,3 +47,5 @@ Una vez que reciba la confirmación de que la versión se ha creado, inicie sesi
 * [Flujo de trabajo de la versión de extremo a extremo](release-workflow-end-to-end.md)
 * [Actualizar reglas de audiencia de lanzamiento](update-release-audience-rules.md)
 * [Estados de versión](release-states.md)
+
+<!-- -->

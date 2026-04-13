@@ -1,8 +1,9 @@
 ---
 title: Integración de despliegues de experiencias en la aplicación
 description: Obtenga información sobre cómo integrar Despliegues de experiencias de Adobe en su aplicación, ya sea un servicio web, una propiedad web, una aplicación móvil o una aplicación de escritorio.
+hide: true
 exl-id: e67a34d8-aaba-41d4-bc34-15b23782caa1
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -33,3 +34,5 @@ Seleccione la guía que coincida con el tipo de aplicación:
 | **aplicación web** | Web SDK (próximamente) |
 | **Aplicación móvil** | Mobile SDK (próximamente) |
 | **Aplicación de escritorio** | SDK (próximamente) |
+
+<!-- -->

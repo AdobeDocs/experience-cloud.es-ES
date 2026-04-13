@@ -1,8 +1,9 @@
 ---
 title: Inicie sesión en la consola Despliegues de experiencias
 description: Obtenga información sobre cómo empezar a usar los lanzamientos de Adobe Experience Cloud buscando a su equipo, solicitando acceso e iniciando sesión en la consola.
+hide: true
 exl-id: 4b109759-43b5-440a-89b4-78c0f0483cd0
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 2%
@@ -44,3 +45,5 @@ Después de iniciar sesión, compruebe que la aplicación aparece en la consola.
 | **Equipo** | Grupo autoadministrado que posee aplicaciones y administra indicadores de características. Los equipos tienen una estructura plana con diferentes funciones de usuario y niveles de permisos. |
 | **Aplicación** | La aplicación que desea controlar con indicadores de características. Cada aplicación es propiedad de un equipo. |
 | **Indicador de característica/Grupo de características** | Los artefactos creados en Despliegues de experiencias para pruebas de funciones y despliegues controlados. |
+
+<!-- -->

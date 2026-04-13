@@ -1,8 +1,9 @@
 ---
 title: Guía de inicio
 description: Siga estos pasos para integrar su aplicación con los despliegues de Adobe Experience, desde solicitar acceso a crear su primer indicador de funcionalidad.
+hide: true
 exl-id: 7aa09535-45fa-4ddf-9e3f-a23f8a8ee666
-source-git-commit: 2a946868f58e25f8aafbf3ccfcf6571e7d0d8d20
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 1%
@@ -52,3 +53,5 @@ Una vez completada la integración, cree el primer indicador de funcionalidad en
 * [Integración de despliegues de experiencias en la aplicación](integrating-in-your-app.md)
 * [Pasos de integración](integration-steps.md)
 * [SDK](sdks.md)
+
+<!-- -->

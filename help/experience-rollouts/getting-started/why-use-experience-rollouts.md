@@ -1,13 +1,14 @@
 ---
 title: Razones para utilizar los despliegues de experiencias
 description: Conozca los casos de uso clave de los lanzamientos de experiencias de Adobe, desde las pruebas selectivas de funciones hasta las versiones coordinadas de varias aplicaciones.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: c39c6b34-2024-4c38-b2f2-a9b58f5eff63
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 1%
 
 ---
-
 
 # Razones para utilizar los despliegues de experiencias {#why-use}
 
@@ -33,5 +34,7 @@ Habilite una función simultáneamente en varias aplicaciones y equipos para un 
 **Versiones diferidas**
 Implemente el código en producción con antelación y, a continuación, active la función en un momento preciso (por ejemplo, al inicio de un evento de lanzamiento de producto) sin ningún cambio de código de última hora.
 
-**Interruptor inactivo**
+**Interruptor de desactivación**
 Si se descubre un problema después del lanzamiento, desactive la función instantáneamente sin necesidad de una revisión o una nueva implementación.
+
+<!-- -->

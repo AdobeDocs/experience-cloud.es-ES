@@ -1,13 +1,14 @@
 ---
 title: Estados de versión
 description: Obtenga información acerca de los estados del ciclo vital de una versión en los Despliegues de Adobe Experience, incluido qué significa cada estado y qué transiciones están permitidas.
-source-git-commit: ae420329b94b24fcd173734b414aecf1c5fc16ca
+hide: true
+exl-id: c1311353-9c36-43c5-8e75-3b3ee225da41
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 3%
 
 ---
-
 
 # Estados de versión {#release-states}
 
@@ -46,3 +47,5 @@ Planifique la línea de base o anule las versiones en un plazo de tres meses.
 * [Solicitar una versión](request-a-release.md)
 * [Flujo de trabajo de la versión de extremo a extremo](release-workflow-end-to-end.md)
 * [Actualizar reglas de audiencia de lanzamiento](update-release-audience-rules.md)
+
+<!-- -->

@@ -1,13 +1,14 @@
 ---
 title: Analytics
 description: Obtenga información sobre cómo habilitar y utilizar el tablero de análisis integrado en los lanzamientos de Adobe Experience para rastrear el rendimiento del indicador de funciones y medir el impacto en el despliegue.
-source-git-commit: d311efb995b20ffc17370d68d57dd84a8605896c
+hide: true
+exl-id: edddca99-f263-461b-a16f-b46ee7c15f6c
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 1%
 
 ---
-
 
 # Analytics {#analytics}
 
@@ -42,3 +43,5 @@ Para los grupos de características y las versiones, seleccione la lista despleg
 * [Creación de la primera marca de funcionalidad](create-your-first-feature-flag.md)
 * [Pruebas A/B con indicadores de funcionalidades](a-b-testing.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)
+
+<!-- -->

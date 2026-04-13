@@ -1,13 +1,14 @@
 ---
 title: Configurar una función para que se implemente gradualmente
 description: Obtenga información sobre cómo configurar un despliegue gradual basado en porcentajes para un indicador de funcionalidad en los Despliegues de Adobe Experience.
-source-git-commit: 9bfe0e55e89c1d7fbd77cde63831a6a186820e24
+hide: true
+exl-id: 1e03c533-398d-4a83-9f4a-c0419828b460
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 3%
 
 ---
-
 
 # Configurar una función para que se implemente gradualmente {#gradual-rollout-feature}
 
@@ -24,3 +25,5 @@ Puede aumentar o disminuir el porcentaje con el tiempo para expandir o contraer 
 * [Despliegue gradual](../../concepts/gradual-rollout.md)
 * [Configuración de un grupo de funciones para su despliegue gradual](set-feature-group-gradual-rollout.md)
 * [Creación de la primera marca de funcionalidad](create-your-first-feature-flag.md)
+
+<!-- -->

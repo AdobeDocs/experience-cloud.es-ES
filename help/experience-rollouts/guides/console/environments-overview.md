@@ -1,13 +1,14 @@
 ---
 title: Seleccione la zona protegida
 description: Obtenga información sobre cómo seleccionar la zona protegida de Adobe Experience Platform correcta al trabajar en Despliegues de experiencias de Adobe.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 84b6b640-7f43-4e51-a3b1-29f4efd3670f
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 2%
 
 ---
-
 
 # Seleccione la zona protegida {#sandbox}
 
@@ -21,3 +22,5 @@ Utilice el conmutador de zona protegida en la barra de navegación superior de l
 
 * [Inicie sesión en la consola de](log-in-to-the-console.md)
 * [Solicitar acceso](request-access.md)
+
+<!-- -->
