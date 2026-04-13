@@ -1,13 +1,14 @@
 ---
 title: Características y grupos de características
 description: Obtenga información sobre las diferencias entre los indicadores de características y los grupos de características en los Despliegues de Adobe Experience y cuándo utilizarlos.
-source-git-commit: c654ca1507abcefcff84cef9f99830042939805d
+hide: true
+exl-id: 852aa777-6f8a-47c9-bf54-e645a5ee2f3e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 4%
 
 ---
-
 
 # Características y grupos de características {#features-feature-groups}
 
@@ -15,7 +16,7 @@ Los despliegues de experiencias proporcionan dos artefactos para administrar los
 
 ## Los dos artefactos {#artifacts}
 
-**Indicador de característica**
+**Indicador de funcionalidad**
 La unidad más atómica. Controla una única función para una única aplicación. Se puede habilitar o deshabilitar para una audiencia definida.
 
 **Grupo de funciones**
@@ -44,3 +45,5 @@ Colección de indicadores de características que pertenecen al mismo equipo. Pe
 
 * [Creación de la primera marca de funcionalidad](create-your-first-feature-flag.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)
+
+<!-- -->

@@ -1,8 +1,9 @@
 ---
 title: Grupos de funciones para controlar varias funciones
 description: Descubra cómo los grupos de funciones en los Despliegues de experiencias le permiten agrupar y administrar indicadores de funciones relacionados en todas las aplicaciones como una sola unidad.
+hide: true
 exl-id: dfeb7eff-34f1-4cb5-9c3e-a40d1eda3016
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
@@ -23,3 +24,5 @@ Por ejemplo, considere una función de colaboración que implique cambios en una
 
 Los grupos de funciones admiten la administración de funciones entre aplicaciones. Los indicadores relacionados de varias aplicaciones se pueden agrupar.
 
+
+<!-- -->

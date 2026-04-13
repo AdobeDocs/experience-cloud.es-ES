@@ -1,8 +1,9 @@
 ---
 title: Agregar reglas de porcentaje en criterios de audiencia
 description: Aprenda a añadir reglas basadas en porcentajes dentro de los criterios de audiencia en los despliegues de Adobe Experience para dirigirse a diferentes porcentajes de despliegue para diferentes segmentos de audiencia.
+hide: true
 exl-id: 15a3c26f-31fc-4e73-aa0e-035dcbe7d770
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 0%
@@ -63,3 +64,5 @@ Añada cuatro reglas: País = EE. UU., Porcentaje = 10 %, País = Reino Unido, P
 * [Audiencia en indicadores y grupos de características](audience-in-feature-flags-and-feature-groups.md)
 * [Reglas de audiencia complejas](complex-rules.md)
 * [Configurar una función para que se implemente gradualmente](../feature-flags/set-feature-gradual-rollout.md)
+
+<!-- -->

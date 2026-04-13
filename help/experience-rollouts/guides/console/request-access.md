@@ -1,8 +1,9 @@
 ---
 title: Solicitar acceso
 description: Obtenga información sobre cómo solicitar acceso a un equipo de despliegues de Adobe Experience y las funciones disponibles para los nuevos miembros.
+hide: true
 exl-id: 30d05c90-2913-4e88-a8f9-28a142297337
-source-git-commit: 454b5c719a5f8be82d1ed835da58bfca6316def2
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 1%
@@ -44,3 +45,5 @@ Una vez aprobada la solicitud, inicie sesión en la consola Despliegues de exper
 ## ¿Necesita ayuda? {#need-help}
 
 Si no está seguro de a qué equipo unirse o si aún no existe ningún equipo para su proyecto, póngase en contacto con el administrador de despliegues de experiencias de su organización.
+
+<!-- -->

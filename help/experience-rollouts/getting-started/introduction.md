@@ -1,13 +1,14 @@
 ---
 title: Introducción a los despliegues de experiencias
 description: Descubra cómo los lanzamientos de Adobe Experience proporcionan un sistema de versiones controladas para implementar funciones de forma progresiva en audiencias de destino.
-source-git-commit: 1c8fd9b42d08f657b4e6b16efae86faa04d15565
+hide: true
+exl-id: befe7899-096d-4f74-a5a2-35b1fc3cbc58
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 0%
 
 ---
-
 
 # Introducción a los despliegues de experiencias {#introduction}
 
@@ -40,3 +41,5 @@ Experience Rollouts es una plataforma de administración de funciones que propor
 * **Despliegues graduales**: Fase de entrega de funciones incrementalmente para reducir el riesgo, recopilar comentarios y administrar la carga back-end.
 
 * **Interruptor inactivo**: desactive cualquier característica inmediatamente si se detecta un problema, sin cambiar el código ni volver a implementarlo.
+
+<!-- -->

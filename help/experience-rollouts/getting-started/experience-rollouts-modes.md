@@ -1,13 +1,14 @@
 ---
 title: Modos de despliegues de experiencia
 description: Obtenga información acerca de los dos modos de segmentación de funciones en los Despliegues de experiencias de Adobe (segmentación por usuarios y por organizaciones) y cuándo usar cada uno.
-source-git-commit: bb4541dd7a77edadded2edbc9c71905cf70f2e24
+hide: true
+exl-id: 0fdfa429-d9bd-4990-8f96-cd9deb273aa0
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 3%
 
 ---
-
 
 # Modos de despliegues de experiencia {#modes}
 
@@ -81,3 +82,5 @@ La segmentación a nivel de organización y entorno no está diseñada para los 
 
 * Si su pregunta es *&quot;¿Qué usuarios deben ver esta característica?&quot;* → Usar **direccionamiento a nivel de usuario**
 * Si su pregunta es *&quot;¿Qué organizaciones o entornos deben tener esta característica?&quot;* → Usar **organización y direccionamiento a nivel de entorno**
+
+<!-- -->

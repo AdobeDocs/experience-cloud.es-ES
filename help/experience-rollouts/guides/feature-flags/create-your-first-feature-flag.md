@@ -1,8 +1,9 @@
 ---
 title: Creación de la primera marca de funcionalidad
 description: Obtenga información sobre cómo crear un indicador de funciones en los despliegues de Adobe Experience, establecer una audiencia y probarlo antes de desplegarlo a los usuarios.
+hide: true
 exl-id: ae115120-8da9-465e-a556-c17591ea7054
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 0%
@@ -60,3 +61,5 @@ El rol **Desarrollador** se encuentra en una zona protegida. Los desarrolladores
 
 * [Configurar una función para que se implemente gradualmente](set-feature-gradual-rollout.md)
 * [Creación de un grupo de funciones](create-a-feature-group.md)
+
+<!-- -->

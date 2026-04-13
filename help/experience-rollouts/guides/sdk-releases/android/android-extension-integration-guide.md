@@ -1,13 +1,14 @@
 ---
 title: Guía de integración de la extensión de Experience Rollout para Android
 description: Obtenga información sobre cómo integrar la extensión de despliegue de experiencias con Adobe Experience Platform Mobile SDK en Android.
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+hide: true
+exl-id: 683ef4d4-e637-4b7b-b694-689c7e65a99e
+source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 7%
 
 ---
-
 
 # Extensión de despliegue de experiencias para Android {#android-extension-integration-guide}
 
@@ -52,7 +53,7 @@ Asegúrese de que estas extensiones estén instaladas en la propiedad móvil de 
    | ID de conjunto de datos | ID del conjunto de datos de Adobe Experience Platform para los datos de evento de Analytics |
 
 1. Seleccione **Guardar**.
-1. Siga el [proceso de publicación](https://experienceleague.adobe.com/es/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
+1. Siga el [proceso de publicación](https://experienceleague.adobe.com/en/docs/experience-platform/tags/publish/overview) para actualizar la configuración.
 
 ### Obtener el ID del archivo de entorno {#environment-file-id}
 
@@ -474,3 +475,5 @@ String version = Rollout.extensionVersion();
 * [Aplicaciones móviles](../../integrate/mobile-applications.md)
 * [Pasos de integración](../../integrate/integration-steps.md)
 * [SDK](../../integrate/sdks.md)
+
+<!-- -->
