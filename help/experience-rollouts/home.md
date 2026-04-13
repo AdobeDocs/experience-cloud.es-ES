@@ -1,8 +1,9 @@
 ---
 title: Despliegues de Adobe Experience
 description: Aprenda a utilizar los despliegues de Adobe Experience para ofrecer funciones de forma segura y gradual con despliegues controlados, indicadores de funciones y administración de audiencias segmentadas.
+hide: true
 exl-id: c400d75d-d928-4cf6-a094-1a2f443389f0
-source-git-commit: fcb1d36fc92b3954a902d818a98f579672c577e9
+source-git-commit: 571439cb5f463567b11b6dd24a9cfbca400f9357
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 1%
@@ -38,3 +39,7 @@ Una vez que la primera marca esté activa, puede refinar su audiencia, configura
 ## ¿Necesita ayuda?
 
 Si algo no se comporta como se espera, póngase en contacto con su representante de Adobe para obtener ayuda.
+
+<!-- 
+Bob was here
+-->
