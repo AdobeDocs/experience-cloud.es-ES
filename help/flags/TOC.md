@@ -3,7 +3,7 @@ audience: user
 user-guide-title: Indicadores
 user-guide-description: Aprenda a utilizar las marcas en Adobe Target para administrar las marcas de características, los despliegues controlados y las versiones de destino en las aplicaciones.
 hide: true
-source-git-commit: 99576412627fe4576dfd787c02cf5c3501a22d88
+source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
@@ -59,5 +59,5 @@ ht-degree: 8%
    + [Guía de integración de iOS extension](guides/sdk-releases/ios/ios-extension-integration-guide.md)
 
 <!-- 
-Bob was here
+Bob was here again.
 -->
