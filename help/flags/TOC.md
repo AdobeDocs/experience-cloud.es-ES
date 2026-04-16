@@ -1,9 +1,12 @@
 ---
 audience: user
+solution: Target
+landing-page-name: target
+landing-page-breadcrumb-title: Target
 user-guide-title: Indicadores
 user-guide-description: Aprenda a utilizar las marcas en Adobe Target para administrar las marcas de características, los despliegues controlados y las versiones de destino en las aplicaciones.
 hide: true
-source-git-commit: 8a3a8f0293e32db896f62a63ea6a886868ffe1a3
+source-git-commit: 60c70867ff1419f3ccd3458b1758073193e05de4
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 8%
