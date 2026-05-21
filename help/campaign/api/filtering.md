@@ -8,9 +8,17 @@ role: Developer
 level: Experienced
 badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 6baa9bef7eae1ab8ffe9ecd426c6ba4580e8c9d7
+TQID: https://experienceleague.adobe.com/jaVg32T-Frb7jHAZNMNa-iZt2QNF7oIOPbZ4DLzPFJY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: 452
 ht-degree: 0%
 
 ---
@@ -21,13 +29,13 @@ ht-degree: 0%
 
 Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [esta sección](metadata-mechanism.md).
 
-Para identificar los metadatos de un filtro y determinar cómo utilizarlos, se debe realizar una petición GET en la dirección URL devuelta anteriormente.
+Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe realizar una petición GET en la dirección URL devuelta anteriormente.
 
 <br/>
 
 ***Solicitud de muestra***
 
-Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una solicitud GET en la métrica de recursos &quot;perfil&quot;.
+Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una petición GET en la métrica de recursos &quot;perfil&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
@@ -101,7 +109,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
 ***Solicitudes de muestra***
 
-* Solicitud de GET de ejemplo para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
+* Solicitud GET de muestra para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
@@ -133,7 +141,7 @@ Es posible combinar varios filtros en una sola solicitud:
   }
   ```
 
-* Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
+* Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
 los campos correo electrónico o apellidos (el filtro por texto busca en los campos correo electrónico y apellidos).
 
   ```
@@ -162,7 +170,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
   }
   ```
 
-* Solicitud de GET de ejemplo para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
+* Solicitud GET de muestra para recuperar los recursos de servicios con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
 
   ```
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
@@ -209,7 +217,7 @@ Para obtener más información, consulte la documentación de Campaign Standard:
 
 ***Solicitud de muestra***
 
-Solicitud de GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
+Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 
 ```
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \

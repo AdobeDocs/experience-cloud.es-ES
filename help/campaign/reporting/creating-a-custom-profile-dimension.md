@@ -5,9 +5,21 @@ audience: reporting
 content-type: reference
 level: Intermediate
 exl-id: a12dc772-13c7-45ff-9fbf-3dfdd3801eae
-source-git-commit: 5da9b29c424f019f3dafc127a41e974017af494c
+TQID: https://experienceleague.adobe.com/eru99ME-JlrcRl074heBXwVhBLgeQJaQdiJkM-QT2SY
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: 517
 ht-degree: 3%
 
 ---
@@ -28,7 +40,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
    ![](assets/custom_field_1.png)
 
-1. Identifique el esquema de destinatario personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado nms:recipient, consulte [este procedimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. Identifique el esquema de destinatario personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado nms:recipient, consulte [este procedimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Añada el campo personalizado al editor de esquemas.
 
@@ -42,7 +54,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-1. A continuación, identifique el esquema broadLogRcp personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado de registro de envío, consulte [este procedimiento](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
+1. A continuación, identifique el esquema broadLogRcp personalizado y selecciónelo. Si todavía no ha ampliado el esquema integrado de registro de envío, consulte [este procedimiento](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/extend-schema).
 
 1. Añada el mismo campo personalizado que el esquema Recipient al editor de esquemas.
 
@@ -50,7 +62,7 @@ Para añadir un nuevo campo de perfil, debe ampliar el esquema, siga los pasos a
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-1. Para aplicar las modificaciones realizadas en los esquemas, inicie el Asistente para la actualización de bases de datos mediante **[!UICONTROL Herramientas]** > **[!UICONTROL Avanzadas]** > **[!UICONTROL Actualizar la estructura de la base de datos]** y ejecute Actualizar la estructura de la base de datos. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
+1. Para aplicar las modificaciones realizadas en los esquemas, inicie el Asistente para la actualización de bases de datos mediante **[!UICONTROL Herramientas]** > **[!UICONTROL Avanzadas]** > **[!UICONTROL Actualizar la estructura de la base de datos]** y ejecute Actualizar la estructura de la base de datos. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/shemas-forms/update-database-structure)
 
    ![](assets/custom_field_4.png)
 
@@ -64,7 +76,7 @@ El nuevo campo de perfil ya está listo para que lo utilicen y seleccionen los d
 
 Ahora que se ha creado el campo de perfil, es necesario vincularlo a la dimensión de creación de informes dinámica correspondiente.
 
-Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que se aceptó la ventana PII para poder enviar datos PII al informe dinámico. Para obtener más información, consulte esta [página](pii-agreement.md).
+Antes de ampliar el registro con nuestro campo de perfil, asegúrese de que se aceptó la ventana PII para poder enviar datos PII al informe dinámico. Para obtener más información, consulte [esta página](pii-agreement.md).
 
 1. Vaya a la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]** > **[!UICONTROL Additional reporting field]** en el explorador.
 
@@ -94,7 +106,7 @@ Después de realizar la entrega, puede desglosar los informes usando la dimensi�
 
    ![](assets/custom_field_8.png)
 
-1. En la categoría **[!UICONTROL Dimension]**, haga clic en **[!UICONTROL Perfil]** y, a continuación, arrastre y suelte la dimensión de perfil en la tabla de forma libre.
+1. En la categoría **[!UICONTROL Dimensiones]**, haga clic en **[!UICONTROL Perfil]** y, a continuación, arrastre y suelte la dimensión de perfil en la tabla de forma libre.
 
    ![](assets/custom_field_9.png)
 

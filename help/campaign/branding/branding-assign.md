@@ -5,12 +5,21 @@ audience: administration
 context-tags: branding,overview;branding,main
 role: Admin
 level: Experienced
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 8f6a5255-0245-497b-880f-d91ea82ee19e
-source-git-commit: 62c2f2e7a6f5dd347749e963a655b717cd5c7310
+TQID: https://experienceleague.adobe.com/aL-I6JknWhDoCob136gJB5Ier2a-T0oMiVFn1ZnRw0s
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2:
+  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 18%
+source-wordcount: 513
+ht-degree: 19%
 
 ---
 
@@ -28,7 +37,7 @@ La plantilla se vinculará a la marca. En el editor de correo electrónico, los 
 
 Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/create-templates)
 
-Una vez creada la plantilla, puede vincularla a una marca. Para ello:
+Una vez creada la plantilla, puede vincularla a una marca. Para ello, haga lo siguiente:
 
 1. Vaya a **[!UICONTROL Recursos]** `>` **[!UICONTROL Plantillas]** `>` **[!UICONTROL Plantillas de envío]** en el explorador de Adobe Campaign.
 
@@ -52,7 +61,7 @@ Ahora puede utilizar esta plantilla para realizar envíos.
 
 Para crear una plantilla de envíos, puede duplicar una plantilla integrada, convertir un envío existente en una plantilla o crear una plantilla de envíos desde cero. [Más información](https://experienceleague.adobe.com/es/docs/campaign-web/v8/msg/delivery-template)
 
-Una vez creada la plantilla, puede vincularla a una marca. Para ello:
+Una vez creada la plantilla, puede vincularla a una marca. Para ello, haga lo siguiente:
 
 1. Vaya a la ficha **[!UICONTROL Plantillas]**, en el menú izquierdo de **[!UICONTROL Envíos]**, y seleccione una plantilla de envío.
 

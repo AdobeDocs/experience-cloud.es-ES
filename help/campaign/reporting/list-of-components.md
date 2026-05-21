@@ -1,13 +1,22 @@
 ---
 title: Lista de componentes
-description: Aquí encontrará la lista de todos los componentes disponibles en     Informes dinámicos, así como sus definiciones.
+description: Aquí encontrará la lista de todos los componentes disponibles en los informes dinámicos, así como sus definiciones.
 level: Beginner
 audience: end-user
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 5c58db92-7878-4c70-b076-a393f1cda8b7
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/AmKod4IH5ALU1TliTcePIZy-5Z3qyshXvi6n9UgqC2Y
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 772
 ht-degree: 2%
 
 ---
@@ -29,11 +38,11 @@ La siguiente tabla le proporciona la lista de dimensiones utilizadas en los info
  </thead> 
  <tbody> 
   <tr> 
-   <td> Explorador<br/> </td> 
+   <td> Navegador<br/> </td> 
    <td> Explorador desde el que se abrió o se hizo clic en el mensaje.<br/> </td> 
   </tr> 
   <tr> 
-   <td> Campaign<br/> </td> 
+   <td> Campaña<br/> </td> 
    <td> Etiqueta e ID de su campaña.<br/> </td> 
   </tr> 
   <tr> 

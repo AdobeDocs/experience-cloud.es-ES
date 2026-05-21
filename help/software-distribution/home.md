@@ -2,13 +2,17 @@
 title: Distribución de software
 description: Aprenda a utilizar Distribución de software para descargar el software de Adobe Experience Cloud.
 exl-id: ac559a28-4444-4326-ba92-78afd10ed9ab
-source-git-commit: 6a2ba27cfeae875ab9184760b6d233ef759dd460
-workflow-type: ht
-source-wordcount: '430'
+TQID: https://experienceleague.adobe.com/KaFci2oowPXO8w8SZORK-sn-LYZd1TM2Y3JFcISsQZM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+workflow-type: tm+mt
+source-wordcount: 434
 ht-degree: 100%
 
 ---
-
 
 # Distribución de software
 
@@ -70,4 +74,4 @@ En junio de 2020, [!UICONTROL Distribución de software] reemplazó a [!UICONTRO
 
 >[!NOTE]
 >
->La [!UICONTROL distribución de software] solo admite descargas de exploradores. Al utilizar AEM [!UICONTROL Package Manager] para nuevas instalaciones, se recomienda descargar el paquete en una carpeta local e instalarlo desde allí.
+>La [!UICONTROL distribución de software] solo admite descargas de exploradores. Al utilizar el [!UICONTROL administrador de paquetes] de AEM para nuevas instalaciones, se recomienda descargar el paquete en una carpeta local e instalarlo desde allí.

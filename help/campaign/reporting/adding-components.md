@@ -3,11 +3,20 @@ title: Adición de componentes
 description: Arrastre y suelte los componentes en la tabla de forma libre para empezar a filtrar los datos y crear el informe.
 audience: end-user
 level: Intermediate
-badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados por el Campaign Standard"
+badge: label="DISPONIBILIDAD LIMITADA" type="Informative" url="../campaign-standard-migration-home.md" tooltip="Restringido a usuarios migrados de Campaign Standard"
 exl-id: 2b22f147-ed75-40ca-8859-8f4b23bca7c3
-source-git-commit: 34c6f8a137a9085b26c0ea8f78930cff6192cfc9
+TQID: https://experienceleague.adobe.com/Mq7ZEHuTsJVuPF8x-wz4452BJ61ffImgSIVtkIgiokM
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: 294
 ht-degree: 4%
 
 ---
@@ -24,7 +33,7 @@ Los componentes ayudan a personalizar los informes con diferentes dimensiones, m
 
    La tabla de componentes se divide en cuatro categorías:
 
-   * **Dimension**: obtenga detalles del registro de envíos, como el explorador o el dominio del destinatario, o el éxito de una entrega.
+   * **Dimensiones**: Obtenga detalles del registro de envíos, como el explorador o el dominio del destinatario, o el éxito de una entrega.
    * **Métricas**: obtenga detalles sobre el estado de un mensaje. Por ejemplo, si se entregó un mensaje y el usuario lo abrió.
    * **[!UICONTROL Segmentos]**: filtre los datos según el intervalo de edad del destinatario. **[!UICONTROL Los segmentos]** se pueden arrastrar y soltar directamente en una tabla de forma libre o en la barra superior del panel.
 
