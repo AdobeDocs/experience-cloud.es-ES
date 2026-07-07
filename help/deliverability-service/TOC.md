@@ -3,10 +3,10 @@ user-guide-title: Administración del servicio de entrega de Adobe
 user-guide-description: Servicio de entrega de Adobe
 breadcrumb-title: Servicio de entrega de Adobe
 hide: true
-source-git-commit: 12032cbed45e694a3f25f16afe80308b3eb82924
+source-git-commit: 5f6f319b1daac48c5bda6cd1a28c8b48198d0069
 workflow-type: tm+mt
-source-wordcount: '20'
-ht-degree: 85%
+source-wordcount: '17'
+ht-degree: 100%
 
 ---
 
@@ -14,4 +14,3 @@ ht-degree: 85%
 
 * [Inicio](home.md)
 * [Lista de supresión global](global-suppression-list.md)
-* {hide-from-toc}[Artículo de prueba oculto](hidden-test.md)
