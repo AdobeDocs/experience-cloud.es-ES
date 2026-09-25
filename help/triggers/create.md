@@ -5,18 +5,20 @@ exl-id: c0d04e95-2bac-41c7-8ce4-28282695abc8
 TQID: https://experienceleague.adobe.com/0EG1662w4P--X1uN3hH7JRBFrU0B5JU--LxP0T49tYY
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: Reporting
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: '516'
 ht-degree: 100%
-
 ---
-
 # Crear un Trigger de Experience Cloud {#create-triggers}
 
 >[!AVAILABILITY]
@@ -64,7 +66,7 @@ Cree un activador y configure sus condiciones. Por ejemplo, puede especificar lo
 
 1. Haga clic en **[!UICONTROL Contenedor]** para crear y guardar reglas, condiciones o filtros que definan un activador. Para que los eventos se produzcan al mismo tiempo, debe colocarlos en el mismo contenedor.
 
-   Cada contenedor procesa de forma independiente en el nivel de visita, lo que significa que si dos contenedores se unen con el operador **[!UICONTROL Y]**, las reglas solo se cumplirán cuando dos visitas cumplan los requisitos.
+   Cada contenedor procesa de forma independiente en el nivel de hit, lo que significa que si dos contenedores se unen con el operador **[!UICONTROL Y]**, las reglas solo se cumplirán cuando dos hits cumplan los requisitos.
 
 1. En el campo **[!UICONTROL Metadatos]**, haga clic en **[!UICONTROL + Dimensión]** para elegir una dimensión de Campaign determinada o variables que sean relevantes para el comportamiento de un visitante.
 

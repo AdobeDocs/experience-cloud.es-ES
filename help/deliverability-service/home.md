@@ -6,13 +6,12 @@ exl-id: 31ea97e7-b0a0-4a92-bc69-a458fdbc1d7c
 TQID: https://experienceleague.adobe.com/cBUtLbfjHHnFO2SMjh0bVDJNZFJlnGolwSShLZ0hIew
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '173'
 ht-degree: 100%
-
 ---
-
 # Servicios de entrega de Adobe {#deliv-home}
 
 Los equipos de operaciones y consultores de entrega tienen que realizar varias actividades para ayudar a los clientes a mejorar la entrega de correo electrónico. Después del análisis de todas las funciones de entrega, se ha descubierto que, aunque la mayoría de las funcionalidades se pueden poner a disposición de los clientes directamente, algunas deberían restringirse únicamente al equipo de entrega de Adobe. Para proporcionar servicios de entrega más rápidos y mejores a los clientes, hemos decidido crear una aplicación de entrega basada en la interfaz de usuario que servirá como solución única para el equipo de entrega. Con esta aplicación, el equipo de entrega podrá prestar el servicio a los clientes de múltiples productos de la familia de administración de recorrido del cliente, es decir, Journey Optimizer, Campaign y Marketo.

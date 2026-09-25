@@ -6,13 +6,12 @@ exl-id: 40aef987-52a3-470b-88ca-c716a116bdfc
 TQID: https://experienceleague.adobe.com/gCmvM2zwg-6CmT-O1HjM24niis-mJRnJEXt3LunUZaI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: ad84694f2f6f45e4ee30fc51379106835ac302be
+    internal-label: CX Enterprise
+source-git-commit: 4d6fa2af9541ffd61bfe4b26a84e574ea6a634c8
 workflow-type: tm+mt
-source-wordcount: 630
+source-wordcount: '630'
 ht-degree: 100%
-
 ---
-
 # Lista de supresión global {#global-suppression-list}
 
 Una lista de supresión consta de las direcciones de correo electrónico que los clientes desean excluir de las entregas, ya que el envío a estos contactos podría dañar la reputación de envío y las tasas de entrega. Actualmente, Adobe mantiene una lista actualizada de direcciones conocidas de correo electrónico que son incorrectas y que han resultado ser perjudiciales para la participación y la reputación de la campaña de correo, y garantiza que los correos electrónicos no se envíen a dichas direcciones. Esta lista se administra en una lista de supresión global que es común para todos los clientes de Adobe. Las direcciones y los nombres de dominio contenidos en la lista de supresión global están ocultos. En los informes de envío solo se indica el número de destinatarios excluidos.
